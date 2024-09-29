@@ -1,0 +1,55 @@
+<footer class="text-center text-lg-start" style="background-color: rgba(230, 217, 193, 255) !important;">
+  <div class="container py-4">
+    <div class="row">
+      <!-- Contact Info -->
+      <div class="col-md-4 text-md-left mb-4">
+        <h6 class="text-uppercase mb-4 footer-contact-text">Contact Us</h6>
+        <p>Email:
+          <a href="mailto:trnsc.health@gmail.com" class="footer-contact-mail">trnsc.health@gmail.com</a>
+        </p>
+      </div>
+
+      <!-- Social Media Icons -->
+      <div class="col-md-4 mb-4">
+        <h6 class="text-uppercase mb-4">Follow Us</h6>
+        <div class="d-flex justify-content-center">
+          <a href="https://facebook.com" class="social-icon mx-2">
+            <img src="/images/icons/facebook.svg" alt="Facebook" width="24" height="24" />
+          </a>
+          <a href="https://instagram.com" class="social-icon mx-2">
+            <img src="/images/icons/instagram.svg" alt="Instagram" width="24" height="24" />
+          </a>
+          <a href="https://twitter.com" class="social-icon mx-2">
+            <img src="/images/icons/x.svg" alt="Twitter (X)" width="24" height="24" />
+          </a>
+          <a href="mailto:trnsc.health@gmail.com" class="social-icon mx-2">
+            <img src="/images/icons/email.svg" alt="Email" width="24" height="24" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Donations -->
+      <div class="col-md-4 text-md-right">
+        <h6 class="text-uppercase mb-4">Support Us</h6>
+        <a href="https://www.paypal.com/donate" class="btn btn-outline-secondary btn-sm social-icon mx-2">Donate via PayPal
+        <img src="/images/icons/paypal.svg" alt="Donate via PayPay" width="48" height="48" />
+        </a>
+        <a href="https://wise.com" class="btn btn-outline-secondary btn-sm social-icon mx-2">Donate via Wise
+        <img src="/images/icons/wise.png" alt="Donate via Wise" width="48" height="48" />
+        </a></a>
+      </div>
+    </div>
+
+    <!-- Dynamic Copyright Section -->
+    <div class="text-center mt-4">
+      <p class="footer-copyright-text">
+        &copy; <span id="year"></span> The Real Naked Swedish Chef. All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Update year automatically for copyright
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
