@@ -1,3 +1,27 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(240, 234, 215, 0.95);
+}
+
+/* Main content will take up the available space, pushing the footer down */
+main {
+    flex-grow: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Right-Side Pale Background Container */
+.right-side-container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
 /* NAVBAR */
 /* Custom Navbar Background Color */
 .navbar {
@@ -49,10 +73,10 @@
 /* FOOTER */
 /* Footer Styles */
 footer {
+    margin-top: auto;
+    padding: 20px 0;
     color: rgba(45, 45, 45, 0.85);
-    /* Darker text for better contrast */
     background-color: rgba(230, 217, 193, 255);
-    /* Lighter than navbar but matching tone */
 }
 
 footer a {
@@ -85,3 +109,91 @@ footer .btn-outline-secondary:hover {
 }
 
 /* END FOOTER */
+
+/* BANNER */
+/* Banner Styling */
+.banner {
+    background-color: #6ba89e;
+    /* Soft teal */
+    color: white;
+}
+
+/* Styling for the Main Section */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h2 {
+    color: rgba(45, 45, 45, 0.85);
+    /* Darker tone to match footer text */
+    margin-bottom: 20px;
+}
+
+p {
+    color: rgba(45, 45, 45, 0.85);
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.btn-outline-success {
+    color: #6ba89e;
+    border-color: #6ba89e;
+}
+
+.btn-outline-success:hover {
+    background-color: #6ba89e;
+    color: white;
+}
+
+/* END BANNER */
+
+/* ABOUT PAGE SPECIFICS */
+/* Specific Styles for Blood Sugar Section */
+.blood-sugar-section img {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blood-sugar-text {
+    background-color: rgba(255, 255, 255, 0.95);
+    ;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.blood-sugar-text h3 {
+    color: rgba(45, 45, 45, 0.85);
+}
+
+.blood-sugar-text p {
+    color: rgba(45, 45, 45, 0.85);
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* END ABOUT PAGE SPECIFICS */
+
+/* RESPONSIVE BEHAVIOURS */
+/* Make the search bar and social icons responsive */
+@media (max-width: 768px) {
+
+    .social-icons,
+    .donation-buttons {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .social-icons img,
+    .donation-buttons img {
+        margin-bottom: 10px;
+    }
+
+    .search-width {
+        width: 100%;
+    }
+}
