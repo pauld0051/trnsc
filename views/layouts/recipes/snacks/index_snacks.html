@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Real Naked Swedish Chef - Snacks</title>
+
+    <!-- Meta tags for social media (Open Graph & Twitter Cards) -->
+    <meta property="og:title" content="The Real Naked Swedish Chef" />
+    <meta property="og:description" content="Healthy, trusted recipes suited for type 2 diabetes and everyone." />
+    <meta property="og:image" content="/public/images/trnsc_image.jpeg" /> <!-- Update the image path -->
+    <meta property="og:url" content="https://realnakedswedishchef.net" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Real Naked Swedish Chef" />
+    <meta name="twitter:description" content="Healthy, trusted recipes suited for type 2 diabetes and everyone." />
+    <meta name="twitter:image" content="/public/images/trnsc_image.jpeg" /> <!-- Update the image path -->
+
+    <!-- Favicon -->
+    <link rel="icon" href="/public/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/public/favicon-16x16.png">
+    <link rel="manifest" href="/public/site.webmanifest">
+
+    <!-- Bootstrap CSS -->
+    <link href="/public/styles/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Your custom styles -->
+    <link rel="stylesheet" href="/public/styles/main.css">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="The Real Naked Swedish Chef provides trusted, healthy recipes for everyone, especially those managing type 2 diabetes.">
+    <meta name="keywords" content="healthy recipes, type 2 diabetes, cooking, food, recipes, healthy eating, diet">
+    <meta name="author" content="The Real Naked Swedish Chef">
+
+    <!-- Optional: Preconnect for faster external resource loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Optional: Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="/public/scripts/sort.js" defer></script>
+
+</head>
+
+<body>
+    <!-- Include header -->
+    <div id="header-placeholder"></div>
+
+    <!-- Main content -->
+    <main class="container py-4">
+        <h1>Snack Recipes</h1>
+    
+        <!-- Sorting Options -->
+        <div class="sorting-options">
+            <label for="sort-select">Sort By: </label>
+            <select id="sort-select" onchange="sortRecipes()">
+                <option value="alphabetical-asc">Alphabetical (A-Z)</option>
+                <option value="alphabetical-desc">Alphabetical (Z-A)</option>
+                <option value="date-added">Date Added</option>
+            </select>
+        </div>
+    
+        <!-- Recipe List -->
+        <ul id="recipe-list">
+            <li data-name="Beetroot Chips" data-date="2023-10-01">Beetroot Chips - Added on 30th September 2024</li>
+            <li data-name="Chocolate (absolutely sugar free)" data-date="2023-09-20">Chocolate (absolutely sugar free) -
+                Added on 30th September 2024</li>
+            <li data-name="Parsnip Chips" data-date="2023-09-28">Parsnip Chips - Added on 30th September 2024</li>
+        </ul>
+    </main>
+
+    <!-- Include footer -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="/public/scripts/bootstrap.min.js"></script>
+
+    <!-- Your custom scripts -->
+    <script src="/public/scripts/main.js"></script>
+</body>
+</html>

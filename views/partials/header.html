@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <!-- Logo and Brand -->
     <a class="navbar-brand" href="/">
-      <img src="../public/images/trnsc_logo2.png" alt="TRNSC" width="40" height="40" class="d-inline-block align-text-top" />
+      <img src="/public/images/trnsc_logo2.png" alt="TRNSC" width="40" height="40" class="d-inline-block align-text-top" />
       The Real Naked Swedish Chef
     </a>
 
@@ -15,14 +15,38 @@
     <!-- Navbar Links below the logo -->
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mx-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/recipes">Recipes</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Recipes
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/views/layouts/recipes/snacks/index_snacks.html">Snacks</a></li>
+            <li><a class="dropdown-item" href="/recipes/breakfast">Breakfast</a></li>
+            <li><a class="dropdown-item" href="/recipes/lunch">Lunch</a></li>
+            <li><a class="dropdown-item" href="/recipes/dinner">Dinner</a></li>
+            <li><a class="dropdown-item" href="/recipes/dessert">Dessert</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="/recipes/appetisers">Appetisers & Starters</a></li>
+            <li><a class="dropdown-item" href="/recipes/drinks">Drinks & Smoothies</a></li>
+            <li><a class="dropdown-item" href="/recipes/salads">Salads</a></li>
+            <li><a class="dropdown-item" href="/recipes/soups">Soups & Stews</a></li>
+            <li><a class="dropdown-item" href="/recipes/vegetarian-vegan">Vegetarian & Vegan</a></li>
+            <li><a class="dropdown-item" href="/recipes/low-carb-keto">Low-Carb & Keto</a></li>
+            <li><a class="dropdown-item" href="/recipes/side-dishes">Side Dishes</a></li>
+            <li><a class="dropdown-item" href="/recipes/gluten-free">Gluten-Free</a></li>
+            <li><a class="dropdown-item" href="/recipes/meal-preps">Meal Preps</a></li>
+            <li><a class="dropdown-item" href="/recipes/holiday-special-occasions">Holiday & Special Occasions</a></li>
+            <li><a class="dropdown-item" href="/recipes/quick-easy">Quick & Easy</a></li>
+          </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/healthy-tips">Healthy Tips</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../views/about.html">About</a>
+          <a class="nav-link" href="/views/about.html">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/the-science">The Science</a>
@@ -38,28 +62,37 @@
       <!-- Social Media Icons -->
       <div class="social-icons ms-auto">
         <a href="https://facebook.com" class="social-icon mx-2">
-          <img src="../public/images/icons/facebook.svg" alt="Facebook" width="24" height="24" />
+          <img src="/public/images/icons/facebook.svg" alt="Facebook" width="24" height="24" />
         </a>
         <a href="https://instagram.com" class="social-icon mx-2">
-          <img src="../public/images/icons/instagram.svg" alt="Instagram" width="24" height="24" />
+          <img src="/public/images/icons/instagram.svg" alt="Instagram" width="24" height="24" />
         </a>
         <a href="https://twitter.com" class="social-icon mx-2">
-          <img src="../public/images/icons/x.svg" alt="Twitter (X)" width="24" height="24" />
+          <img src="/public/images/icons/x.svg" alt="Twitter (X)" width="24" height="24" />
         </a>
         <a href="mailto:trnsc.health@gmail.com" class="social-icon mx-2">
-          <img src="../public/images/icons/email.svg" alt="Email" width="24" height="24" />
+          <img src="/public/images/icons/email.svg" alt="Email" width="24" height="24" />
         </a>
       </div>
 
       <!-- Donation Buttons -->
       <div class="donation-buttons ms-auto">
         <a href="https://www.paypal.com/donate" class="btn btn-outline-secondary btn-sm mx-2 mb-1">Donate via
-          <img src="../public/images/icons/paypal.svg" alt="Donate via PayPal" width="48" height="48" />
+          <img src="/public/images/icons/paypal.svg" alt="Donate via PayPal" width="48" height="48" />
         </a>
         <a href="https://wise.com" class="btn btn-outline-secondary btn-sm mx-2">Donate via
-          <img src="../public/images/icons/wise.png" alt="Donate via Wise" width="48" height="48" />
+          <img src="/public/images/icons/wise.png" alt="Donate via Wise" width="48" height="48" />
         </a>
       </div>
     </div>
   </div>
 </nav>
+
+<!-- Banner Section -->
+<div class="banner text-center py-3 mt-4 mb-2">
+<h2 class="text-center py-3 mb-4 banner-with-icons">
+  <img src="/public/images/icons/new-1.svg" alt="New Icon" class="svg-icon-start" />
+  Fresh Food - Fresh Ideas - Fresh Health
+  <img src="/public/images/icons/heart_plus.svg" alt="Heart Plus Icon" class="svg-icon-end" />
+</h2>
+</div>

@@ -101,7 +101,6 @@ main {
 
 /* END NAVBAR */
 
-
 /* FOOTER */
 /* Footer Styles */
 footer {
@@ -177,6 +176,18 @@ p {
 .btn-outline-success:hover {
     background-color: #6ba89e;
     color: white;
+}
+
+/* SVG Icon Styling */
+.svg-icon-start,
+.svg-icon-end {
+    width: 40px;
+    height: 40px;
+}
+
+/* Additional colour styling for the heart-plus icon */
+.svg-icon-end {
+    color: #ff4444;
 }
 
 /* END BANNER */
