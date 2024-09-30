@@ -25,6 +25,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="/public/styles/bootstrap.min.css" rel="stylesheet">
+    <link href="/public/styles/recipes/index_styles.css" rel="stylesheet">
 
     <!-- Your custom styles -->
     <link rel="stylesheet" href="/public/styles/main.css">
@@ -54,22 +55,71 @@
         <h1>Snack Recipes</h1>
     
         <!-- Sorting Options -->
-        <div class="sorting-options">
+        <div class="sorting-options mb-1">
             <label for="sort-select">Sort By: </label>
             <select id="sort-select" onchange="sortRecipes()">
                 <option value="alphabetical-asc">Alphabetical (A-Z)</option>
                 <option value="alphabetical-desc">Alphabetical (Z-A)</option>
                 <option value="date-added">Date Added</option>
+                <option value="carbs-lowest">Lowest Carbs</option>
+                <option value="carbs-highest">Highest Carbs</option>
+                <option value="fibre-highest">Highest Fibre</option>
             </select>
         </div>
     
-        <!-- Recipe List -->
-        <ul id="recipe-list">
-            <li data-name="Beetroot Chips" data-date="2023-10-01">Beetroot Chips - Added on 30th September 2024</li>
-            <li data-name="Chocolate (absolutely sugar free)" data-date="2023-09-20">Chocolate (absolutely sugar free) -
-                Added on 30th September 2024</li>
-            <li data-name="Parsnip Chips" data-date="2023-09-28">Parsnip Chips - Added on 30th September 2024</li>
-        </ul>
+        <!-- Recipe Cards -->
+        <div id="recipe-list" class="row">
+            <!-- Beetroot Chips Card -->
+            <div class="col-md-4">
+                <a href="/views/layouts/recipes/snacks/beetroot_chips.html" class="card-link">
+                    <div class="card mb-4 shadow-sm" data-name="Beetroot Chips" data-date="2023-10-01" data-carbs="15"
+                        data-fibre="5">
+                        <img src="/public/images/recipes/beetroot_chips/beetroot_chips.jpg" class="card-img-top"
+                            alt="Beetroot Chips">
+                        <div class="card-body">
+                            <h5 class="card-title">Beetroot Chips</h5>
+                            <p class="card-text">A crispy and healthy alternative to regular chips, perfect as a snack or side
+                                dish.</p>
+                            <p class="card-text"><small class="text-muted">Added on 2nd October 2024</small></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        
+            <!-- Chocolate (Sugar Free) Card -->
+            <div class="col-md-4">
+                <a href="/views/layouts/recipes/snacks/chocolate_raw.html" class="card-link">
+                    <div class="card mb-4 shadow-sm" data-name="Chocolate (absolutely sugar free)" data-date="2023-09-20"
+                        data-carbs="2" data-fibre="8">
+                        <img src="/public/images/recipes/chocolate/chocolate_1.jpg" class="card-img-top"
+                            alt="Chocolate (Sugar Free)">
+                        <div class="card-body">
+                            <h5 class="card-title">Chocolate (Absolutely Sugar Free)</h5>
+                            <p class="card-text">A rich and satisfying treat with zero sugar, ideal for diabetics or anyone
+                                cutting sugar.</p>
+                            <p class="card-text"><small class="text-muted">Added on 1st October 2024</small></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        
+            <!-- Parsnip Chips Card -->
+            <div class="col-md-4">
+                <a href="/views/layouts/recipes/snacks/parsnip_chips.html" class="card-link">
+                    <div class="card mb-4 shadow-sm" data-name="Parsnip Chips" data-date="2023-09-28" data-carbs="18"
+                        data-fibre="6">
+                        <img src="/public/images/recipes/parsnip_chips/parsnip_chips.jpg" class="card-img-top"
+                            alt="Parsnip Chips">
+                        <div class="card-body">
+                            <h5 class="card-title">Parsnip Chips</h5>
+                            <p class="card-text">A crunchy, tasty, and low-carb snack for those craving something different from
+                                potatoes.</p>
+                            <p class="card-text"><small class="text-muted">Added on 30th September 2024</small></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
     </main>
 
     <!-- Include footer -->

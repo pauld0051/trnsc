@@ -1,0 +1,72 @@
+/* Ensure all cards are the same height */
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, height 0.3s ease;
+    min-height: 350px;
+}
+
+/* Set a consistent height for card images */
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+/* Set a maximum height for the card body to keep things uniform */
+.card-body {
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Adjust card text to align well */
+.card-text {
+    font-size: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Bootstrap grid will handle the wrapping of the cards */
+#recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Add some gap between cards for a cleaner look */
+#recipe-list .col-md-4 {
+    margin-bottom: 20px;
+}
+
+/* Ensure links inherit colors and remove underline */
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 992px) {
+    #recipe-list .col-md-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    #recipe-list .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
