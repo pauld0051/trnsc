@@ -57,6 +57,30 @@ function sortRecipes() {
         a.querySelector(".card").getAttribute("data-time") -
         b.querySelector(".card").getAttribute("data-time")
     );
+  } else if (sortOption === "calories-lowest") {
+    sortedRecipes = recipes.sort(
+      (a, b) =>
+        a.querySelector(".card").getAttribute("data-calories") -
+        b.querySelector(".card").getAttribute("data-calories")
+    );
+  } else if (sortOption === "calories-highest") {
+    sortedRecipes = recipes.sort(
+      (a, b) =>
+        b.querySelector(".card").getAttribute("data-calories") -
+        a.querySelector(".card").getAttribute("data-calories")
+    );
+  } else if (sortOption === "fat-lowest") {
+    sortedRecipes = recipes.sort(
+      (a, b) =>
+        a.querySelector(".card").getAttribute("data-fat") -
+        b.querySelector(".card").getAttribute("data-fat")
+    );
+  } else if (sortOption === "fat-highest") {
+    sortedRecipes = recipes.sort(
+      (a, b) =>
+        b.querySelector(".card").getAttribute("data-fat") -
+        a.querySelector(".card").getAttribute("data-fat")
+    );
   }
 
   // Temporarily hide the recipe list to force a reflow
