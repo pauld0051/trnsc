@@ -4,6 +4,7 @@
 
 // Get the current path
 const currentPath = window.location.pathname;
+console.log("This was uploaded at 21:30", currentPath)
 
 // Log the current path for debugging
 console.log("Current Path:", currentPath);
@@ -19,7 +20,7 @@ if (!recipeList && isIndexPage) {
   console.log("Recipe list container found on index page.", recipeList);
 
   // Extract the category from the URL dynamically (e.g., "snacks" from "index_snacks.html")
-  const categoryMatch = currentPath.match(/index_([a-zA-Z]+)\.html/);
+  const categoryMatch = currentPath.match(/index_([a-zA-Z]+)(\.html)?$/);
   const category = categoryMatch ? categoryMatch[1] : null;
 
   // Log the extracted category for debugging
