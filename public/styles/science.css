@@ -1,0 +1,8 @@
+#raw-chocolate {
+    max-width: 250px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    /* This centers the image horizontally */
+}

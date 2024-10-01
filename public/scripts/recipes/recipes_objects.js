@@ -1,5 +1,5 @@
 const recipes = {
-    // BEETROOT CHIPS
+  // BEETROOT CHIPS
   beetroot_chips: {
     title: "Beetroot Chips",
     category: ["snacks", "side_dishes"],
@@ -31,7 +31,7 @@ const recipes = {
     date_added: "2024-10-01",
   },
 
-    // PARSNIP CHIPS
+  // PARSNIP CHIPS
   parsnip_chips: {
     title: "Parsnip Chips",
     category: ["snacks", "side_dishes"],
@@ -88,6 +88,7 @@ const recipes = {
       "Once melted, stir in the vanilla essence. If you prefer a sweeter chocolate, add sugar or sweetener at this stage.",
       "Pour the melted chocolate into moulds of your choice and allow it to set at room temperature or in the fridge.",
       "Once set, enjoy your homemade chocolate, or store it in an airtight container for later use.",
+      "For more details, the science of chocolate and health and a hilarious look into the bitterness, visit <a href='/views/layouts/recipes/science/chocolate.html'>here</a>.",
     ],
     nutrition: {
       calories: "140 kcal",
@@ -97,7 +98,5 @@ const recipes = {
       fat: "12g",
     },
     date_added: "2024-09-29",
-    more_info:
-      "For more details, visit [here](views/layouts/recipes/snacks/chocolate.html).",
   },
 };

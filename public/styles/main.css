@@ -15,7 +15,8 @@ main {
 }
 
 /* Right-Side Pale Background Container */
-.right-side-container {
+.right-side-container,
+.left-side-container {
     background-color: rgba(255, 255, 255, 0.95);
     padding: 20px;
     border-radius: 8px;

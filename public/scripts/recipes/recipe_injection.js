@@ -111,7 +111,7 @@ else if (!isIndexPage) {
     const methodList = document.getElementById("method");
     recipe.method.forEach((step) => {
       const li = document.createElement("li");
-      li.innerText = step;
+      li.innerHTML = step;
       methodList.appendChild(li);
     });
 
