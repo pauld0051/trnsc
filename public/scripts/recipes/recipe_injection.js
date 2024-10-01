@@ -9,7 +9,7 @@ const currentPath = window.location.pathname;
 console.log("Current Path:", currentPath);
 
 // Detect if we are on an index page by checking if the filename starts with "index_"
-const isIndexPage = currentPath.includes("index_");
+const isIndexPage = /index_\w+/.test(currentPath);
 const recipeList = document.getElementById("recipe-list");
 
 // Log if the recipe list is found or not for debugging
