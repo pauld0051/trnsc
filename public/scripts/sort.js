@@ -81,6 +81,9 @@ function sortRecipes() {
         b.querySelector(".card").getAttribute("data-fat") -
         a.querySelector(".card").getAttribute("data-fat")
     );
+  } else if (sortOption === "random") {
+    // Shuffle the array on every click
+    sortedRecipes = recipes.sort(() => Math.random() - 0.5);
   }
 
   // Temporarily hide the recipe list to force a reflow
@@ -93,3 +96,19 @@ function sortRecipes() {
   // Revert to display the list after sorting
   recipeList.style.display = "flex";
 }
+
+// Add event listener to force random sorting even if already selected
+document.getElementById("sort-select").addEventListener("change", function () {
+  const select = document.getElementById("sort-select");
+  if (select.value === "random") {
+    sortRecipes(); // Call the function again when "random" is clicked
+  }
+});
+
+// Add click event listener specifically for the random option
+document.getElementById("sort-select").addEventListener("click", function () {
+  const select = document.getElementById("sort-select");
+  if (select.value === "random") {
+    sortRecipes(); // Trigger the randomization when clicked again
+  }
+});
