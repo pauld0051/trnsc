@@ -248,3 +248,8 @@ p {
         width: 100%;
     }
 }
+
+.figure-text {
+    display: block;
+    margin-bottom: 1rem;
+}

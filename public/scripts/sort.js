@@ -45,6 +45,18 @@ function sortRecipes() {
         b.querySelector(".card").getAttribute("data-fibre") -
         a.querySelector(".card").getAttribute("data-fibre")
     );
+  } else if (sortOption === "protein-highest") {
+    sortedRecipes = recipes.sort(
+      (a, b) =>
+        b.querySelector(".card").getAttribute("data-protein") -
+        a.querySelector(".card").getAttribute("data-protein")
+    );
+  } else if (sortOption === "time-shortest") {
+    sortedRecipes = recipes.sort(
+      (a, b) =>
+        a.querySelector(".card").getAttribute("data-time") -
+        b.querySelector(".card").getAttribute("data-time")
+    );
   }
 
   // Temporarily hide the recipe list to force a reflow
