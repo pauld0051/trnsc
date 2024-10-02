@@ -140,6 +140,12 @@ footer .btn-outline-secondary:hover {
     /* Improved contrast */
 }
 
+.legal-disclaimer {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-top: 10px;
+}
+
 /* END FOOTER */
 
 /* BANNER */
