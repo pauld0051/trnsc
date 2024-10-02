@@ -2,7 +2,7 @@ const recipes = {
   // BEETROOT CHIPS
   beetroot_chips: {
     title: "Beetroot Chips",
-    category: ["snacks", "side_dishes", "appetizers"],
+    category: ["snacks", "side_dishes", "appetizers", "vegetarian", "vegan", , "gluten_free"],
     img_src: "/public/images/recipes/beetroot_chips/beetroot_chips.jpg",
     description:
       "A crispy and healthy alternative to regular chips, perfect as a snack or side dish.",
@@ -34,7 +34,7 @@ const recipes = {
   // PARSNIP CHIPS
   parsnip_chips: {
     title: "Parsnip Chips",
-    category: ["snacks", "side_dishes", "appetizers"],
+    category: ["snacks", "side_dishes", "appetizers", "vegetarian", "vegan", , "gluten_free"],
     img_src: "/public/images/recipes/parsnip_chips/parsnip_chips.jpg",
     description:
       "Crispy and golden parsnip chips, a tasty alternative to regular chips, served with hummus.",
@@ -69,7 +69,7 @@ const recipes = {
   // CHOCOLATE
   chocolate_raw: {
     title: "Homemade 100% Cocoa Chocolate",
-    category: ["snacks", "desserts"],
+    category: ["snacks", "desserts", "vegetarian", "vegan", "keto_and_low_carb", "gluten_free"],
     img_src: "/public/images/recipes/chocolate_raw/chocolate_raw.jpg",
     description:
       "A rich and intense chocolate made from pure cocoa nibs, perfect for those who prefer unsweetened treats. Optional to add sugar for sweetness.",
