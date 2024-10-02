@@ -42,11 +42,7 @@ function injectSearchResults() {
   }
 
   const searchTerm = query.toLowerCase();
-  console.log("Search term:", searchTerm); // Debugging search term
   const results = [];
-
-  // Ensure recipes is loaded
-  console.log("Loaded recipes:", recipes); // Debugging recipes object
 
   // Loop through all recipes and find matches
   Object.keys(recipes).forEach((recipeId) => {
@@ -73,9 +69,6 @@ function injectSearchResults() {
       results.push({ recipeId, recipe }); // Store the recipeId along with the recipe data
     }
   });
-
-  // Log results for debugging
-  console.log("Search results:", results);
 
   // Display the search results
   const recipeList = document.getElementById("recipe-list");
@@ -120,3 +113,39 @@ function injectSearchResults() {
 
 // Call the function to inject search results when the search page loads
 injectSearchResults();
+
+// Inject the Back to Top button on page load
+document.addEventListener("DOMContentLoaded", function () {
+  // Create the Back to Top button
+  const backToTopBtn = document.createElement("button");
+  backToTopBtn.id = "back-to-top-btn";
+  backToTopBtn.className = "back-to-top";
+  
+  // Use the local SVG icon for the button
+  backToTopBtn.innerHTML = `<img src="/public/images/icons/up_arrow.svg" alt="Scroll to top" class="up-arrow-icon">`;
+  
+  backToTopBtn.style.display = "none"; // Hidden by default
+  backToTopBtn.setAttribute("aria-label", "Scroll to top");
+
+  // Append the button to the body
+  document.body.appendChild(backToTopBtn);
+
+  // Show the button when the user scrolls down 300px
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 300) {
+      backToTopBtn.style.display = "block";
+    } else {
+      backToTopBtn.style.display = "none";
+    }
+  });
+
+  // Scroll to the top of the page when the button is clicked
+  backToTopBtn.addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+});
+
+

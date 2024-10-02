@@ -254,3 +254,29 @@ p {
     display: block;
     margin-bottom: 1rem;
 }
+
+/* SCROLL BUTTON */
+/* Back to top button styling */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+}
+
+.material-icons {
+    font-size: 24px;
+    vertical-align: middle;
+}

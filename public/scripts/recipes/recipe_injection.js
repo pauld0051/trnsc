@@ -5,9 +5,6 @@
 // Get the current path
 const currentPath = window.location.pathname;
 
-// Log the current path for debugging
-console.log("Current Path:", currentPath);
-
 // Detect if we are on an index page by checking if the filename starts with "index_" (excluding "all_recipes")
 const isIndexPage =
   /index_\w+/.test(currentPath) &&
@@ -31,18 +28,11 @@ if (!recipeList && (isIndexPage || isAllRecipesPage)) {
 // SECTION: CATEGORY PAGE RECIPE CARD INJECTION //
 // ------------------------- //
 else if (isIndexPage) {
-  console.log("Recipe list container found on index page.", recipeList);
-
   // Extract the category from the URL dynamically (e.g., "snacks" from "index_snacks.html")
   const categoryMatch = currentPath.match(/index_([a-zA-Z_]+)(\.html)?$/);
   const category = categoryMatch ? categoryMatch[1] : null;
-  console.log("Category Match: ", categoryMatch);
-
-  // Log the extracted category for debugging
-  console.log("Extracted category:", category);
 
   if (!category) {
-    console.error("Could not extract category from URL.");
   } else {
     // Loop through all recipes and inject those that belong to the current category
     Object.keys(recipes).forEach((recipeId) => {
@@ -50,8 +40,6 @@ else if (isIndexPage) {
 
       // Check if the recipe's category array includes the extracted category
       if (recipe.category.includes(category)) {
-        console.log(`Injecting card for recipe: ${recipe.title}`);
-        console.log("category found:", category);
 
         // Dynamically create the recipe card with hidden data attributes for sorting
         const cardHTML = `
@@ -88,8 +76,6 @@ else if (isIndexPage) {
         recipeList.innerHTML += cardHTML;
       }
     });
-
-    console.log("All relevant recipes have been injected.");
   }
 }
 
@@ -97,13 +83,9 @@ else if (isIndexPage) {
 // SECTION: ALL RECIPES INJECTION //
 // ------------------------- //
 else if (isAllRecipesPage) {
-  console.log("All Recipes page detected.");
-
   // Loop through all recipes and inject them as cards
   Object.keys(recipes).forEach((recipeId) => {
     const recipe = recipes[recipeId];
-
-    console.log(`Injecting card for recipe: ${recipe.title}`);
 
     // Dynamically create the recipe card with hidden data attributes for sorting
     const cardHTML = `
@@ -139,16 +121,12 @@ else if (isAllRecipesPage) {
     // Inject the card into the recipe list
     recipeList.innerHTML += cardHTML;
   });
-
-  console.log("All recipes have been injected.");
 }
 
 // ------------------------- //
 // SECTION: RECIPE PAGE INJECTION //
 // ------------------------- //
 else if (isRecipePage) {
-  console.log("Recipe page detected.");
-
   // Extract the recipeId from the URL dynamically
   const recipeId = currentPath.split("/").pop().replace(".html", "");
   const recipe = recipes[recipeId];
@@ -168,46 +146,74 @@ else if (isRecipePage) {
 
     // Ingredients
     const ingredientsList = document.getElementById("ingredients");
-    recipe.ingredients.forEach((ingredient) => {
-      const li = document.createElement("li");
-      li.innerText = ingredient;
-      ingredientsList.appendChild(li);
-    });
+    if (recipe.ingredients && recipe.ingredients.length > 0) {
+      recipe.ingredients.forEach((ingredient) => {
+        const li = document.createElement("li");
+        li.innerText = ingredient;
+        ingredientsList.appendChild(li);
+      });
+    } else {
+      console.error("Ingredients are missing.");
+    }
 
     // Method
     const methodList = document.getElementById("method");
-    recipe.method.forEach((step) => {
-      const li = document.createElement("li");
-      li.innerHTML = step;
-      methodList.appendChild(li);
-    });
+    if (recipe.method && recipe.method.length > 0) {
+      recipe.method.forEach((step) => {
+        const li = document.createElement("li");
+        li.innerHTML = step;
+        methodList.appendChild(li);
+      });
+    } else {
+      console.error("Method is missing.");
+    }
+
+    // Tips (Only if tips exist)
+    const tipsSection = document.querySelector(".tips-section");
+    const tipsList = document.getElementById("tips");
+    if (recipe.tips && recipe.tips.length > 0) {
+      recipe.tips.forEach((tip) => {
+        const li = document.createElement("li");
+        li.innerHTML = tip;
+        tipsList.appendChild(li);
+      });
+    } else {
+      // Hide the tips section if there are no tips
+      tipsSection.style.display = "none";
+    }
 
     // Nutrition
     const nutritionList = document.getElementById("nutrition");
-    Object.keys(recipe.nutrition).forEach((key) => {
-      const li = document.createElement("li");
-      li.innerHTML = `<strong>${
-        key.charAt(0).toUpperCase() + key.slice(1)
-      }:</strong> ${recipe.nutrition[key]}`;
-      nutritionList.appendChild(li);
-    });
+    if (recipe.nutrition) {
+      Object.keys(recipe.nutrition).forEach((key) => {
+        const li = document.createElement("li");
+        li.innerHTML = `<strong>${
+          key.charAt(0).toUpperCase() + key.slice(1)
+        }:</strong> ${recipe.nutrition[key]}`;
+        nutritionList.appendChild(li);
+      });
+    } else {
+      console.error("Nutrition information is missing.");
+    }
 
     // Breadcrumb navigation
     const breadcrumb = document.getElementById("breadcrumb");
-    recipe.category.forEach((cat) => {
-      const li = document.createElement("li");
-      li.classList.add("breadcrumb-item");
-      const a = document.createElement("a");
+    if (recipe.category && recipe.category.length > 0) {
+      recipe.category.forEach((cat) => {
+        const li = document.createElement("li");
+        li.classList.add("breadcrumb-item");
+        const a = document.createElement("a");
 
-      // Construct the correct link by adding "index_" before the category
-      a.href = `/views/layouts/recipes/${cat}/index_${cat}.html`;
+        // Construct the correct link by adding "index_" before the category
+        a.href = `/views/layouts/recipes/${cat}/index_${cat}.html`;
 
-      // Replace underscores in the category name and capitalize it for display
-      a.innerText = cat.replace("_", " ").toUpperCase();
+        // Replace underscores in the category name and capitalize it for display
+        a.innerText = cat.replace("_", " ").toUpperCase();
 
-      li.appendChild(a);
-      breadcrumb.appendChild(li);
-    });
+        li.appendChild(a);
+        breadcrumb.appendChild(li);
+      });
+    }
 
     const activeLi = document.createElement("li");
     activeLi.classList.add("breadcrumb-item", "active");
