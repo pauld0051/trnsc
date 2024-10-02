@@ -8,14 +8,29 @@ const currentPath = window.location.pathname;
 // Log the current path for debugging
 console.log("Current Path:", currentPath);
 
-// Detect if we are on an index page by checking if the filename starts with "index_"
-const isIndexPage = /index_\w+/.test(currentPath);
+// Detect if we are on an index page by checking if the filename starts with "index_" (excluding "all_recipes")
+const isIndexPage =
+  /index_\w+/.test(currentPath) &&
+  !currentPath.includes("index_all_recipes.html");
+
+// Detect if we are on the all recipes page
+const isAllRecipesPage = currentPath.includes("index_all_recipes.html");
+
+// Detect if we are on a specific recipe page (i.e., it doesn't start with "index_")
+const isRecipePage = !isIndexPage && !isAllRecipesPage;
+
+// Find the recipe list container
 const recipeList = document.getElementById("recipe-list");
 
 // Log if the recipe list is found or not for debugging
-if (!recipeList && isIndexPage) {
-  console.error("Recipe list container missing on index page.", recipeList);
-} else if (isIndexPage) {
+if (!recipeList && (isIndexPage || isAllRecipesPage)) {
+  console.error("Recipe list container missing on page.", recipeList);
+}
+
+// ------------------------- //
+// SECTION: CATEGORY PAGE RECIPE CARD INJECTION //
+// ------------------------- //
+else if (isIndexPage) {
   console.log("Recipe list container found on index page.", recipeList);
 
   // Extract the category from the URL dynamically (e.g., "snacks" from "index_snacks.html")
@@ -29,10 +44,6 @@ if (!recipeList && isIndexPage) {
   if (!category) {
     console.error("Could not extract category from URL.");
   } else {
-    // ------------------------- //
-    // SECTION: INDEX PAGE RECIPE CARD INJECTION //
-    // ------------------------- //
-
     // Loop through all recipes and inject those that belong to the current category
     Object.keys(recipes).forEach((recipeId) => {
       const recipe = recipes[recipeId];
@@ -40,7 +51,7 @@ if (!recipeList && isIndexPage) {
       // Check if the recipe's category array includes the extracted category
       if (recipe.category.includes(category)) {
         console.log(`Injecting card for recipe: ${recipe.title}`);
-        console.log("category found:", category)
+        console.log("category found:", category);
 
         // Dynamically create the recipe card with hidden data attributes for sorting
         const cardHTML = `
@@ -81,10 +92,63 @@ if (!recipeList && isIndexPage) {
     console.log("All relevant recipes have been injected.");
   }
 }
+
+// ------------------------- //
+// SECTION: ALL RECIPES INJECTION //
+// ------------------------- //
+else if (isAllRecipesPage) {
+  console.log("All Recipes page detected.");
+
+  // Loop through all recipes and inject them as cards
+  Object.keys(recipes).forEach((recipeId) => {
+    const recipe = recipes[recipeId];
+
+    console.log(`Injecting card for recipe: ${recipe.title}`);
+
+    // Dynamically create the recipe card with hidden data attributes for sorting
+    const cardHTML = `
+      <div class="col-md-4">
+        <a href="/views/layouts/recipes/recipe_pages/${recipeId}.html" class="card-link">
+          <div class="card mb-4 shadow-sm" data-name="${recipe.title}" 
+          data-date="${recipe.date_added}" 
+          data-carbs="${parseFloat(recipe.nutrition.carbs)}" 
+          data-fibre="${parseFloat(recipe.nutrition.fibre)}" 
+          data-protein="${parseFloat(recipe.nutrition.protein)}" 
+          data-time="${parseInt(recipe.total_time)}" 
+          data-calories="${parseFloat(recipe.nutrition.calories)}" 
+          data-fat="${parseFloat(recipe.nutrition.fat)}">
+          
+            <!-- Recipe image -->
+            <img src="${recipe.img_src}" class="card-img-top" alt="${
+      recipe.title
+    }">
+            
+            <!-- Card body with recipe title and description -->
+            <div class="card-body">
+                <h5 class="card-title">${recipe.title}</h5>
+                <p class="card-text">${recipe.description}</p>
+                <p class="card-text"><small class="text-muted">Added on ${
+                  recipe.date_added
+                }</small></p>
+            </div>
+          </div>
+        </a>
+      </div>
+    `;
+
+    // Inject the card into the recipe list
+    recipeList.innerHTML += cardHTML;
+  });
+
+  console.log("All recipes have been injected.");
+}
+
 // ------------------------- //
 // SECTION: RECIPE PAGE INJECTION //
 // ------------------------- //
-else if (!isIndexPage) {
+else if (isRecipePage) {
+  console.log("Recipe page detected.");
+
   // Extract the recipeId from the URL dynamically
   const recipeId = currentPath.split("/").pop().replace(".html", "");
   const recipe = recipes[recipeId];
