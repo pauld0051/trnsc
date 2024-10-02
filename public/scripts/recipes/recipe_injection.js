@@ -45,7 +45,7 @@ if (!recipeList && isIndexPage) {
         // Dynamically create the recipe card with hidden data attributes for sorting
         const cardHTML = `
           <div class="col-md-4">
-            <a href="/views/layouts/recipes/${category}/${recipeId}.html" class="card-link">
+            <a href="/views/layouts/recipes/recipe_pages/${recipeId}.html" class="card-link">
                 <div class="card mb-4 shadow-sm" data-name="${recipe.title}" 
                 data-date="${recipe.date_added}" 
                 data-carbs="${parseFloat(recipe.nutrition.carbs)}" 
@@ -56,7 +56,9 @@ if (!recipeList && isIndexPage) {
                 data-fat="${parseFloat(recipe.nutrition.fat)}">
                 
                   <!-- Recipe image -->
-                  <img src="${recipe.img_src}" class="card-img-top" alt="${recipe.title}">
+                  <img src="${recipe.img_src}" class="card-img-top" alt="${
+          recipe.title
+        }">
                   
                   <!-- Card body with recipe title and description -->
                   <div class="card-body">
