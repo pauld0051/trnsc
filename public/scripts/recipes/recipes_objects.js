@@ -2,7 +2,7 @@ const recipes = {
   // BEETROOT CHIPS
   beetroot_chips: {
     title: "Beetroot Chips",
-    category: ["snacks", "side_dishes"],
+    category: ["snacks", "side_dishes", "appetizers"],
     img_src: "/public/images/recipes/beetroot_chips/beetroot_chips.jpg",
     description:
       "A crispy and healthy alternative to regular chips, perfect as a snack or side dish.",
@@ -34,7 +34,7 @@ const recipes = {
   // PARSNIP CHIPS
   parsnip_chips: {
     title: "Parsnip Chips",
-    category: ["snacks", "side_dishes"],
+    category: ["snacks", "side_dishes", "appetizers"],
     img_src: "/public/images/recipes/parsnip_chips/parsnip_chips.jpg",
     description:
       "Crispy and golden parsnip chips, a tasty alternative to regular chips, served with hummus.",
