@@ -4,7 +4,6 @@
 
 // Get the current path
 const currentPath = window.location.pathname;
-console.log("This was uploaded at 21:30", currentPath)
 
 // Log the current path for debugging
 console.log("Current Path:", currentPath);
@@ -20,8 +19,9 @@ if (!recipeList && isIndexPage) {
   console.log("Recipe list container found on index page.", recipeList);
 
   // Extract the category from the URL dynamically (e.g., "snacks" from "index_snacks.html")
-  const categoryMatch = currentPath.match(/index_([a-zA-Z]+)(\.html)?$/);
+  const categoryMatch = currentPath.match(/index_([a-zA-Z_]+)(\.html)?$/);
   const category = categoryMatch ? categoryMatch[1] : null;
+  console.log("Category Match: ", categoryMatch);
 
   // Log the extracted category for debugging
   console.log("Extracted category:", category);
@@ -40,6 +40,7 @@ if (!recipeList && isIndexPage) {
       // Check if the recipe's category array includes the extracted category
       if (recipe.category.includes(category)) {
         console.log(`Injecting card for recipe: ${recipe.title}`);
+        console.log("category found:", category)
 
         // Dynamically create the recipe card with hidden data attributes for sorting
         const cardHTML = `
@@ -131,11 +132,17 @@ else if (!isIndexPage) {
       const li = document.createElement("li");
       li.classList.add("breadcrumb-item");
       const a = document.createElement("a");
-      a.href = `/views/layouts/recipes/${cat}/index.html`;
+
+      // Construct the correct link by adding "index_" before the category
+      a.href = `/views/layouts/recipes/${cat}/index_${cat}.html`;
+
+      // Replace underscores in the category name and capitalize it for display
       a.innerText = cat.replace("_", " ").toUpperCase();
+
       li.appendChild(a);
       breadcrumb.appendChild(li);
     });
+
     const activeLi = document.createElement("li");
     activeLi.classList.add("breadcrumb-item", "active");
     activeLi.setAttribute("aria-current", "page");
