@@ -384,7 +384,7 @@ const recipes = {
       "Combine the beans and corn: Add the tinned beans (rinsed and drained) and corn kernels, stirring them into the onion and spice mixture.",
       "Stir in the tomatoes: Pour in the tinned tomatoes and tomato paste. Stir everything together and reduce the heat to low. Let the salsa simmer for 10-15 minutes, stirring occasionally, until it thickens slightly.",
       "Season to taste: Add salt and pepper to taste. Adjust the spices if necessary for heat or flavour. For a bit of sweetness to balance the heat, a small pinch of erythritol or a drop of stevia can be added (optional).",
-      "Serve: Remove from heat and serve hot with [Parsnip Chips](views/layouts/recipes/recipe_pages/parsnip_chips.html).",
+      "Serve: Remove from heat and serve hot with <a href='/views/layouts/recipes/recipe_pages/parsnip_chips.html'>parsnip chips</a>.",
     ],
     tips: [
       "Adjust the heat: If you prefer a milder salsa, reduce the chilli powder, or omit it. If you enjoy more heat, feel free to add a chopped jalapeño when sautéing the onions or increase the amount of chilli powder.",
@@ -404,7 +404,14 @@ const recipes = {
   // BACON AND EGGS WITH SWEET POTATO FRIES AND BROCCOLI
   bacon_eggs_fries_broccoli: {
     title: "Bacon and Eggs with Sweet Potato Fries and Broccoli",
-    category: ["breakfast", "lunch", "low_carb_keto", "gluten_free", "dinner", "quick_and_easy"],
+    category: [
+      "breakfast",
+      "lunch",
+      "low_carb_keto",
+      "gluten_free",
+      "dinner",
+      "quick_and_easy",
+    ],
     img_src:
       "/public/images/recipes/bacon_eggs_fries_broccoli/bacon_eggs_fries_broccoli.jpg",
     description:
