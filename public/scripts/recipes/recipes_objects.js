@@ -353,6 +353,7 @@ const recipes = {
     date_added: "2024-10-02",
   },
 
+  // WARM BEAN SALSA
   warm_bean_salsa: {
     title: "Warm Bean Salsa with Parsnip Chips",
     category: ["snacks", "side_dishes", "vegetarian", "vegan", "gluten_free"],
@@ -398,5 +399,47 @@ const recipes = {
       fat: "4g",
     },
     date_added: "2024-10-02",
+  },
+
+  // BACON AND EGGS WITH SWEET POTATO FRIES AND BROCCOLI
+  bacon_eggs_fries_broccoli: {
+    title: "Bacon and Eggs with Sweet Potato Fries and Broccoli",
+    category: ["breakfast", "lunch", "low_carb_keto", "gluten_free", "dinner", "quick_and_easy"],
+    img_src:
+      "/public/images/recipes/bacon_eggs_fries_broccoli/bacon_eggs_fries_broccoli.jpg",
+    description:
+      "A hearty breakfast of crispy bacon and eggs cooked in their own fat, paired with roasted sweet potato fries and steamed broccoli for added fibre. Perfect for an indulgent treat with some nutritious sides.",
+    prep_time: "10 mins",
+    cook_time: "30 mins",
+    total_time: "40 mins",
+    servings: "2",
+    ingredients: [
+      "4 rashers of bacon (choose a leaner cut for a healthier option)",
+      "2 eggs",
+      "1 large sweet potato, mandolin sliced into fries",
+      "1 tablespoon olive oil",
+      "Salt, to taste",
+      "200g broccoli florets",
+    ],
+    method: [
+      "Prepare the Sweet Potato Fries: Preheat the oven to 180°C. Place the mandolin-sliced sweet potato in a bowl, drizzle with olive oil and a pinch of salt, then let it sit for 10 minutes. Spread the fries out on a parchment-lined baking tray and bake for about 30 minutes, or until slightly crispy.",
+      "Cook the Bacon: While the fries are baking, heat a non-stick pan over medium heat. Add the bacon rashers and cook slowly to render the fat. Cook the bacon until it's crispy and browned to your liking. Remove from the pan and set aside, leaving the rendered fat in the pan.",
+      "Fry the Eggs: Using the bacon fat left in the pan, crack the eggs into the pan and fry them until the whites are set, but the yolks remain runny, about 2-3 minutes. You can cook them longer if you prefer your eggs fully cooked.",
+      "Steam the Broccoli: While the eggs are cooking, steam the broccoli florets in a separate pot for about 5-7 minutes, or until tender but still vibrant green.",
+      "Serve: Plate the bacon and eggs with the sweet potato fries on the side. Add the steamed broccoli for extra fibre. Enjoy this balanced meal of protein, healthy fats, and a dose of veggies.",
+    ],
+    tips: [
+      "Treat yourself: While bacon isn't the healthiest choice, it's okay to enjoy a treat like this once in a while. Cooking the eggs in the rendered bacon fat adds flavour without additional oils.",
+      "Sweet potato fries: For an even crispier result, try flipping the fries halfway through baking or broiling them for the last few minutes.",
+      "Add variety: You can swap the broccoli for other high-fibre veggies like spinach, kale, or green beans.",
+    ],
+    nutrition: {
+      calories: "450 kcal",
+      carbs: "30g",
+      fibre: "6g",
+      protein: "25g",
+      fat: "25g",
+    },
+    date_added: "2024-10-03",
   },
 };
