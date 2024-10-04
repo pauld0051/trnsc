@@ -26,7 +26,7 @@ const recipes = {
     method: [
       "Preheat the oven to 150°C. Using a mandolin slicer, slice the beetroots into 1 mm thick rounds.",
       "Place the beetroot slices into a large bowl. Drizzle with olive oil and sprinkle salt or your preferred seasoning. Toss gently to ensure all slices are evenly coated. Leave the mixture to marinate for at least 45 minutes.",
-      "Arrange the slices in a single layer on a baking tray lined with parchment paper. Bake for 45-50 minutes, checking regularly to ensure they don't burn. The chips will crisp up as they cool.",
+      "Arrange the slices in a single layer on a baking tray lined with <a href='https://amzn.to/4h3rfWi' target='_blank'>North American parchment paper</a> or <a href='https://amzn.to/3ZRoO2D' target='_blank'>European parchment paper</a>. Bake for 45-50 minutes, checking regularly to ensure they don't burn. The chips will crisp up as they cool.",
       "Remove the chips from the oven and allow them to cool slightly. Enjoy as a healthy snack!",
     ],
     nutrition: {
@@ -67,7 +67,7 @@ const recipes = {
     ],
     method: [
       "Preheat the oven to 160°C. Using a mandolin slicer, thinly slice the parsnips to less than 1 mm thickness.",
-      "Arrange the parsnip slices individually on a baking tray lined with baking paper. Ensure they do not overlap.",
+      "Arrange the parsnip slices individually on a baking tray lined with <a href='https://amzn.to/4h3rfWi' target='_blank'>(US/Can)) parchment paper</a> or <a href='https://amzn.to/3ZRoO2D' target='_blank'>(EU) parchment paper</a>. Ensure they do not overlap.",
       "Lightly brush each slice with olive oil and sprinkle with onion powder and a pinch of salt.",
       "Bake in the preheated oven for 30 minutes. After 30 minutes, check the chips and remove any that are crisp and golden. Leave the remaining chips to bake for a few more minutes, checking frequently to prevent burning.",
       "Allow the chips to cool slightly and serve with a side of hummus for dipping.",
@@ -262,8 +262,8 @@ const recipes = {
       "1 tbsp fresh ginger, finely grated",
       "2 garlic cloves, finely chopped",
       "1 tbsp reduced-sodium soy sauce",
-      "1 tbsp miso paste (ensure it’s low in sugar)",
-      "1 pack shiratake noodles (instead of traditional ramen noodles)",
+      "1 tbsp <a href='https://amzn.to/3XRVlD9' target='_blank'> (EU) miso paste</a> or <a href='https://amzn.to/3TVdwqu' target='_blank'> (US/Can) miso paste</a> (ensure it’s low in sugar)",
+      "1 pack <a href='https://amzn.to/3Ybhlua' target='_blank'>(EU) shiratake noodles</a> or <a href='https://amzn.to/4eMv5Rw' target='_blank'>(US/Can) shiratake noodles</a> (instead of traditional ramen noodles)",
       "150g mushrooms, sliced",
       "100g spinach",
       "1 carrot, julienned",
@@ -317,15 +317,15 @@ const recipes = {
       "¼ cup fresh coriander, chopped",
       "2 tablespoons chopped peanuts, for garnish (optional)",
     ],
-    sauce: [
-      "3 tablespoons tamari (or low-sodium soy sauce)",
+    method: [
+      "Begin the sauce preparation as follows:",
+      "3 tablespoons <a href='https://amzn.to/3TQEsYf' target='_blank'>(EU) tamari</a> or <a href='https://amzn.to/4dyPFnp' target='_blank'>(US/Can) tamari</a> (or low-sodium soy sauce)",
       "2 tablespoons fish sauce",
       "2 tablespoons lime juice",
       "1 tablespoon peanut butter (natural, unsweetened)",
-      "1 tablespoon tamarind paste (available at local Asian supermarkets)",
+      "1 tablespoon <a href='https://amzn.to/4eU5NRL' target='_blank'>(EU) tamarind paste</a> or <a href='https://amzn.to/3XW18aK' target='_blank'>(US/Can) tamarind paste</a>",
       "1-2 tablespoons Sriracha or chilli paste, to taste (add more for extra heat)",
-    ],
-    method: [
+      "Start the preparations for the main part of the dish:",
       "1. Prepare the Sauce: In a small bowl, mix all the Pad Thai sauce ingredients. Adjust the sweetness and spiciness according to your taste. For a family-friendly version, separate the sauce into two bowls and add extra Sriracha or chilli paste to one for yourself. Set both aside.",
       "2. Cook the Chicken: Heat 1 tablespoon of olive oil in a large pan or wok over medium-high heat. Add the chicken slices and cook until no longer pink, around 5-7 minutes. Remove from the pan and set aside.",
       "3. Stir-fry the Vegetables: In the same pan, add a little more oil if needed, and sauté the garlic and onion until fragrant. Add the broccoli florets and shredded cabbage, stir-frying for 3-4 minutes until they begin to soften but remain crisp.",
@@ -429,7 +429,7 @@ const recipes = {
       "200g broccoli florets",
     ],
     method: [
-      "Prepare the Sweet Potato Fries: Preheat the oven to 180°C. Place the mandolin-sliced sweet potato in a bowl, drizzle with olive oil and a pinch of salt, then let it sit for 10 minutes. Spread the fries out on a parchment-lined baking tray and bake for about 30 minutes, or until slightly crispy.",
+      "Prepare the Sweet Potato Fries: Preheat the oven to 180°C. Place the mandolin-sliced sweet potato in a bowl, drizzle with olive oil and a pinch of salt, then let it sit for 10 minutes. Spread the fries out on a baking tray lined with <a href='https://amzn.to/4h3rfWi' target='_blank'>North American parchment paper</a> or <a href='https://amzn.to/3ZRoO2D' target='_blank'>European parchment paper </a>and bake for about 30 minutes, or until slightly crispy.",
       "Cook the Bacon: While the fries are baking, heat a non-stick pan over medium heat. Add the bacon rashers and cook slowly to render the fat. Cook the bacon until it's crispy and browned to your liking. Remove from the pan and set aside, leaving the rendered fat in the pan.",
       "Fry the Eggs: Using the bacon fat left in the pan, crack the eggs into the pan and fry them until the whites are set, but the yolks remain runny, about 2-3 minutes. You can cook them longer if you prefer your eggs fully cooked.",
       "Steam the Broccoli: While the eggs are cooking, steam the broccoli florets in a separate pot for about 5-7 minutes, or until tender but still vibrant green.",
