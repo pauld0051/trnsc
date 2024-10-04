@@ -494,4 +494,52 @@ const recipes = {
     },
     date_added: "2024-10-04",
   },
+
+  // PURE COCOA PEANUT BUTTER CHOCOLATE
+  cocoa_peanut_butter_chocolate: {
+    title: "Pure Cocoa Peanut Butter Chocolate",
+    category: [
+      "snacks",
+      "dessert",
+      "vegetarian",
+      "vegan",
+      "keto_and_low_carb",
+      "gluten_free",
+    ],
+    img_src:
+      "/public/images/recipes/cocoa_peanut_butter_chocolate/cocoa_peanut_butter_chocolate.jpg", // Placeholder image
+    description:
+      "A rich, intense chocolate made with pure cocoa butter, Valrhona cocoa, and peanut butter. A sugar-free treat perfect for those managing type 2 diabetes or anyone looking for a healthy indulgence. Still bitter, but satisfying for those who appreciate the complex flavours of dark chocolate.",
+    prep_time: "10 mins",
+    cook_time: "10 mins",
+    total_time: "20 mins",
+    servings: "6",
+    ingredients: [
+      "110g cocoa butter (available on Amazon or specialty shops)",
+      "60g high-quality cocoa powder (e.g., Valrhona)",
+      "30g peanut butter (add more for a stronger peanut flavour)",
+    ],
+    method: [
+      "Set up a double boiler: Fill the bottom pot with water and place the cocoa butter in the top pot. Heat gently until fully melted.",
+      "Slowly whisk in the cocoa powder: Once the cocoa butter is melted, slowly whisk in the cocoa powder until completely dissolved and smooth.",
+      "Add the peanut butter: Whisk in the peanut butter until fully incorporated and the mixture is smooth.",
+      "Pour into a mould or tin: Pour the mixture into a 40cm cake tin (or smaller moulds) to set. The thin layer helps the chocolate achieve a shiny finish.",
+      "Let it set: Allow the chocolate to set at room temperature, then break into small pieces for serving. Store in an airtight container to keep it fresh.",
+    ],
+    tips: [
+      "Refined vs. Raw: For a more raw and intense flavour, you can use cacao powder instead of cocoa powder, but since we’re keeping it sugar-free, refined cocoa provides a smoother, less overpowering flavour.",
+      "Sweeteners: If the bitterness is too much, feel free to add a diabetic-friendly sweetener like erythritol or stevia. However, it’s good to train your palate to enjoy the natural bitterness and richness of the cocoa.",
+      "Texture Boost: For a creamier chocolate, you can add a tablespoon of milk powder during the whisking process. This adds a smoother texture and softens the overall flavour.",
+      "Peanut Butter: Feel free to increase the amount of peanut butter for a stronger nutty flavour, or replace it with almond butter for variation.",
+      "Moderation: This chocolate is quite rich and satisfying. A little bit goes a long way, so break small pieces to serve.",
+    ],
+    nutrition: {
+      calories: "160 kcal", // Approximation
+      carbs: "5g", // Cocoa and peanut butter contribute to this
+      fibre: "3g", // From cocoa powder
+      protein: "4g", // From peanut butter
+      fat: "15g", // Cocoa butter and peanut butter contribute to this
+    },
+    date_added: "2024-10-04",
+  },
 };
