@@ -168,33 +168,5 @@ function injectRecipeContent(recipe) {
   breadcrumb.appendChild(activeLi);
 }
 
-// ------------------------- //
-// FUNCTION: Update Meta Tags //
-// ------------------------- //
-function updateMetaTags(recipe) {
-  // Update Open Graph meta tags
-  document
-    .getElementById("meta-og-title")
-    .setAttribute("content", recipe.title);
-  document
-    .getElementById("meta-og-description")
-    .setAttribute("content", recipe.description);
-  document
-    .getElementById("meta-og-image")
-    .setAttribute("content", recipe.img_src);
 
-  // Update Twitter meta tags
-  document
-    .getElementById("meta-twitter-title")
-    .setAttribute("content", recipe.title);
-  document
-    .getElementById("meta-twitter-description")
-    .setAttribute("content", recipe.description);
-  document
-    .getElementById("meta-twitter-image")
-    .setAttribute("content", recipe.img_src);
 
-  // Update URL for social sharing
-  const currentUrl = window.location.href;
-  document.getElementById("meta-og-url").setAttribute("content", currentUrl);
-}
