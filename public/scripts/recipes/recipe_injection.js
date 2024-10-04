@@ -51,49 +51,99 @@ if (isRecipePage) {
 }
 
 // ------------------------- //
-// FUNCTION: Inject Recipe Cards on Index Pages //
+// FUNCTION: Inject Recipe Cards on Index Pages by Category //
 // ------------------------- //
 function injectRecipeCards() {
   const recipeList = document.getElementById("recipe-list");
 
-  // Loop through all recipes and inject them as cards
-  Object.keys(recipes).forEach((recipeId) => {
-    const recipe = recipes[recipeId];
+  if (!recipeList) {
+    console.error("Recipe list container missing on page.");
+    return;
+  }
 
-    // Dynamically create the recipe card with hidden data attributes for sorting
-    const cardHTML = `
-      <div class="col-md-4">
-        <a href="/views/layouts/recipes/recipe_pages/${recipeId}.html" class="card-link">
-          <div class="card mb-4 shadow-sm" data-name="${recipe.title}" 
-          data-date="${recipe.date_added}" 
-          data-carbs="${parseFloat(recipe.nutrition.carbs)}" 
-          data-fibre="${parseFloat(recipe.nutrition.fibre)}" 
-          data-protein="${parseFloat(recipe.nutrition.protein)}" 
-          data-time="${parseInt(recipe.total_time)}" 
-          data-calories="${parseFloat(recipe.nutrition.calories)}" 
-          data-fat="${parseFloat(recipe.nutrition.fat)}">
-          
-            <!-- Recipe image -->
-            <img src="${recipe.img_src}" class="card-img-top" alt="${
-      recipe.title
-    }">
+  // Extract the category from the URL dynamically (e.g., "snacks" from "index_snacks.html")
+  const categoryMatch = currentPath.match(/index_([a-zA-Z_]+)(\.html)?$/);
+  const category = categoryMatch ? categoryMatch[1] : null;
+
+  // Check if we are on the "all_recipes" page
+  const isAllRecipesPage = currentPath.includes("index_all_recipes.html");
+
+  if (isAllRecipesPage) {
+    // Inject all recipes if we are on the "all_recipes" page
+    Object.keys(recipes).forEach((recipeId) => {
+      const recipe = recipes[recipeId];
+
+      // Dynamically create the recipe card with hidden data attributes for sorting
+      const cardHTML = `
+        <div class="col-md-4">
+          <a href="/views/layouts/recipes/recipe_pages/${recipeId}.html" class="card-link">
+            <div class="card mb-4 shadow-sm" data-name="${recipe.title}" 
+            data-date="${recipe.date_added}" 
+            data-carbs="${parseFloat(recipe.nutrition.carbs)}" 
+            data-fibre="${parseFloat(recipe.nutrition.fibre)}" 
+            data-protein="${parseFloat(recipe.nutrition.protein)}" 
+            data-time="${parseInt(recipe.total_time)}" 
+            data-calories="${parseFloat(recipe.nutrition.calories)}" 
+            data-fat="${parseFloat(recipe.nutrition.fat)}">
             
-            <!-- Card body with recipe title and description -->
-            <div class="card-body">
-              <h5 class="card-title">${recipe.title}</h5>
-              <p class="card-text">${recipe.description}</p>
-              <p class="card-text"><small class="text-muted">Added on ${
-                recipe.date_added
-              }</small></p>
+              <!-- Recipe image -->
+              <img src="${recipe.img_src}" class="card-img-top" alt="${recipe.title}">
+              
+              <!-- Card body with recipe title and description -->
+              <div class="card-body">
+                <h5 class="card-title">${recipe.title}</h5>
+                <p class="card-text">${recipe.description}</p>
+                <p class="card-text"><small class="text-muted">Added on ${recipe.date_added}</small></p>
+              </div>
             </div>
-          </div>
-        </a>
-      </div>
-    `;
+          </a>
+        </div>
+      `;
 
-    // Inject the card into the recipe list
-    recipeList.innerHTML += cardHTML;
-  });
+      // Inject the card into the recipe list
+      recipeList.innerHTML += cardHTML;
+    });
+  } else if (category) {
+    // Inject only recipes belonging to the current category for other index pages
+    Object.keys(recipes).forEach((recipeId) => {
+      const recipe = recipes[recipeId];
+
+      // Check if the recipe's category array includes the extracted category
+      if (recipe.category.includes(category)) {
+        // Dynamically create the recipe card with hidden data attributes for sorting
+        const cardHTML = `
+          <div class="col-md-4">
+            <a href="/views/layouts/recipes/recipe_pages/${recipeId}.html" class="card-link">
+              <div class="card mb-4 shadow-sm" data-name="${recipe.title}" 
+              data-date="${recipe.date_added}" 
+              data-carbs="${parseFloat(recipe.nutrition.carbs)}" 
+              data-fibre="${parseFloat(recipe.nutrition.fibre)}" 
+              data-protein="${parseFloat(recipe.nutrition.protein)}" 
+              data-time="${parseInt(recipe.total_time)}" 
+              data-calories="${parseFloat(recipe.nutrition.calories)}" 
+              data-fat="${parseFloat(recipe.nutrition.fat)}">
+              
+                <!-- Recipe image -->
+                <img src="${recipe.img_src}" class="card-img-top" alt="${recipe.title}">
+                
+                <!-- Card body with recipe title and description -->
+                <div class="card-body">
+                  <h5 class="card-title">${recipe.title}</h5>
+                  <p class="card-text">${recipe.description}</p>
+                  <p class="card-text"><small class="text-muted">Added on ${recipe.date_added}</small></p>
+                </div>
+              </div>
+            </a>
+          </div>
+        `;
+
+        // Inject the card into the recipe list
+        recipeList.innerHTML += cardHTML;
+      }
+    });
+  } else {
+    console.error("No category found in the URL.");
+  }
 }
 
 // ------------------------- //
