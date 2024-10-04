@@ -449,4 +449,49 @@ const recipes = {
     },
     date_added: "2024-10-03",
   },
+
+  // BULGUR WHEAT WITH TOMATO AND BASIL SAUCE AND CHICKEN
+  bulgur_tomato_basil_chicken: {
+    title: "Bulgur Wheat with Tomato and Basil Sauce and Chicken",
+    category: ["lunch", "dinner", "gluten_free"],
+    img_src:
+      "/public/images/recipes/bulgur_tomato_basil_chicken/bulgur_tomato_basil_chicken.jpg",
+    description:
+      "A wholesome dish of bulgur wheat cooked in a flavourful mushroom stock, topped with pre-cooked chicken and a rich tomato and basil sauce. Ideal for a healthy lunch or dinner, packed with protein and fibre.",
+    prep_time: "10 mins",
+    cook_time: "20 mins",
+    total_time: "30 mins",
+    servings: "2",
+    ingredients: [
+      "100g bulgur wheat",
+      "300ml mushroom stock (or vegetable stock for a milder flavour)",
+      "200g pre-cooked chicken, sliced or shredded",
+      "400g crushed tomatoes (tinned)",
+      "1 small onion, finely chopped",
+      "2 cloves garlic, minced",
+      "1 tablespoon olive oil",
+      "1 teaspoon dried basil",
+      "1 teaspoon dried marjoram",
+      "Salt and pepper, to taste",
+    ],
+    method: [
+      "Cook the Bulgur Wheat: In a saucepan, bring the mushroom stock to a boil. Add the bulgur wheat, reduce the heat, and simmer for 12-15 minutes until the liquid is absorbed, and the bulgur is tender. Fluff with a fork once cooked.",
+      "Prepare the Tomato and Basil Sauce: Heat the olive oil in a pan over medium heat. Add the chopped onion and garlic, sautéing until softened and fragrant, about 3-4 minutes. Stir in the crushed tomatoes, basil, marjoram, salt, and pepper. Let the sauce simmer for 10-15 minutes until it thickens slightly.",
+      "Heat the Chicken: While the sauce simmers, warm the pre-cooked chicken in the microwave or in a separate pan.",
+      "Serve: Plate the cooked bulgur wheat, top with the sliced or shredded chicken, and pour the tomato and basil sauce generously over the top.",
+    ],
+    tips: [
+      "Make it vegetarian: Swap the chicken for roasted vegetables or a plant-based protein like tofu or chickpeas for a vegetarian version.",
+      "Herb variations: If you don’t have marjoram, oregano makes a great substitute.",
+      "Extra flavour: Add a pinch of chilli flakes to the sauce for a bit of heat, or stir in a tablespoon of balsamic vinegar for a tangy finish.",
+    ],
+    nutrition: {
+      calories: "400 kcal",
+      carbs: "50g",
+      fibre: "8g",
+      protein: "28g",
+      fat: "10g",
+    },
+    date_added: "2024-10-04",
+  },
 };
