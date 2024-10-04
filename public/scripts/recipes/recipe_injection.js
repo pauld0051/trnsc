@@ -164,7 +164,7 @@ function injectRecipeContent(recipe) {
   const ingredientsList = document.getElementById("ingredients");
   recipe.ingredients.forEach((ingredient) => {
     const li = document.createElement("li");
-    li.innerText = ingredient;
+    li.innerHTML = ingredient;
     ingredientsList.appendChild(li);
   });
 

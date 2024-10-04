@@ -101,7 +101,7 @@ const recipes = {
     total_time: "25 mins",
     servings: "6",
     ingredients: [
-      "200g 100% cocoa nibs",
+      "200g 100% cocoa nibs which you can get here at <a href='https://amzn.to/3ZLUJ4J' target='_blank'> European Amazon</a> or click here for our <a href='https://amzn.to/3ZSnxbN' target='_blank'>Amazon North American</a> customers.",
       "1 teaspoon vanilla essence",
       "Optional: sugar or sweetener to taste",
     ],
@@ -515,8 +515,8 @@ const recipes = {
     total_time: "20 mins",
     servings: "6",
     ingredients: [
-      "110g cocoa butter (available on Amazon or specialty shops)",
-      "60g high-quality cocoa powder (e.g., Valrhona)",
+      "110g cocoa butter (available here on <a href='https://amzn.to/47T15Be' target='_blank'> Amazon</a> or for <a href='https://amzn.to/47Vn9LF' target='_blank'> European Amazon</a>)",
+      "60g high-quality cocoa powder (e.g., <a href='https://amzn.to/47YzIWr' target='_blank'>Valrhona</a>)",
       "30g peanut butter (add more for a stronger peanut flavour)",
     ],
     method: [
