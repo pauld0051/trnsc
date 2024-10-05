@@ -172,8 +172,16 @@ function injectRecipeContent(recipe) {
   const methodList = document.getElementById("method");
   recipe.method.forEach((step) => {
     const li = document.createElement("li");
-    li.innerHTML = step;
-    methodList.appendChild(li);
+
+    // If step contains bolded text, treat it as a subheading
+    if (step.startsWith("<strong>")) {
+      const subheading = document.createElement("p");
+      subheading.innerHTML = step;
+      methodList.appendChild(subheading);
+    } else {
+      li.innerHTML = step;
+      methodList.appendChild(li);
+    }
   });
 
   // Tips (only if tips exist)
