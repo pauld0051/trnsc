@@ -1,5 +1,5 @@
 const recipes = {
-  // BEETROOT CHIPS
+  // 1 BEETROOT CHIPS
   beetroot_chips: {
     title: "Beetroot Chips",
     category: [
@@ -39,7 +39,7 @@ const recipes = {
     date_added: "2024-10-01",
   },
 
-  // PARSNIP CHIPS
+  // 2 PARSNIP CHIPS
   parsnip_chips: {
     title: "Parsnip Chips",
     category: [
@@ -82,7 +82,7 @@ const recipes = {
     date_added: "2024-09-28",
   },
 
-  // CHOCOLATE
+  // 3 CHOCOLATE
   chocolate_raw: {
     title: "Homemade 100% Cocoa Chocolate",
     category: [
@@ -123,7 +123,7 @@ const recipes = {
     date_added: "2024-09-29",
   },
 
-  // CHICKEN AND MUSHROOM BAKE
+  // 4 CHICKEN AND MUSHROOM BAKE
   chicken_mushroom_bake: {
     title: "Chicken and Mushroom Bake",
     category: ["dinner", "lunch", "gluten_free"],
@@ -165,7 +165,7 @@ const recipes = {
     date_added: "2024-10-02",
   },
 
-  // SAVOURY LUNCH WAFFLES
+  // 5 SAVOURY LUNCH WAFFLES
   savoury_lunch_waffles: {
     title: "Savoury Lunch Waffles",
     category: ["lunch", "vegetarian", "low_carb", "quick_easy"],
@@ -202,7 +202,7 @@ const recipes = {
     date_added: "2024-10-02",
   },
 
-  // ALMOND PANCAKES WITH GREEK YOGURT, STRAWBERRIES, AND COCOA NIBS
+  // 6 ALMOND PANCAKES WITH GREEK YOGURT, STRAWBERRIES, AND COCOA NIBS
   almond_pancakes: {
     title: "Almond Pancakes with Greek Yogurt, Strawberries, and Cocoa Nibs",
     category: [
@@ -245,7 +245,7 @@ const recipes = {
     date_added: "2024-10-02",
   },
 
-  // SHIRATAKE NOODLE RAMEN SOUP
+  // 7 SHIRATAKE NOODLE RAMEN SOUP
   shiratake_noodle_ramen_soup: {
     title: "Shiratake Noodle Ramen Soup",
     category: ["dinner", "lunch", "gluten_free", "low_carb", "soups"],
@@ -290,7 +290,7 @@ const recipes = {
     date_added: "2024-10-02",
   },
 
-  // CHICKEN PAD THAI
+  // 8 CHICKEN PAD THAI
   chicken_pad_thai: {
     title: "Chicken Pad Thai",
     category: ["dinner", "lunch", "gluten_free"],
@@ -353,7 +353,7 @@ const recipes = {
     date_added: "2024-10-02",
   },
 
-  // WARM BEAN SALSA
+  // 9 WARM BEAN SALSA
   warm_bean_salsa: {
     title: "Warm Bean Salsa with Parsnip Chips",
     category: ["snacks", "side_dishes", "vegetarian", "vegan", "gluten_free"],
@@ -401,7 +401,7 @@ const recipes = {
     date_added: "2024-10-02",
   },
 
-  // BACON AND EGGS WITH SWEET POTATO FRIES AND BROCCOLI
+  // 10 BACON AND EGGS WITH SWEET POTATO FRIES AND BROCCOLI
   bacon_eggs_fries_broccoli: {
     title: "Bacon and Eggs with Sweet Potato Fries and Broccoli",
     category: [
@@ -450,7 +450,7 @@ const recipes = {
     date_added: "2024-10-03",
   },
 
-  // BULGUR WHEAT WITH TOMATO AND BASIL SAUCE AND CHICKEN
+  // 11 BULGUR WHEAT WITH TOMATO AND BASIL SAUCE AND CHICKEN
   bulgur_tomato_basil_chicken: {
     title: "Bulgur Wheat with Tomato and Basil Sauce and Chicken",
     category: ["lunch", "dinner", "gluten_free"],
@@ -495,7 +495,7 @@ const recipes = {
     date_added: "2024-10-04",
   },
 
-  // PURE COCOA PEANUT BUTTER CHOCOLATE
+  // 12 PURE COCOA PEANUT BUTTER CHOCOLATE
   cocoa_peanut_butter_chocolate: {
     title: "Pure Cocoa Peanut Butter Chocolate",
     category: [
