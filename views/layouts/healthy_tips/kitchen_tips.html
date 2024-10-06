@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Healthy Tips Articles : The Real Naked Swedish Chef</title>
-
+    <title>Kitchen Tips Articles : The Real Naked Swedish Chef</title>
+    
     <!-- Meta tags for social media (Open Graph & Twitter Cards) -->
-    <meta property="og:title" content="The Science Behind Healthy Eating | The Real Naked Swedish Chef" />
+    <meta property="og:title" content="Essential Kitchen Tips for Healthy Cooking | The Real Naked Swedish Chef" />
     <meta property="og:description"
-        content="Explore the science of healthy eating, food, and nutrition with The Real Naked Swedish Chef. Learn how a balanced diet can support type 2 diabetes management and overall well-being." />
+        content="Discover essential kitchen tips and tricks to help you prepare healthy meals with ease. Learn how to set up your kitchen for healthy eating and diabetic-friendly cooking." />
     <meta property="og:image" content="/public/images/trnsc_image.jpeg" />
     <meta property="og:url" content="https://real-naked-swedish-chef.com/views/layouts/healthy_tips/kitchen_tips.html" />
-
+    
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="The Science Behind Healthy Eating | The Real Naked Swedish Chef" />
+    <meta name="twitter:title" content="Essential Kitchen Tips for Healthy Cooking | The Real Naked Swedish Chef" />
     <meta name="twitter:description"
-        content="Dive into the science of food, nutrition, and healthy eating with The Real Naked Swedish Chef. Perfect for anyone managing type 2 diabetes or seeking a healthier lifestyle." />
+        content="Explore helpful kitchen tips for healthy eating and diabetic-friendly meal prep. From organising your pantry to the best tools for low-carb cooking, The Real Naked Swedish Chef has you covered." />
     <meta name="twitter:image" content="/public/images/trnsc_image.jpeg" />
-
+    
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="Discover the science behind food and healthy eating with The Real Naked Swedish Chef. Learn about nutrition, health benefits, and how to manage type 2 diabetes through a balanced diet." />
+        content="Explore essential kitchen tips and tricks to make healthy cooking easier. Learn how to set up a kitchen for diabetic-friendly recipes, healthy eating, and low-carb meal prep." />
     <meta name="keywords"
-        content="science of healthy eating, type 2 diabetes, food science, nutrition, healthy recipes, healthy diet, food benefits" />
+        content="kitchen tips, healthy cooking, diabetic-friendly kitchen, low-carb recipes, healthy eating, kitchen organisation, cooking tools, meal prep tips" />
     <meta name="author" content="The Real Naked Swedish Chef" />
 
     <!-- Favicon -->
@@ -40,6 +40,7 @@
     <!-- Your custom styles -->
     <link rel="stylesheet" href="/public/styles/main.css">
     <link rel="stylesheet" href="/public/styles/science.css">
+    <link rel="stylesheet" href="/public/styles/healthy_tips/healthy_tips.css">
 
     <!-- Optional: Preconnect for faster external resource loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -57,123 +58,29 @@
     <!-- Main content -->
     <main class="container py-4">
         <!-- Main Content in Two Columns -->
-        <div class="row">
-            <!-- Left Column: Text and Healthy Tips -->
-            <div class="col-md-6">
-                <div class="right-side-container">
-                    <h2>Healthy Tips KITCHEN TIPS ARTICLES</h2>
-                    <p>
-                        Managing type 2 diabetes is a journey, but with the right tools, anyone can take control of
-                        their
-                        health. Here are a few tips to keep your blood sugar stable and your body healthy.
-                    </p>
-
-                    <h3>1. Choose Whole Grains</h3>
-                    <p>
-                        Whole grains, such as brown rice, oats, and quinoa, are rich in fiber and nutrients that help
-                        manage blood sugar levels.
-                        However, it’s important to watch your portion sizes. Aim to fill no more than a quarter of your
-                        plate with whole grains,
-                        and balance your meal with plenty of vegetables and lean proteins.
-                    </p>
-                    <p><img src="/public/images/Science/whole_grains.jpg" alt="whole grains"
-                            class="img-fluid rounded shadow my-3"></p>
-
-                    <h3>2. Stay Active</h3>
-                    <p>
-                        Regular exercise helps improve insulin sensitivity and manage blood sugar levels. Aim for at
-                        least
-                        30 minutes of moderate activity, like walking or swimming, most days of the week.
-                    </p>
-                    <p><img src="/public/images/placeholder_2.jpg" alt="Placeholder for exercise"
-                            class="img-fluid rounded shadow my-3"></p>
-
-                    <h3>3. Eat Healthy Fats</h3>
-                    <p>
-                        Healthy fats, such as those found in avocados, nuts, and olive oil, can help reduce insulin
-                        resistance and keep your blood sugar levels more stable. Include these in your diet in
-                        moderation.
-                    </p>
-                    <p><img src="/public/images/placeholder_3.jpg" alt="Placeholder for healthy fats"
-                            class="img-fluid rounded shadow my-3"></p>
-
-                    <h3>4. Avoid Sugary Drinks</h3>
-                    <p>
-                        Sugary beverages can cause blood sugar spikes. Instead, opt for water, unsweetened teas, or
-                        sparkling water with a splash of lemon or lime.
-                    </p>
-                    <p><img src="/public/images/placeholder_4.jpg" alt="Placeholder for healthy drinks"
-                            class="img-fluid rounded shadow my-3"></p>
-
-                    <h3>5. Monitor Your Blood Sugar Regularly</h3>
-                    <p>
-                        Regular monitoring helps you understand how different foods and activities affect your blood
-                        sugar.
-                        Consult with your healthcare provider to determine the best times to check your levels.
-                    </p>
-                    <p><img src="/public/images/placeholder_5.jpg" alt="Placeholder for blood sugar monitoring"
-                            class="img-fluid rounded shadow my-3"></p>
-
-                    <p>
-                        For more tips, visit the <a href="/views/healthy_tips.html">Healthy Tips</a> page, where you can
-                        find detailed advice on maintaining a balanced lifestyle while managing type 2 diabetes.
-                    </p>
+        <!-- Sorting Options -->
+        <div class="container py-4">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <label for="sort-options">Select sorting option:</label>
+                    <select id="sort-options" class="form-select">
+                        <option value="date">Sort by Date</option>
+                        <option value="alphabetical">Sort by Alphabetical</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="text" id="search-input" class="form-control" placeholder="Search articles...">
                 </div>
             </div>
-
-            <!-- Right Column: Chef Image -->
-            <div class="col-md-6 right-side-container">
-                <!-- Image of the Chef -->
-                <div class="row d-flex align-items-start justify-content-center mb-1">
-                    <div class="col-md-12 d-flex align-items-start justify-content-center">
-                        <img src="/public/images/trnsc6_image.jpeg" alt="The Real Naked Swedish Chef"
-                            class="img-fluid rounded shadow" />
-                    </div>
-                </div>
-
-                <!-- Additional Placeholder for Future Content -->
-                <div class="row">
-                    <!-- Card 1 -->
-                    <div class="col-md-6">
-                        <div class="card mb-4 shadow-sm">
-                            <a href="/views/layouts/recipes/science/chocolate.html" class="card-link">
-                                <img src="/public/images/recipes/chocolate_raw/chocolate_raw.jpg"
-                                    class="card-img-top card-link-img" alt="Chocolate">
-                            </a>
-                            <div class="card-body">
-                                <h5 class="card-title">I made my own chocolate and it's bitter!</h5>
-                                <p class="card-text">A look at my attempt to make 100% pure, sugar-free chocolate.
-                                    Spoiler: it was
-                                    bitter!</p>
-                                <a href="/views/layouts/recipes/science/chocolate.html" class="btn btn-primary">Read
-                                    more</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Card 2 -->
-                    <div class="col-md-6">
-                        <div class="card mb-4 shadow-sm">
-                            <a href="/views/layouts/recipes/science/artificial_sweeteners.html" class="card-link">
-                                <img src="/public/images/Science/sweeteners/artificial_sweeteners.jpg"
-                                    class="card-img-top card-link-img" alt="Artificial Sweeteners">
-                            </a>
-                            <div class="card-body">
-                                <h5 class="card-title">The Good, the Bad, and the Ugly of Artificial Sweeteners</h5>
-                                <p class="card-text">Explore the science behind artificial sweeteners, their benefits,
-                                    risks, and
-                                    the potential health effects they might have.</p>
-                                <a href="/views/layouts/recipes/science/artificial_sweeteners.html"
-                                    class="btn btn-primary">Read
-                                    more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- End Row of Cards -->
-                <!-- Future cards here -->
-            </div>
-
         </div>
+
+        <!-- HTML Structure for Articles -->
+        <div class="container py-4">
+            <div class="row" id="article-list">
+                <!-- Articles will be injected here -->
+            </div>
+        </div>
+
     </main>
 
     <!-- Include footer -->
@@ -186,5 +93,7 @@
 
     <!-- Your custom scripts -->
     <script src="/public/scripts/main.js"></script>
+    <script src="/public/scripts/kitchen_tips/kitchen_tips_objects.js"></script>
+    <script src="/public/scripts/kitchen_tips/kitchen_tips.js"></script>
 </body>
 </html>

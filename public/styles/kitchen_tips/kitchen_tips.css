@@ -1,0 +1,67 @@
+/* Reduce the height of the images */
+/* Make sure the image container fits the content */
+.card img {
+    height: 150px;
+    /* You can adjust this to the size you need */
+    object-fit: cover;
+    width: 100%;
+    margin: 0;
+    /* Remove any extra margin */
+    padding: 0;
+    /* Ensure no padding */
+}
+
+/* Add this to center the image properly */
+.card .row {
+    align-items: center;
+    /* Aligns image and text to the center of the row */
+}
+
+/* Adjust the column for the image to prevent extra padding/margin */
+.card .col-md-4 {
+    display: flex;
+    align-items: center;
+    /* Center the image vertically */
+    justify-content: center;
+    /* Center the image horizontally */
+}
+
+/* Adjust the padding in the card body to reduce space */
+.card-body {
+    padding: 10px;
+    /* Reduce padding to make it more compact */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Adjust text to truncate if too long */
+.card-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Adjust the card height */
+.card {
+    height: auto;
+    /* Let the height adjust dynamically based on content */
+    margin-bottom: 15px;
+    /* Reduce space between cards */
+    border-radius: 10px;
+    /* Keep the rounded edges for a sleek look */
+}
+
+/* Style for the button */
+.btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    width: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /* Center the button horizontally */
+    display: block;
+    /* Ensures the button stays block level to center properly */
+}
