@@ -589,4 +589,113 @@ const recipes = {
     },
     date_added: "2024-10-06",
   },
+
+  // TORTILLAS SERVED WITH SPICY BEEF
+  tortilla_bites_spicy_beef: {
+    title: "Tortilla Bites with Spicy Beef",
+    category: [
+      "snacks",
+      "main_course",
+      "keto_and_low_carb",
+      "gluten_free",
+      "dinner",
+    ],
+    img_src:
+      "/public/images/recipes/tortilla_bites_spicy_beef/tortilla_bites_spicy_beef.jpg", // Placeholder image
+    description:
+      "Spicy beef and white bean nachos on mini almond flour tortillas. These crispy bites are perfect for a low-carb snack or a main course. Customize with your favourite toppings like cheese, sour cream, or avocado.",
+    prep_time: "15 mins",
+    cook_time: "30 mins",
+    total_time: "45 mins",
+    servings: "4",
+    ingredients: [
+      "Mini Almond Flour Tortillas (link to <a href='/views/layouts/recipes/recipe_pages/tortilla_keto.html'>Keto Tortilla Recipe</a>, cut out 8-10cm diameter)",
+      "400 g ground beef",
+      "1 can vita-bönor (white beans), drained and rinsed",
+      "1 can (400g) crushed tomatoes",
+      "1 small onion, finely chopped",
+      "2 cloves garlic, minced",
+      "1 tsp cumin",
+      "1 tsp smoked paprika",
+      "1/2 tsp coriander",
+      "1/4 tsp cinnamon",
+      "1/4 tsp marjoram",
+      "1/2 tsp garlic powder",
+      "1 tsp dried basil",
+      "Salt and pepper, to taste",
+      "Olive oil (for cooking)",
+    ],
+    method: [
+      "Prepare the mini tortillas: Roll out your almond flour tortilla dough, use a round cookie cutter or glass rim to cut out 8-10cm diameter tortillas. Cook in a dry skillet over medium heat for 1-2 minutes per side until lightly browned. Set aside.",
+      "Toast the spices: In a large skillet, heat a small amount of olive oil over medium heat. Add the cumin, smoked paprika, coriander, cinnamon, marjoram, basil, and garlic powder. Toast the spices for about 30 seconds, stirring constantly until fragrant. Remove the spices from the pan and set aside.",
+      "Cook the beef and onions: In the same skillet, heat a bit more oil, add the chopped onion and minced garlic, and sauté for about 3-4 minutes until softened. Add the ground beef, breaking it up with a spoon, and cook until browned and fully cooked. Return the toasted spices to the pan and mix well.",
+      "Add tomatoes and beans: Stir in the crushed tomatoes and white beans. Let the mixture simmer on low heat for about 10 minutes, stirring occasionally to let the flavours meld.",
+      "Assemble the nachos: Preheat the oven to 180°C (350°F). Arrange the mini almond flour tortillas on a baking sheet lined with parchment paper (available here: <a href='https://amzn.to/4h3rfWi' target='_blank'>North American parchment paper</a> or <a href='https://amzn.to/3ZRoO2D' target='_blank'>European parchment paper</a>). Spoon the beef and bean mixture on top of each tortilla.",
+      "Bake: Bake the assembled nachos for 10 minutes, until the tortillas become crisp and the mixture is heated through.",
+      "Optional toppings: Add shredded cheese, sour cream, Greek yogurt, avocado, or your favourite chilli sauce for extra flavour before serving.",
+    ],
+    tips: [
+      "You can replace the beef with ground turkey or chicken for a lighter option.",
+      "Add a touch of heat by incorporating chopped fresh chilli or a dash of hot sauce into the beef mixture.",
+      "Make a vegetarian version by swapping out the beef for extra beans or lentils.",
+      "These bites are perfect for meal prep; store the beef mixture separately and assemble when ready to eat.",
+    ],
+    nutrition: {
+      calories: "300 kcal", // Approximation
+      carbs: "15g", // Almond flour tortillas and white beans contribute to this
+      fibre: "5g", // From beans and almond flour
+      protein: "20g", // From beef and beans
+      fat: "15g", // From olive oil and beef
+    },
+    date_added: "2024-10-05",
+  },
+
+  // TORTILLA - KETO
+  tortilla_keto: {
+    title: "Keto Tortillas",
+    category: [
+      "snacks",
+      "keto_and_low_carb",
+      "gluten_free",
+      "vegan",
+      "vegetarian",
+      "dinner",
+    ],
+    img_src: "/public/images/recipes/tortilla_keto/tortilla_keto.jpg", // Placeholder image
+    description:
+      "These keto tortillas are soft, pliable, and made with almond flour and psyllium husks for a low-carb, gluten-free alternative to traditional tortillas. Perfect for tacos, wraps, or as a side for your favourite dishes.",
+    prep_time: "10 mins",
+    cook_time: "10 mins",
+    total_time: "20 mins",
+    servings: "4 large or 8 small tortillas",
+    ingredients: [
+      "240 g almond flour (<a href='https://amzn.to/3Bzos6Q' target='_blank'>(EU) Amazon</a> or <a href='https://amzn.to/4gUQZnx' target='_blank'>(US/Can) Amazon</a>)",
+      "6 tablespoons (about 50 g) psyllium husks (not the powder) (<a href='https://amzn.to/3zYWqBb' target='_blank'>(EU) Amazon</a> or <a href='https://amzn.to/3NcDeDh' target='_blank'>(US/Can) Amazon</a>)",
+      "1 teaspoon (5 g) salt",
+      "1 tablespoon (15 ml) olive oil (<a href='https://amzn.to/4gVpL0c' target='_blank'>(EU) Amazon</a> or <a href='https://amzn.to/47SOaPT' target='_blank'>(US/Can) Amazon</a>)",
+      "240 ml warm water (not boiling)",
+      "½ teaspoon of baking powder",
+    ],
+    method: [
+      "In a large bowl, mix the almond flour, psyllium husks, and salt. Alternatively, set the bread machine to the pizza dough setting to make the dough.",
+      "Add the olive oil and warm water, then mix until fully combined. Let it sit briefly to allow the psyllium to absorb the liquid.",
+      "Knead the dough and form it into a ball. Divide it into 4 large or 8 small portions.",
+      "Roll out each piece between parchment paper (<a href='https://amzn.to/3NfIlCz' target='_blank'>(EU) Amazon</a> or <a href='https://amzn.to/3XN0WL6' target='_blank'>(US/Can) Amazon</a>) until thin and round.",
+      "Cook each tortilla in a heated, non-stick pan for 2-3 minutes on each side, until browned.",
+    ],
+    tips: [
+      "Use a round cookie cutter or glass rim to cut the tortillas into a uniform shape if desired.",
+      "These tortillas can be made ahead and stored in the refrigerator for up to a week, or frozen for later use.",
+      "Try adding herbs or spices to the dough for extra flavour.",
+      "Perfect for tacos, wraps, or even as a base for keto pizzas!",
+    ],
+    nutrition: {
+      calories: "180 kcal", // Approximation per tortilla
+      carbs: "3g", // Psyllium husks and almond flour contribute to this
+      fibre: "6g", // From psyllium husks and almond flour
+      protein: "5g", // From almond flour
+      fat: "14g", // From olive oil and almond flour
+    },
+    date_added: "2024-10-06",
+  },
 };
