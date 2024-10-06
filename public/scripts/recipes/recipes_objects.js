@@ -595,7 +595,7 @@ const recipes = {
     title: "Tortilla Bites with Spicy Beef",
     category: [
       "snacks",
-      "main_course",
+      "lunch",
       "keto_and_low_carb",
       "gluten_free",
       "dinner",
