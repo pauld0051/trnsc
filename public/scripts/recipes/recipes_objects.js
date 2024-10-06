@@ -542,4 +542,51 @@ const recipes = {
     },
     date_added: "2024-10-04",
   },
+  
+  // Hibiscus Tea
+  hibiscus_tea: {
+    title: "Hibiscus Tea",
+    category: [
+      "drinks",
+      "gluten_free",
+      "vegan",
+      "vegetarian",
+      "keto_and_low_carb",
+    ],
+    img_src: "/public/images/recipes/hibiscus_tea/hibiscus_tea.jpg", // Image path
+    description:
+      "A refreshing, slightly tart drink made from dried hibiscus flowers, packed with health benefits. Hibiscus tea is caffeine-free, rich in antioxidants, and helps regulate blood pressure. It's perfect for diabetics and anyone looking for a healthy, hydrating option. Enjoy hot or cold for a tangy, vibrant beverage.",
+    prep_time: "5 mins",
+    cook_time: "5 mins",
+    total_time: "10 mins",
+    servings: "4",
+    ingredients: [
+      "4 cups boiling water",
+      "1/2 cup dried hibiscus flowers (find it on <a href='https://amzn.to/3zOdGsU' target='_blank'>Amazon (US/Can)</a> or <a href='https://amzn.to/3TWTThG' target='_blank'>Amazon (EU)</a>)",
+      "Optional: Stevia or erythritol to taste for a sugar-free sweetener",
+      "Optional: Fresh mint, lime slices, or cinnamon sticks for garnish",
+    ],
+    method: [
+      "Boil water: In a pot, bring 4 cups of water to a rolling boil.",
+      "Steep the hibiscus: Add the dried hibiscus flowers to the boiling water. Let it steep for 5–10 minutes depending on how strong you want the flavour.",
+      "Strain: Strain the hibiscus flowers using a fine mesh sieve and pour the tea into your serving cups or a pitcher.",
+      "Optional: Add a diabetic-friendly sweetener, like stevia or erythritol, to enhance the flavour without adding sugar. You can also add mint or lime slices for extra refreshment.",
+      "Serve: Enjoy it hot, or let it cool and serve over ice for a chilled version. Store any leftovers in the refrigerator.",
+    ],
+    tips: [
+      "Cold Brew: For a milder flavour, try cold brewing. Add hibiscus flowers to a jar of cold water and refrigerate for 8–12 hours. Strain and enjoy chilled.",
+      "Flavour Boost: Experiment with flavour additions like ginger, cinnamon, or citrus peels for a unique twist.",
+      "Diabetic-Friendly: Hibiscus tea is naturally low in calories and carbs. Adding stevia or erythritol keeps it sweet while maintaining its low glycaemic index, making it perfect for diabetics.",
+      "Immune Support: Hibiscus tea is packed with antioxidants like vitamin C, helping to boost your immune system. Add a squeeze of lemon for extra vitamin C.",
+      "Blood Pressure Benefits: Hibiscus tea has been shown to help lower blood pressure, making it a heart-healthy drink for people with hypertension, especially beneficial for those managing diabetes.",
+    ],
+    nutrition: {
+      calories: "5 kcal", // Approximation, mostly from hibiscus
+      carbs: "1g", // Minimal carbs
+      fibre: "0g", // Very minimal
+      protein: "0g",
+      fat: "0g",
+    },
+    date_added: "2024-10-06",
+  },
 };
