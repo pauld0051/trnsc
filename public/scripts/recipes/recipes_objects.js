@@ -542,7 +542,7 @@ const recipes = {
     },
     date_added: "2024-10-04",
   },
-  
+
   // Hibiscus Tea
   hibiscus_tea: {
     title: "Hibiscus Tea",
@@ -562,7 +562,7 @@ const recipes = {
     servings: "4",
     ingredients: [
       "4 cups boiling water",
-      "1/2 cup dried hibiscus flowers (find it on <a href='https://amzn.to/3zOdGsU' target='_blank'>Amazon (US/Can)</a> or <a href='https://amzn.to/3TWTThG' target='_blank'>Amazon (EU)</a>)",
+      "1/2 cup dried hibiscus flowers (find it on <a href='https://amzn.to/3zOdGsU' target='_blank'>Amazon (US/Can)</a> or <a href='https://amzn.to/4eA4SGm' target='_blank'>Amazon (EU)</a>)",
       "Optional: Stevia or erythritol to taste for a sugar-free sweetener",
       "Optional: Fresh mint, lime slices, or cinnamon sticks for garnish",
     ],
