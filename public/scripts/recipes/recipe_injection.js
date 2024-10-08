@@ -42,13 +42,11 @@ if (isRecipePage) {
   if (recipe) {
     // Inject Recipe Content
     injectRecipeContent(recipe);
-
-    // Update meta tags for SEO and social sharing
-    updateMetaTags(recipe);
   } else {
     console.error("Recipe not found.");
   }
 }
+
 
 // ------------------------- //
 // FUNCTION: Inject Recipe Cards on Index Pages by Category //

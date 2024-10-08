@@ -590,16 +590,55 @@ const recipes = {
     date_added: "2024-10-06",
   },
 
+  // Greek Mountain Tea
+  greek_mountain_tea: {
+    title: "Greek Mountain Tea",
+    category: [
+      "drinks",
+      "gluten_free",
+      "vegan",
+      "vegetarian",
+      "keto_and_low_carb",
+    ],
+    img_src: "/public/images/recipes/greek_mountain_tea/greek_mountain_tea.jpg", // Image path
+    description:
+      "A traditional herbal tea made from the Sideritis plant, Greek Mountain Tea is known for its soothing properties and is rich in antioxidants. This caffeine-free tea supports digestive and immune health and is traditionally enjoyed hot.",
+    prep_time: "5 mins",
+    cook_time: "5 mins",
+    total_time: "10 mins",
+    servings: "2",
+    ingredients: [
+      "2 cups boiling water",
+      "1 tablespoon dried Greek Mountain Tea (buy it on <a href='https://amzn.to/4gTiI8f' target='_blank'>Amazon</a>)",
+      "Optional: Honey or lemon to taste for extra flavour",
+    ],
+    method: [
+      "Boil water: In a pot, bring 2 cups of water to a rolling boil.",
+      "Steep the tea: Add dried Greek Mountain Tea to the boiling water. Let it steep for 5–7 minutes.",
+      "Strain: Remove the tea from the water by straining it through a fine mesh sieve.",
+      "Optional: Add honey or a slice of lemon for added sweetness and flavour.",
+      "Serve: Pour into cups and enjoy hot. You can also let it cool and serve it chilled for a refreshing alternative.",
+    ],
+    tips: [
+      "Medicinal Properties: Greek Mountain Tea is traditionally used for its anti-inflammatory, antioxidant, and digestive support properties.",
+      "Cold Brew: For a cooling summer version, steep the tea in cold water for 6–8 hours in the refrigerator.",
+      "Immune Support: Its high levels of flavonoids and antioxidants help strengthen the immune system, especially during cold and flu season.",
+      "Digestive Aid: Greek Mountain Tea has been used for centuries to aid digestion and soothe gastrointestinal discomfort.",
+    ],
+    nutrition: {
+      calories: "0 kcal", // Based on the tea alone
+      carbs: "0g",
+      fibre: "0g",
+      protein: "0g",
+      fat: "0g",
+    },
+    date_added: "2024-10-08",
+  },
+
   // TORTILLAS SERVED WITH SPICY BEEF
   tortilla_bites_spicy_beef: {
     title: "Tortilla Bites with Spicy Beef",
-    category: [
-      "snacks",
-      "lunch",
-      "keto_and_low_carb",
-      "gluten_free",
-      "dinner",
-    ],
+    category: ["snacks", "lunch", "keto_and_low_carb", "gluten_free", "dinner"],
     img_src:
       "/public/images/recipes/tortilla_bites_spicy_beef/tortilla_bites_spicy_beef.jpg", // Placeholder image
     description:
