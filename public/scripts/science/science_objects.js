@@ -19,8 +19,8 @@ const articles = [
     title: "The Sweet and Sour of Sugar: A Summary",
     description:
       "Explore the effects of sugar on health, its types, and how it impacts diabetes. Discover hidden sugars, natural alternatives, and practical ways to manage sugar consumption.",
-    link: "/views/layouts/recipes/science/sugar_summary.html",
-    image: "/public/images/Science/sugar_summary.jpg",
-    dateAdded: "2024-10-07",
+    link: "/views/layouts/recipes/science/sugar_full.html",
+    image: "/public/images/Science/sugar/sugars3.jpg",
+    dateAdded: "2024-10-08",
   },
 ];
