@@ -32,9 +32,49 @@
     margin-right: auto;
 }
 
-/* Adjust for mobile devices */
+/* Modal styles */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    z-index: 999;
+    /* Sit on top */
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+    display: block;
+    margin: auto;
+    width: 80%;
+    /* Default width */
+    max-width: 120%;
+    /* Max width for larger screens */
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Mobile responsiveness */
 @media only screen and (max-width: 600px) {
     .half-size {
         max-width: 80%;
+    }
+
+    .modal-content {
+        width: 100%;
+        /* Fill the width on mobile */
     }
 }
