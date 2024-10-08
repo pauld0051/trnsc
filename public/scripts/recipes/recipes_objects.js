@@ -765,7 +765,7 @@ const recipes = {
       "1 tsp cardamom",
       "1 red chilli, finely chopped",
       "400g can chickpeas, drained and mashed thoroughly",
-      "2 tsp psyllium husk or 25g graham flour",
+      "2 tsp psyllium husk (<a href='https://amzn.to/3XYOXtX' target='_blank'>EU/UK</a>, <a href='https://amzn.to/3ND1heR' target='_blank'>US/Can</a>) or 25g graham flour",
       "10g fresh basil, chopped",
       "Salt and pepper, to taste",
       "Bed of spinach to serve",
@@ -780,7 +780,7 @@ const recipes = {
     tips: [
       "Serving Suggestion: Garnish with fresh lemon juice or a tangy yogurt sauce for extra flavour.",
       "Storage: Store leftovers in an airtight container for up to 2 days and reheat in a skillet to retain crispiness.",
-      "Psyllium Husk: For a gluten-free option, psyllium husk works as a great binder instead of graham flour.",
+      "Psyllium Husk: For a gluten-free option, psyllium husk works as a great binder instead of graham flour. Shop here: <a href='https://amzn.to/3XYOXtX' target='_blank'>EU/UK</a>, <a href='https://amzn.to/3ND1heR' target='_blank'>US/Can</a>.",
     ],
     nutrition: {
       calories: "150 kcal",
