@@ -737,4 +737,58 @@ const recipes = {
     },
     date_added: "2024-10-06",
   },
+
+  // Chickpea Fritters
+  chickpea_fritters: {
+    title: "Chickpea Fritters",
+    category: [
+      "snacks",
+      "gluten_free",
+      "vegan",
+      "vegetarian",
+      "keto_and_low_carb",
+    ],
+    img_src: "/public/images/recipes/chickpea_fritters/chickpea_fritters.jpg", // Add your image path here
+    description:
+      "A savoury and crispy chickpea fritter, packed with flavour from cumin, turmeric, and basil. These fritters are a perfect gluten-free, low-carb snack or light meal. Serve on a bed of spinach for added freshness.",
+    prep_time: "10 mins",
+    cook_time: "8 mins",
+    total_time: "18 mins",
+    servings: "4",
+    ingredients: [
+      "2 tsp coconut oil (for cooking)",
+      "1 small onion, grated",
+      "1 red pepper, finely chopped",
+      "1 egg, beaten",
+      "1 tsp cumin",
+      "1 tsp turmeric",
+      "1 tsp cardamom",
+      "1 red chilli, finely chopped",
+      "400g can chickpeas, drained and mashed thoroughly",
+      "2 tsp psyllium husk or 25g graham flour",
+      "10g fresh basil, chopped",
+      "Salt and pepper, to taste",
+      "Bed of spinach to serve",
+    ],
+    method: [
+      "Prepare Ingredients: Grate the onion, finely chop the red pepper, chilli, and basil. Mash the chickpeas.",
+      "Mix Ingredients: In a large bowl, combine onion, red pepper, chickpeas, egg, psyllium husk or graham flour, cumin, turmeric, cardamom, basil, and season with salt and pepper.",
+      "Form Fritters: Scoop 2 tablespoons of the mixture, form into patties, and slightly flatten.",
+      "Cook Fritters: Heat coconut oil in a skillet. Fry the patties for 3-4 minutes on each side until crispy and golden.",
+      "Serve: Serve fritters warm on a bed of fresh spinach.",
+    ],
+    tips: [
+      "Serving Suggestion: Garnish with fresh lemon juice or a tangy yogurt sauce for extra flavour.",
+      "Storage: Store leftovers in an airtight container for up to 2 days and reheat in a skillet to retain crispiness.",
+      "Psyllium Husk: For a gluten-free option, psyllium husk works as a great binder instead of graham flour.",
+    ],
+    nutrition: {
+      calories: "150 kcal",
+      carbs: "12g",
+      fibre: "4g",
+      protein: "5g",
+      fat: "8g",
+    },
+    date_added: "2024-10-08",
+  },
 };
