@@ -23,4 +23,12 @@ const articles = [
     image: "/public/images/Science/sugar/sugars3.jpg",
     dateAdded: "2024-10-08",
   },
+  {
+    title: "Understanding Blood Sugar Units: mmol/L, mg/dL, and HbA1c",
+    description:
+      "Learn the different units used to measure blood sugar and how to convert between mmol/L, mg/dL, and HbA1c. A must-read for managing diabetes effectively.",
+    link: "/views/layouts/recipes/science/units.html",
+    image: "/public/images/Science/conversions/convertor.jpg",
+    dateAdded: "2024-10-10",
+  },
 ];
