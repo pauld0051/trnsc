@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Sugar Conversions : The Real Naked Swedish Chef</title>
+    
+    <!-- Meta tags for social media (Open Graph & Twitter Cards) -->
+    <meta property="og:title" content="Blood Sugar Conversions - The Real Naked Swedish Chef" />
+    <meta property="og:description"
+        content="A comprehensive guide to understanding blood sugar measurement units, including mmol/L, mg/dL, and HbA1c. Learn how to convert between these units and why they matter for diabetics." />
+    <meta property="og:image" content="/public/images/Science/conversions/convertor.jpg" />
+    <meta property="og:url" content="https://real-naked-swedish-chef.com/views/layouts/recipes/science/convertor.html" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Blood Sugar Conversions - The Real Naked Swedish Chef" />
+    <meta name="twitter:description"
+        content="A clear guide on how to convert between mmol/L, mg/dL, and HbA1c blood sugar measurements. Understand what these numbers mean and how to use them." />
+    <meta name="twitter:image" content="/public/images/Science/conversions/convertor.jpg" />
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Explore blood sugar units and conversions, including mmol/L, mg/dL, and HbA1c. Perfect for diabetics and those managing their blood sugar. Includes step-by-step conversion formulas and tips." />
+    <meta name="keywords"
+        content="blood sugar, mmol/L, mg/dL, HbA1c, blood sugar conversions, diabetes, glucose, units conversion, long-term blood sugar management" />
+    <meta name="author" content="The Real Naked Swedish Chef">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/public/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/public/favicon-16x16.png">
+    <link rel="manifest" href="/public/site.webmanifest">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Your custom styles -->
+    <link rel="stylesheet" href="/public/styles/main.css">
+    <link rel="stylesheet" href="/public/styles/science/science.css">
+    <link rel="stylesheet" href="/public/styles/science/convertor.css">
+
+    <!-- Optional: Preconnect for faster external resource loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Optional: Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Include header -->
+    <div id="header-placeholder"></div>
+
+<main class="container py-4 mb-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+            <h2>Blood Sugar Conversion Calculator</h2>
+            <p>Easily convert between mmol/L, mg/dL, and HbA1c units.</p>
+            <p><em>Learn more here: <a href="views\layouts\recipes\science\units.html" title="Blood Glucose Conversions Link"></a>Blood Glucose Units</em></p>
+
+            <!-- mmol/L to mg/dL Conversion Form Start -->
+            <div class="conversion-calculator">
+                <h3>mmol/L to mg/dL Conversion</h3>
+                <form id="mmolToMgForm" class="row g-3">
+                    <!-- Input for mmol/L -->
+                    <div class="col-md-5">
+                        <div class="mb-3">
+                            <label for="mmolInputValue" class="form-label">mmol/L</label>
+                            <input type="number" step="0.1" class="form-control" id="mmolInputValue"
+                                placeholder="Enter mmol/L">
+                        </div>
+                    </div>
+
+                    <!-- Center: Equals sign -->
+                    <div class="col-md-2 d-flex align-items-center justify-content-center">
+                        <span>=</span>
+                    </div>
+
+                    <!-- Output in mg/dL -->
+                    <div class="col-md-5">
+                        <div class="mb-3">
+                            <label for="mgOutputValue" class="form-label">mg/dL</label>
+                            <input type="number" step="0.1" class="form-control" id="mgOutputValue"
+                                placeholder="Converted value">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- mmol/L to mg/dL Conversion Form End -->
+
+            <!-- HbA1c % to mmol/mol Conversion Form Start -->
+            <div class="conversion-calculator mt-4">
+                <h3>HbA1c % to mmol/mol Conversion</h3>
+                <form id="hbA1cForm" class="row g-3">
+                    <!-- Input for HbA1c % -->
+                    <div class="col-md-5">
+                        <div class="mb-3">
+                            <label for="percentInputValue" class="form-label">HbA1c %</label>
+                            <input type="number" step="0.1" class="form-control" id="percentInputValue"
+                                placeholder="Enter HbA1c %">
+                        </div>
+                    </div>
+
+                    <!-- Center: Equals sign -->
+                    <div class="col-md-2 d-flex align-items-center justify-content-center">
+                        <span>=</span>
+                    </div>
+
+                    <!-- Output in mmol/mol -->
+                    <div class="col-md-5">
+                        <div class="mb-3">
+                            <label for="mmolOutputValue" class="form-label">mmol/mol</label>
+                            <input type="number" step="0.1" class="form-control" id="mmolOutputValue"
+                                placeholder="Converted value">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- HbA1c % to mmol/mol Conversion Form End -->
+        </div>
+    </div>
+</main>
+
+    <!-- Include footer -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Your custom scripts -->
+    <script src="/public/scripts/main.js"></script>
+    <script src="/public/scripts/science/convertor.js"></script>
+</body>
+</html>

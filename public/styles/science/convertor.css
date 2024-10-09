@@ -1,0 +1,70 @@
+/* General layout and container styles */
+main.container {
+    background-color: #f4f1ea;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+/* Styles for each converter block */
+.left-side-convertor,
+.right-side-convertor {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+}
+
+/* Add padding to space out the form controls */
+.left-side-convertor .form-control,
+.right-side-convertor .form-control {
+    margin-bottom: 1rem;
+}
+
+/* Style the equal sign to stand out more */
+.col-md-2 span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Ensure a subtle hover effect */
+.left-side-convertor:hover,
+.right-side-convertor:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease;
+}
+
+/* Form labels styling */
+.form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Custom padding for the form labels */
+.left-side-convertor .form-label,
+.right-side-convertor .form-label {
+    padding-bottom: 0.5rem;
+}
+
+/* Style adjustments for form inputs */
+.form-select,
+.form-control {
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    .left-side-convertor,
+    .right-side-convertor {
+        margin-bottom: 1.5rem;
+    }
+
+    .col-md-2 span {
+        font-size: 1.5rem;
+    }
+}

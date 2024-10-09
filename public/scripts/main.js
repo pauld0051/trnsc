@@ -148,4 +148,12 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// Initialize all popovers on the page
+document.addEventListener("DOMContentLoaded", function () {
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl);
+  });
+});
+
 
