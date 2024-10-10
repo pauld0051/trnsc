@@ -791,7 +791,7 @@ const recipes = {
     },
     date_added: "2024-10-08",
   },
-  
+
   // Chicken Korma
   chicken_korma: {
     title: "Chicken Korma",
@@ -839,11 +839,13 @@ const recipes = {
       "Add the chicken: Add chicken pieces to the pan. Fry until browned on all sides (5-7 mins).",
       "Mix in the yoghurt: Lower the heat and stir in Greek yoghurt slowly. Stir continuously to prevent curdling.",
       "Simmer: Add water or chicken stock and salt. Cover and let simmer for 15-20 minutes until the chicken is fully cooked and sauce thickens.",
+      "Microwave the poppadums for about 45 seconds each until crunchy.",
       "Serve: Garnish with reserved onions and serve with microwaved poppadums and a side of lentils.",
     ],
     tips: [
       "Microwaved Poppadums: These are a great low-carb option compared to rice, offering crunch without spiking blood sugar.",
       "Side Lentils: Serve with lentils for added fibre, which helps in maintaining blood sugar levels.",
+      "Swap the Chicken for Lamb: You can make a lamb korma exactly the same way, just replace the chicken with cut lamb.",
     ],
     nutrition: {
       calories: "300 kcal",

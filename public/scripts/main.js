@@ -156,4 +156,10 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// Inject Google Tag
+const gtagScript = document.createElement('script');
+gtagScript.src = "/public/scripts/gtag.js"; // Adjust the path if needed
+document.head.appendChild(gtagScript);
+
+
 
