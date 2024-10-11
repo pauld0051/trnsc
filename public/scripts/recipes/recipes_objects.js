@@ -141,7 +141,7 @@ const recipes = {
       "2 carrots, cleaned and diced",
       "150g chestnut mushrooms, sliced",
       "300ml chicken, mushroom, or vegetable stock",
-      "1 tbsp freshly chopped oregano (dried otherwise)",
+      "1 tbsp freshly chopped oregano or <a href='https://amzn.to/3Y1LQl4' target='_blank'>dried oregano (US/Can)</a> or <a href='https://amzn.to/3Ym0qp0' target='_blank'> dried oregano (EU/UK)</a>",
       "Pinch white pepper",
       "1 heaped tsp cornflour mixed with 25ml skimmed milk",
       "300g cold cooked skinless chicken, cubed (mix of brown and white meat)",
@@ -168,7 +168,7 @@ const recipes = {
   // 5 SAVOURY LUNCH WAFFLES
   savoury_lunch_waffles: {
     title: "Savoury Lunch Waffles",
-    category: ["lunch", "vegetarian", "low_carb", "quick_easy"],
+    category: ["lunch", "vegetarian", "keto_and_low_carb", "quick_easy"],
     img_src:
       "/public/images/recipes/savoury_lunch_waffles/savoury_lunch_waffles.jpg", // Placeholder image
     description:
@@ -209,7 +209,7 @@ const recipes = {
       "breakfast",
       "lunch",
       "vegetarian",
-      "low_carb",
+      "keto_and_low_carb",
       "quick_easy",
       "dessert",
     ],
@@ -248,7 +248,7 @@ const recipes = {
   // 7 SHIRATAKE NOODLE RAMEN SOUP
   shiratake_noodle_ramen_soup: {
     title: "Shiratake Noodle Ramen Soup",
-    category: ["dinner", "lunch", "gluten_free", "low_carb", "soups"],
+    category: ["dinner", "lunch", "gluten_free", "keto_and_low_carb", "soups"],
     img_src:
       "/public/images/recipes/shiratake_noodle_ramen_soup/shiratake_noodle_ramen_soup.jpg", // Placeholder image
     description:
@@ -371,10 +371,10 @@ const recipes = {
       "2 tablespoons tomato paste",
       "1 small onion, finely chopped",
       "2 cloves garlic, minced",
-      "1 teaspoon smoked paprika",
-      "1 teaspoon ground cumin",
+      "1 teaspoon <a href='https://amzn.to/480hOCV' target='_blank'> smoked paprika (US/Can)</a> or <a href='https://amzn.to/3ZVTQql' target='_blank'> smoked paprika (EU/UK)</a>",
+      "1 teaspoon <a href='https://amzn.to/3A4aut9' target='_blank'>ground cumin (EU/UK)</a> or <a href='https://amzn.to/4eWRf3F' target='_blank'>ground cumin (US/Can)</a>",
       "1 teaspoon chilli powder (adjust for heat preference)",
-      "1 teaspoon oregano",
+      "1 teaspoon <a href='https://amzn.to/3Y1LQl4' target='_blank'> dried oregano (US/Can)</a> or <a href='https://amzn.to/3Ym0qp0' target='_blank'> dried oregano (EU/UK)</a>",
       "Salt and pepper, to taste",
       "1 tablespoon olive oil, for sautéing",
     ],
@@ -407,7 +407,7 @@ const recipes = {
     category: [
       "breakfast",
       "lunch",
-      "low_carb_keto",
+      "keto_low_carb",
       "gluten_free",
       "dinner",
       "quick_and_easy",
@@ -650,12 +650,12 @@ const recipes = {
     ingredients: [
       "Mini Almond Flour Tortillas (link to <a href='/views/layouts/recipes/recipe_pages/tortilla_keto.html'>Keto Tortilla Recipe</a>, cut out 8-10cm diameter)",
       "400 g ground beef",
-      "1 can vita-bönor (white beans), drained and rinsed",
+      "1 can white beans, drained and rinsed",
       "1 can (400g) crushed tomatoes",
       "1 small onion, finely chopped",
       "2 cloves garlic, minced",
-      "1 tsp cumin",
-      "1 tsp smoked paprika",
+      "1 tsp <a href='https://amzn.to/3A4aut9' target='_blank'>cumin (EU/UK)</a> or <a href='https://amzn.to/4eWRf3F' target='_blank'>cumin (US/Can)</a>",
+      "1 tsp <a href='https://amzn.to/480hOCV' target='_blank'> smoked paprika (US/Can)</a> or <a href='https://amzn.to/3ZVTQql' target='_blank'> smoked paprika (EU/UK)</a>",
       "1/2 tsp coriander",
       "1/4 tsp cinnamon",
       "1/4 tsp marjoram",
@@ -760,7 +760,7 @@ const recipes = {
       "1 small onion, grated",
       "1 red pepper, finely chopped",
       "1 egg, beaten",
-      "1 tsp cumin",
+      "1 tsp <a href='https://amzn.to/3A4aut9' target='_blank'>cumin (EU/UK)</a> or <a href='https://amzn.to/4eWRf3F' target='_blank'>cumin (US/Can)</a>",
       "1 tsp turmeric",
       "1 tsp cardamom",
       "1 red chilli, finely chopped",
@@ -795,13 +795,7 @@ const recipes = {
   // Chicken Korma
   chicken_korma: {
     title: "Chicken Korma",
-    category: [
-      "dinner",
-      "gluten_free",
-      "low_carb",
-      "high_protein",
-      "side_dishes",
-    ],
+    category: ["dinner", "gluten_free", "keto_and_low_carb", "side_dishes"],
     img_src: "/public/images/recipes/chicken_korma/chicken_korma.jpg", // Add your image path here
     description:
       "A rich and aromatic chicken korma with a blend of almonds and cashews, spices, and creamy yoghurt. This low-carb dish is served with microwave poppadums instead of rice, making it perfect for those watching their blood sugar.",
@@ -822,7 +816,7 @@ const recipes = {
       "½ teaspoon turmeric powder",
       "1 teaspoon garam masala",
       "1 teaspoon ground coriander",
-      "1 teaspoon cumin powder",
+      "1 teaspoon <a href='https://amzn.to/3A4aut9' target='_blank'>cumin powder (EU/UK)</a> or <a href='https://amzn.to/4eWRf3F' target='_blank'>cumin powder (US/Can)</a>",
       "1 teaspoon red chilli powder (adjust to taste)",
       "1 tablespoon almonds and cashew nuts mixed",
       "200 ml water or chicken stock",
@@ -860,12 +854,7 @@ const recipes = {
   // Stuffed Peppers and Mushrooms with Lentils and Beef
   stuffed_peppers_mushrooms: {
     title: "Stuffed Bell Peppers and Mushrooms with Lentils and Beef",
-    category: [
-      "dinner",
-      "gluten_free",
-      "low_carb",
-      "high_fibre",
-    ],
+    category: ["dinner", "gluten_free", "keto_and_low_carb", ""],
     img_src:
       "/public/images/recipes/stuffed_peppers_mushrooms/stuffed_peppers_mushrooms.jpg", // Add image path here
     description:
@@ -877,11 +866,11 @@ const recipes = {
     ingredients: [
       "1 small onion, chopped",
       "200g lean beef mince (5% fat)",
-      "1 tsp ground cumin",
+      "1 tsp <a href='https://amzn.to/3A4aut9' target='_blank'>ground cumin (EU/UK)</a> or <a href='https://amzn.to/4eWRf3F' target='_blank'>ground cumin (US/Can)</a>",
       "2 cloves garlic, minced",
-      "Pinch of cayenne pepper",
-      "1 tsp smoked paprika",
-      "1 tsp dried oregano",
+      "Pinch of <a href='https://amzn.to/4eY6qto' target='_blank'> cayenne pepper (US/Can)</a> or <a href='https://amzn.to/4054wmv' target='_blank'> cayenne pepper (EU/UK)</a>",
+      "1 tsp <a href='https://amzn.to/480hOCV' target='_blank'> smoked paprika (US/Can)</a> or <a href='https://amzn.to/3ZVTQql' target='_blank'> smoked paprika (EU/UK)</a>",
+      "1 tsp <a href='https://amzn.to/3Y1LQl4' target='_blank'> dried oregano (US/Can)</a> or <a href='https://amzn.to/3Ym0qp0' target='_blank'> dried oregano (EU/UK)</a>",
       "1 tsp dried thyme",
       "1 tsp dried basil",
       "150g dry black, green, or red lentils",
@@ -942,7 +931,7 @@ const recipes = {
     total_time: "17 mins",
     servings: "12 cookies",
     ingredients: [
-      "1 cup natural crunchy peanut butter (unsweetened, no added sugar) (<a href='https://amzn.to/3NmnhKD' target='_blank'>EU/UK</a>, <a href='https://amzn.to/4eW0kd1' target='_blank'>US/Can</a>)",
+      "1 cup natural crunchy peanut butter (unsweetened, no added sugar) (<a href='https://amzn.to/3NmnhKD' target='_blank'>EU/UK</a>, or <a href='https://amzn.to/3NnLiks' target='_blank'>EU/UK</a>, <a href='https://amzn.to/4eW0kd1' target='_blank'>US/Can</a>)",
       "1/2 cup erythritol (<a href='https://amzn.to/3NHtIbz' target='_blank'>EU/UK</a>, <a href='https://amzn.to/3Nl85NJ' target='_blank'>US/Can</a>) or monk fruit sweetener (<a href='https://amzn.to/3Yia381' target='_blank'>US/Can</a>) (adjust sweetness as needed)",
       "1 large egg",
       "1/4 cup almond flour (<a href='https://amzn.to/3U7dqfp' target='_blank'>EU/UK</a>, <a href='https://amzn.to/3U6eekP' target='_blank'>US/Can</a>)",
@@ -952,7 +941,7 @@ const recipes = {
       "Optional: Dark unsweetened chocolate (see <a href='/views/layouts/recipes/recipe_pages/chocolate_raw.html'>this recipe</a>)",
     ],
     method: [
-      "Preheat the oven to 180°C (350°F). Line a baking sheet with parchment paper.",
+      "Preheat the oven to 180°C (350°F). Line a baking sheet with parchment paper (<a href='https://amzn.to/3NfIlCz' target='_blank'>(EU) Amazon</a> or <a href='https://amzn.to/3XN0WL6' target='_blank'>(US/Can) Amazon</a>).",
       "In a bowl, mix the peanut butter, erythritol (or monk fruit sweetener), and egg until well combined.",
       "Stir in the almond flour, vanilla extract, and baking soda until you have a smooth dough.",
       "Roll the dough into small balls (about 1 inch in diameter) and place them on the baking sheet.",
