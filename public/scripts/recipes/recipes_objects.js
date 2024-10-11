@@ -967,6 +967,7 @@ const recipes = {
       "Sweetener Options: Use erythritol (<a href='https://amzn.to/3NHtIbz' target='_blank'>EU/UK</a>, <a href='https://amzn.to/3Nl85NJ' target='_blank'>US/Can</a>) or monk fruit sweetener (<a href='https://amzn.to/3Yia381' target='_blank'>US/Can</a>) as a diabetic-friendly alternative to sugar.",
       "Less Sweet Option: I prefer to use far less erythritol in my recipes, if you would like a sweeter cookie, use the ½ cup of erythritol, I used ¼ cup in this recipe.",
       "Optional Chocolate: Add unsweetened dark chocolate or use <a href='/views/layouts/recipes/recipe_pages/chocolate_raw.html'>this chocolate recipe</a> for extra richness.",
+      "Optional Chocolate ii: Top the cookies with <a href='/views/layouts/recipes/recipe_pages/cocoa_peanut_butter_chocolate.html'>this unsweetened chocolate</a>, but make the chocolate without the peanut butter",
     ],
     nutrition: {
       calories: "90 kcal",
