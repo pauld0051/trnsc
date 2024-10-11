@@ -923,4 +923,57 @@ const recipes = {
     },
     date_added: "2024-10-10",
   },
+
+  // Peanut Butter Cookies
+  peanut_butter_cookies: {
+    title: "Peanut Butter Cookies",
+    category: [
+      "snacks",
+      "gluten_free",
+      "keto_and_low_carb",
+      "vegan",
+      "vegetarian",
+      "dessert",
+    ],
+    img_src:
+      "/public/images/recipes/peanut_butter_cookies/peanut_butter_cookies.jpg", // Add your image path here
+    description:
+      "Classic peanut butter cookies with a low-carb twist. Made with almond flour and sweetened with erythritol or monk fruit sweetener, these cookies are perfect for those managing blood sugar or following a keto diet. Optionally, add unsweetened chocolate for a rich treat.",
+    prep_time: "5 mins",
+    cook_time: "12 mins",
+    total_time: "17 mins",
+    servings: "12 cookies",
+    ingredients: [
+      "1 cup natural peanut butter (unsweetened, no added sugar)",
+      "1/2 cup erythritol or monk fruit sweetener (adjust sweetness as needed)",
+      "1 large egg",
+      "1/4 cup almond flour (<a href='https://amzn.to/3U6eekP' target='_blank'>US/Can</a>, <a href='https://amzn.to/3U7dqfp' target='_blank'>EU/UK</a>)",
+      "1/2 tsp vanilla extract (<a href='https://amzn.to/4dH7OzB' target='_blank'>US/Can</a>, <a href='https://amzn.to/3Yhyoeb' target='_blank'>EU/UK</a>)",
+      "1/2 tsp baking soda",
+      "A pinch of salt (optional)",
+      "Optional: Dark unsweetened chocolate (see <a href='/views/layouts/recipes/recipe_pages/chocolate_raw.html'>this recipe</a>)",
+    ],
+    method: [
+      "Preheat the oven to 180°C (350°F). Line a baking sheet with parchment paper.",
+      "In a bowl, mix the peanut butter, erythritol (or monk fruit sweetener), and egg until well combined.",
+      "Stir in the almond flour, vanilla extract, and baking soda until you have a smooth dough.",
+      "Roll the dough into small balls (about 1 inch in diameter) and place them on the baking sheet.",
+      "Gently press each ball with a fork to create a criss-cross pattern.",
+      "Bake for 10-12 minutes until the cookies are golden at the edges.",
+      "Let the cookies cool on the baking sheet for 5 minutes before transferring them to a wire rack to cool completely.",
+    ],
+    tips: [
+      "Adjust sweetness: I prefer using less erythritol for a more subtle sweetness.",
+      "Crunchy Peanut Butter: I prefer crunchy peanut butter for texture (<a href='https://amzn.to/3NmnhKD' target='_blank'>EU/UK</a>, <a href='https://amzn.to/3Nl5F1F' target='_blank'>US/Can</a>).",
+      "Optional Chocolate: Add unsweetened dark chocolate or use <a href='/views/layouts/recipes/recipe_pages/chocolate_raw.html'>this chocolate recipe</a> for extra richness.",
+    ],
+    nutrition: {
+      calories: "90 kcal",
+      carbs: "4g",
+      fibre: "1g",
+      protein: "4g",
+      fat: "7g",
+    },
+    date_added: "2024-10-11",
+  },
 };
