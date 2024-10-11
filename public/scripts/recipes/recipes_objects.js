@@ -865,7 +865,6 @@ const recipes = {
       "gluten_free",
       "low_carb",
       "high_fibre",
-      "vegetarian_option",
     ],
     img_src:
       "/public/images/recipes/stuffed_peppers_mushrooms/stuffed_peppers_mushrooms.jpg", // Add image path here
