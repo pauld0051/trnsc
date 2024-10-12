@@ -168,7 +168,7 @@ const recipes = {
   // 5 SAVOURY LUNCH WAFFLES
   savoury_lunch_waffles: {
     title: "Savoury Lunch Waffles",
-    category: ["lunch", "vegetarian", "keto_and_low_carb", "quick_easy"],
+    category: ["lunch", "vegetarian", "keto_and_low_carb", "quick_and_easy"],
     img_src:
       "/public/images/recipes/savoury_lunch_waffles/savoury_lunch_waffles.jpg", // Placeholder image
     description:
@@ -210,7 +210,7 @@ const recipes = {
       "lunch",
       "vegetarian",
       "keto_and_low_carb",
-      "quick_easy",
+      "quick_and_easy",
       "dessert",
     ],
     img_src: "/public/images/recipes/almond_pancakes/almond_pancakes.jpg", // Placeholder image
