@@ -659,7 +659,7 @@ const recipes = {
       "½ tsp <a href='https://amzn.to/4eXnEHl' target='_blank'>ground coriander (EU/UK)</a> or <a href='https://amzn.to/3Ymp60z' target='_blank'>ground coriander (US/Can)</a>",
       "¼ tsp <a href='https://amzn.to/483pOD8' target='_blank'>ground cinnamon (EU/UK)</a> or <a href='https://amzn.to/4f1zyQi' target='_blank'>ground cinnamon (US/Can)</a>",
       "¼ tsp marjoram",
-      "½ tsp garlic powder",
+      "½ tsp (<a href='https://amzn.to/400SACg' target='_blank'>Garlic Powder (EU/UK)</a>, <a href='https://amzn.to/4dFMYAE' target='_blank'>Garlic Powder (US/Can)</a>)",
       "1 tsp dried basil",
       "Salt and pepper, to taste",
       "Olive oil (for cooking)",
@@ -1056,6 +1056,43 @@ const recipes = {
       fibre: "4g",
       protein: "6g",
       fat: "22g",
+    },
+    date_added: "2024-10-13",
+  },
+
+  // Crispy Sweet Peas
+  crispy_sweet_peas: {
+    title: "Crispy Sweet Peas",
+    category: ["snacks", "gluten_free", "keto_and_low_carb", "vegan"],
+    img_src: "/public/images/recipes/crispy_sweet_peas/crispy_sweet_peas.jpg",
+    description:
+      "Crunchy, low-carb, and full of flavour, these crispy sweet peas are a delicious and diabetic-friendly snack. Perfect for quick baking or dehydrating, they're a great alternative to potato chips.",
+    prep_time: "10 mins",
+    cook_time: "20 mins (Quick Oven Method)",
+    total_time: "30 mins",
+    servings: "4 cups",
+    ingredients: [
+      "200–400 g fresh or frozen snap peas (approximately up to 4 cups)",
+      "1.25 g sea salt (¼ teaspoon)",
+      "1.25 g onion or garlic powder (<a href='https://amzn.to/400SACg' target='_blank'>Garlic powder (EU/UK)</a>, <a href='https://amzn.to/4dFMYAE' target='_blank'>Garlic powder (US/Can)</a> or <a href='https://amzn.to/48d3S8I' target='_blank'>Onion powder (EU/UK)</a>, <a href='https://amzn.to/484xQLS' target='_blank'>Onion powder (US/Can)</a>)",
+      "Optional: 10–12 g nutritional yeast (<a href='https://amzn.to/4dQydLk' target='_blank'>EU/UK</a>, <a href='https://amzn.to/3U7fGn6' target='_blank'>US/Can</a>)",
+      "10–15 ml oil (2–3 teaspoons)",
+    ],
+    method: [
+      "Quick Oven Baking Method: Preheat oven to 175°C (350°F). Toss snap peas with oil, sea salt, and onion or garlic powder. Spread evenly on a baking sheet. Bake for 15 minutes, decrease the temperature to 150°C (300°F) and flipping the peas for even crisping, cook for a further 5 minutes. Enjoy fresh and crispy!",
+      "<a href='https://amzn.to/4eZEghG' target='_blank'>Dehydrator (EU/UK)</a> or <a href='https://amzn.to/3BIPVmK' target='_blank'>Dehydrator (US/Can)</a> Method: Toss seasoned snap peas, dehydrate at 57–60°C (135–140°F) for 8-10 hours. Let sit at room temperature for 1 hour before packaging.",
+      "Slow Oven Method: Preheat oven to 75°C (170°F). Bake snap peas for 5-6 hours, keeping the door propped open slightly. Check after 4 hours.",
+    ],
+    tips: [
+      "For a 'cheesy' flavour, sprinkle on nutritional yeast, which is diabetic-friendly and rich in B vitamins and protein.",
+      "For crispier peas, let the baked version sit in a dry environment for a few days.",
+    ],
+    nutrition: {
+      calories: "80 kcal",
+      carbs: "10g",
+      fibre: "4g",
+      protein: "4g",
+      fat: "3g",
     },
     date_added: "2024-10-13",
   },
