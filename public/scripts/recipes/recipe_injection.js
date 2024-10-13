@@ -150,7 +150,7 @@ function injectRecipeCards() {
 function injectRecipeContent(recipe) {
   // Populate the recipe content dynamically
   document.getElementById("recipe-title").innerText = recipe.title;
-  document.getElementById("recipe-description").innerText = recipe.description;
+  document.getElementById("recipe-description").innerHTML = recipe.description;
   document.getElementById("prep-time").innerText = recipe.prep_time;
   document.getElementById("cook-time").innerText = recipe.cook_time;
   document.getElementById("total-time").innerText = recipe.total_time;

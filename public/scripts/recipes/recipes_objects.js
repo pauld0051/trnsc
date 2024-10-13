@@ -966,4 +966,97 @@ const recipes = {
     },
     date_added: "2024-10-11",
   },
+
+  // Kiwi Keto Meat Pie
+  meat_pie: {
+    title: "Keto Meat Pie",
+    category: ["dinner", "gluten_free", "keto_and_low_carb"],
+    img_src: "/public/images/recipes/meat_pie/meat_pie.jpg", // Add your image path here
+    description:
+      "A savoury keto-friendly pie packed with lean beef mince, vegetables, and herbs, encased in a low-carb savoury pie crust. Perfect for those following a low-carb or gluten-free diet.",
+    prep_time: "25 mins",
+    cook_time: "35 mins",
+    total_time: "1 hour",
+    servings: "6",
+    ingredients: [
+      "500g lean beef mince",
+      "1 large onion, finely diced",
+      "1 clove garlic, crushed",
+      "2 large Portobello mushrooms, finely chopped",
+      "1 small parsnip, diced",
+      "2 stalks celery, sliced",
+      "1 handful fresh parsley, finely chopped",
+      "1 tablespoon fresh rosemary, finely chopped (or you can try <a href='https://amzn.to/3YnjqDm' target='_blank'>Dried rosemary (EU/UK)</a>, <a href='https://amzn.to/3BFrC9l' target='_blank'>Dried rosemary (US/Can)</a>)",
+      "1 tablespoon wholegrain mustard (check for sugar-free) or 1 tsp mustard powder (<a href='https://amzn.to/3YxbVdn' target='_blank'>Mustard powder (EU/UK)</a>, <a href='https://amzn.to/3zN79ih' target='_blank'>Mustard powder (US/Can)</a>)",
+      "2 tablespoons tomato paste",
+      "1 tablespoon balsamic vinegar (<a href='https://amzn.to/3zWcBiN' target='_blank'>Balsamic vinegar (EU/UK)</a>, <a href='https://amzn.to/3U8Ol3I' target='_blank'>Balsamic vinegar (US/Can)</a>)",
+      "1 cup low-sodium, sugar-free beef stock",
+      "Salt and pepper to taste",
+      "Prepared savoury pie crust (Follow the <a href='/views/layouts/recipes/recipe_pages/savoury_pie_crust.html'>savoury pie crust recipe here</a>)",
+    ],
+    method: [
+      "Sauté Vegetables: Heat a splash of olive oil in a large, lidded frying pan. Fry the onion and garlic until soft. Add the parsnip, mushrooms, and celery, and cook until softened. Stir in parsley and rosemary.",
+      "Cook the Beef: Add beef mince and cook until browned. Stir in mustard, vinegar, tomato paste, and beef stock.",
+      "Simmer: Let the mixture simmer, covered, for 25-30 minutes. Adjust seasoning with salt and pepper. If too dry, add more stock; if too runny, add a little psyllium husk.",
+      "Assemble the Pie: Pour the meat filling into your prepared pie crust. Follow the instructions for pre-baking the crust for crispiness. Add the top dough layer after the filling.",
+      "Bake: Preheat oven to 180°C (350°F). Bake the pie for 30-35 minutes until the crust is golden brown.",
+    ],
+    tips: [
+      "Ensure your mustard is sugar-free for keto compliance. Adjust herbs to taste—dried rosemary is an option if fresh is unavailable.",
+      "Serve with green beans or a mixed salad for added fibre and a balanced meal.",
+    ],
+    nutrition: {
+      calories: "450 kcal",
+      carbs: "10g",
+      fibre: "5g",
+      protein: "35g",
+      fat: "30g",
+    },
+    date_added: "2024-10-13",
+  },
+
+  // Savoury Pie Crust
+  savoury_pie_crust: {
+    title: "Savoury Pie Crust",
+    category: ["gluten_free", "keto_and_low_carb", "dinner", "side_dishes"],
+    img_src: "/public/images/recipes/meat_pie/meat_pie.jpg", // Temporary image
+    description:
+      "A keto-friendly, gluten-free savoury pie crust made with almond flour, perfect for holding your favourite fillings. Crispy, buttery, and low-carb, this crust is ideal for pies like the <a href='/views/layouts/recipes/recipe_pages/meat_pie.html' target='_blank'>Keto Meat Pie</a>.",
+    prep_time: "15 mins",
+    cook_time: "12 mins (blind bake)",
+    total_time: "1 hour",
+    servings: "1 pie crust",
+    ingredients: [
+      "2 cups almond flour (<a href='https://amzn.to/3U7dqfp' target='_blank'>EU/UK</a>, <a href='https://amzn.to/3U6eekP' target='_blank'>US/Can</a>)",
+      "1/4 cup quinoa flour (<a href='https://amzn.to/3NpULaW' target='_blank'>EU/UK</a>, <a href='https://amzn.to/3ZXlvap' target='_blank'>US/Can</a>) or chickpea flour (<a href='https://amzn.to/3zSUPwV' target='_blank'>EU/UK</a>, <a href='https://amzn.to/4eZuIDm' target='_blank'>US/Can</a>)",
+      "1 tablespoon psyllium husk (<a href='https://amzn.to/3zYWqBb' target='_blank'>EU</a>, <a href='https://amzn.to/3NcDeDh' target='_blank'>US/Can</a>)",
+      "1/2 teaspoon xanthan gum (<a href='https://amzn.to/4eDPoBd' target='_blank'>EU/UK</a>, <a href='https://amzn.to/3ZWOZFo' target='_blank'>US/Can</a>)",
+      "1/2 teaspoon salt",
+      "1/2 cup (100g) cold butter, cubed",
+      "1 large egg",
+      "1 tablespoon cold water (if needed)",
+      "Optional: 1/4 tsp garlic powder (<a href='https://amzn.to/400SACg' target='_blank'>EU/UK</a>, <a href='https://amzn.to/4dFMYAE' target='_blank'>US/Can</a>) or onion powder (<a href='https://amzn.to/48d3S8I' target='_blank'>EU/UK</a>, <a href='https://amzn.to/484xQLS' target='_blank'>US/Can</a>)",
+    ],
+    method: [
+      "Combine dry ingredients: Mix almond flour, quinoa flour (or chickpea flour), psyllium husk, xanthan gum, and salt.",
+      "Cut in the butter: Rub cold butter into the dry mixture until it resembles coarse crumbs.",
+      "Add the egg: Stir in the egg until the dough starts to come together. Add cold water if the dough is too dry.",
+      "Shape and chill: Shape the dough into a ball, wrap it, and chill for 30-60 minutes.",
+      "Roll out and transfer: Roll out between parchment paper, then transfer into a greased pie dish.",
+      "Blind bake: Bake the crust for 10-12 minutes to prevent over-browning or fill it directly with your savoury pie filling.",
+      "Bake with filling: Once filled, bake for an additional 30-35 minutes until golden brown.",
+    ],
+    tips: [
+      "For extra crispiness, use quinoa flour. Coconut flour can be substituted, but reduce the amount to 2 tablespoons.",
+      "Xanthan gum and psyllium husk provide structure, holding the pie together better.",
+    ],
+    nutrition: {
+      calories: "250 kcal",
+      carbs: "8g",
+      fibre: "4g",
+      protein: "6g",
+      fat: "22g",
+    },
+    date_added: "2024-10-13",
+  },
 };
