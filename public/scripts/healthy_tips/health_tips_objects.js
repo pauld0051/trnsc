@@ -15,5 +15,12 @@ const articles = [
     image: "/public/images/Science/sweeteners/artificial_sweeteners.jpg",
     dateAdded: "2024-10-02",
   },
-  // Add more articles here
+  {
+    title: "Don't Forget to Toast Your Nuts",
+    description:
+      "Learn why toasting your nuts enhances their flavour, improves texture, and can boost nutrient absorption, making them an even healthier snack option.",
+    link: "/views/layouts/healthy_tips/toasted_nuts.html",
+    image: "/public/images/healthy_tips/toasted_nuts/toasted_nuts.jpg",
+    dateAdded: "2024-10-14",
+  },
 ];
