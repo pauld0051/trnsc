@@ -1096,4 +1096,45 @@ const recipes = {
     },
     date_added: "2024-10-13",
   },
+
+  // Raspberry Cream Cheesecake
+  raspberry_cream_cheesecake: {
+    title: "Raspberry Cream Cheesecake",
+    category: ["dessert", "gluten_free", "low_carb", "keto_and_low_carb"],
+    img_src:
+      "/public/images/recipes/raspberry_cream_cheesecake/raspberry_cream_cheesecake.jpg",
+    description:
+      "A light, creamy, and diabetic-friendly cheesecake featuring fresh raspberries and cream cheese, perfect for a low-carb treat.",
+    prep_time: "15 mins",
+    cook_time: "0 mins (no-bake)",
+    total_time: "2 hours 15 mins (including chilling time)",
+    servings: "4",
+    ingredients: [
+      "250 ml heavy whipping cream",
+      "125 g fresh or frozen raspberries (1 Swedish punnet)",
+      "1 tsp vanilla extract",
+      "250 g cream cheese, at room temperature",
+      "1 tsp unflavoured gelatin powder (<a href='https://amzn.to/4dNoHc3' target='_blank'>Gelatin (US/Can)</a>, <a href='https://amzn.to/4eEySkc' target='_blank'>Gelatin (EU/UK)</a>)",
+      "2 tbsp water",
+      "Optional: 1 lemon, zested and juiced",
+    ],
+    method: [
+      "Raspberry mix: Mash thawed raspberries and set aside.",
+      "Bloom gelatin: Sprinkle gelatin over water and let sit for 5 minutes. Heat gently until dissolved, then cool.",
+      "Combine: Beat cream cheese with vanilla (and optional lemon), fold in raspberries, then add gelatin.",
+      "Whip cream: Beat heavy cream until soft peaks form, then fold into the mixture in two batches.",
+      "Chill: Spoon mixture into ramekins, cover, and chill for at least 2 hours.",
+    ],
+    tips: [
+      "Natural sweetness from raspberries helps avoid additional sugars, making this a good choice for diabetics.",
+      "For a firmer texture, freeze for a short time before serving.",
+    ],
+    nutrition: {
+      calories: "~320 kcal",
+      total_fat: "~32 g",
+      protein: "~5 g",
+      net_carbs: "~5-6 g",
+    },
+    date_added: "2024-10-14",
+  },
 };
