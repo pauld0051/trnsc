@@ -178,7 +178,7 @@ const recipes = {
     total_time: "15 mins",
     servings: "2",
     ingredients: [
-      "120g almond flour", // Adjusted the measurement from mL to grams
+      "120g almond flour (<a href='https://amzn.to/3U7dqfp' target='_blank'>EU/UK</a>, <a href='https://amzn.to/3U6eekP' target='_blank'>US/Can</a>)", // Adjusted the measurement from mL to grams
       "2 eggs",
       "½ teaspoon baking powder",
       "1 small onion, finely chopped",
@@ -221,7 +221,7 @@ const recipes = {
     total_time: "15 mins",
     servings: "2",
     ingredients: [
-      "120g almond flour",
+      "120g almond flour (<a href='https://amzn.to/3U7dqfp' target='_blank'>EU/UK</a>, <a href='https://amzn.to/3U6eekP' target='_blank'>US/Can</a>)",
       "2 eggs",
       "½ teaspoon baking powder",
       "1 small onion, finely chopped (optional if you want to omit savoury taste)",
@@ -1134,6 +1134,54 @@ const recipes = {
       total_fat: "~32 g",
       protein: "~5 g",
       net_carbs: "~5-6 g",
+    },
+    date_added: "2024-10-14",
+  },
+
+  // Not-Cornbread Cornbread
+  not_cornbread: {
+    title: "Not-Cornbread Cornbread",
+    category: [
+      "snacks",
+      "gluten_free",
+      "keto_and_low_carb",
+      "vegan",
+      "vegetarian",
+    ],
+    img_src: "/public/images/recipes/not_cornbread/not_cornbread.jpg",
+    description:
+      "A keto and diabetic-friendly 'cornbread' made without corn! This savoury bread alternative is perfect for those on a low-carb or gluten-free diet. Customise it with cheese or jalapeños for extra flavour.",
+    prep_time: "10 mins",
+    cook_time: "25 mins",
+    total_time: "35 mins",
+    servings: "8 slices",
+    ingredients: [
+      "1 1/2 cups blanched almond flour (<a href='https://amzn.to/3U7dqfp' target='_blank'>Almond Flour (EU/UK)</a>, <a href='https://amzn.to/3U6eekP' target='_blank'>Almond Flour (US/Can)</a>)",
+      "1/4 cup coconut flour (<a href='https://amzn.to/3zXdLL0' target='_blank'>Coconut Flour (EU/UK)</a>, <a href='https://amzn.to/3UaxFZX' target='_blank'>Coconut Flour (US/Can)</a>)",
+      "1 tsp baking powder (corn-free if needed)",
+      "1/2 tsp sea salt (<a href='https://amzn.to/3Nrp0hK' target='_blank'>Sea Salt (EU/UK)</a>, <a href='https://amzn.to/3U9016P' target='_blank'>Sea Salt (US/Can)</a>)",
+      "3 large eggs",
+      "1/3 cup milk (or any milk alternative)",
+      "1/4 cup (60g) melted butter (or <a href='https://amzn.to/3U4Qrlj' target='_blank'>ghee (EU/UK)</a>, <a href='https://amzn.to/3NlckJp' target='_blank'>ghee (US/Can)</a> for a paleo version)",
+      "Optional: Add-ins like shredded cheese, chopped jalapeños, or herbs",
+    ],
+    method: [
+      "Preheat oven to 165°C (325°F). Grease a <a href='https://amzn.to/4eJ5CsK' target='_blank'>bread baking tray (EU/UK)</a>, or this <a href='https://amzn.to/40bPD1E' target='_blank'>bread baking tray (US/Can)</a> with oil or butter.",
+      "Whisk together almond flour, coconut flour, baking powder, and salt in a bowl.",
+      "In a separate bowl, whisk the eggs, milk, and melted butter.",
+      "Combine wet ingredients with the dry, mixing until fully incorporated.",
+      "Pour the batter into the greased tray and smooth the top.",
+      "Bake for 20-25 minutes until the top is golden and springs back when touched.",
+    ],
+    tips: [
+      "For a cheesy version, add 1/2 cup shredded cheese to the batter.",
+      "For a spicy kick, mix in 1/2 diced jalapeño before baking.",
+    ],
+    nutrition: {
+      calories: "~190 kcal",
+      total_fat: "~15g",
+      protein: "~6g",
+      net_carbs: "~4g",
     },
     date_added: "2024-10-14",
   },
