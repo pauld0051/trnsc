@@ -1214,8 +1214,8 @@ const recipes = {
     ],
     method: [
       "Pickled Onion: Grate 1/4 of the onion, mix with vinegar and salt, and set aside.",
-      "Caramelised Onion: Heat olive oil, sauté the rest of the grated onion and leek for 3-4 minutes, then add garam masala. Cook until golden brown.",
-      "Tomato Chutney: Add grated tomatoes to the caramelised onion. Cook until reduced, then set aside.",
+      "Caramelised Onion: Heat olive oil, sauté the rest of the grated onion and leek for 3-4 minutes, then add garam masala. Cook until golden and caramelised.",
+      "Tomato Chutney: Move the onions to one side of the pan and then add grated tomatoes. Cook until reduced, then mix the caramelised onion and set aside.",
       "Crisp the Cornbread: Fry slices of not-cornbread in the remaining chutney bits until crispy.",
       "Scrambled Eggs: Mix eggs with basil, marjoram, and salt. Scramble in the same pan as the chutney.",
       "Assembly: Arrange the toasted cornbread slices on the plate, top with the tomato chutney and the pickled onion, sprinkle with fresh coriander or parsley.",
