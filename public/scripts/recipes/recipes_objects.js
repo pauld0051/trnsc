@@ -20,7 +20,7 @@ const recipes = {
     servings: "4",
     ingredients: [
       "2 large beetroots",
-      "2-3 tablespoons olive oil",
+      "2-3 tablespoons <a href='https://amzn.to/4gVpL0c' target='_blank'>olive oil (EU/UK) Amazon</a> or <a href='https://amzn.to/47SOaPT' target='_blank'>olive oil (US/Can) Amazon</a>",
       "Salt or seasoning of your choice",
     ],
     method: [
@@ -60,7 +60,7 @@ const recipes = {
     servings: "4",
     ingredients: [
       "2 large parsnips",
-      "2-3 tablespoons olive oil",
+      "2-3 tablespoons <a href='https://amzn.to/4gVpL0c' target='_blank'>olive oil (EU/UK) Amazon</a> or <a href='https://amzn.to/47SOaPT' target='_blank'>olive oil (US/Can) Amazon</a>",
       "1 teaspoon onion powder (or seasoning of your choice)",
       "Salt, to taste",
       "Hummus, for serving",
@@ -304,7 +304,7 @@ const recipes = {
     ingredients: [
       "200g chicken breast, thinly sliced",
       "200g <a href='https://amzn.to/3Ybhlua' target='_blank'>(EU) shiratake noodles</a> or <a href='https://amzn.to/4eMv5Rw' target='_blank'>(US/Can) shiratake noodles</a> (or <a href='https://amzn.to/3Ymf2Vr' target='_blank'>bean noodles</a>, cooked), rinsed and drained",
-      "1 tablespoon olive oil",
+      "1 tablespoon <a href='https://amzn.to/4gVpL0c' target='_blank'>olive oil (EU/UK) Amazon</a> or <a href='https://amzn.to/47SOaPT' target='_blank'>olive oil (US/Can) Amazon</a>",
       "2 cloves garlic, minced",
       "1 small red onion, thinly sliced",
       "1 red bell pepper, julienned",
@@ -376,7 +376,7 @@ const recipes = {
       "1 teaspoon <a href='https://amzn.to/3BTvSSo' target='_blank'>red chilli powder (EU/UK)</a> or <a href='https://amzn.to/4dLbOyU' target='_blank'>red chilli powder (US/Can)</a> (adjust for heat preference)",
       "1 teaspoon <a href='https://amzn.to/3Y1LQl4' target='_blank'> dried oregano (US/Can)</a> or <a href='https://amzn.to/3Ym0qp0' target='_blank'> dried oregano (EU/UK)</a>",
       "Salt and pepper, to taste",
-      "1 tablespoon olive oil, for sautéing",
+      "1 tablespoon <a href='https://amzn.to/4gVpL0c' target='_blank'>olive oil (EU/UK) Amazon</a> or <a href='https://amzn.to/47SOaPT' target='_blank'>olive oil (US/Can) Amazon</a>, for sautéing",
     ],
     method: [
       "Sauté the onions and garlic: In a large pan, heat the olive oil over medium heat. Add the finely chopped onion and minced garlic, sautéing until softened and fragrant, about 3-4 minutes.",
@@ -424,7 +424,7 @@ const recipes = {
       "4 rashers of bacon (choose a leaner cut for a healthier option)",
       "2 eggs",
       "1 large sweet potato, mandolin sliced into fries",
-      "1 tablespoon olive oil",
+      "1 tablespoon <a href='https://amzn.to/4gVpL0c' target='_blank'>olive oil (EU/UK) Amazon</a> or <a href='https://amzn.to/47SOaPT' target='_blank'>olive oil (US/Can) Amazon</a>",
       "Salt, to taste",
       "200g broccoli florets",
     ],
@@ -469,9 +469,9 @@ const recipes = {
       "400g crushed tomatoes (tinned)",
       "1 small onion, finely chopped",
       "2 cloves garlic, minced",
-      "1 tablespoon olive oil",
-      "1 teaspoon dried basil",
-      "1 teaspoon dried marjoram",
+      "1 tablespoon <a href='https://amzn.to/4gVpL0c' target='_blank'>olive oil (EU/UK) Amazon</a> or <a href='https://amzn.to/47SOaPT' target='_blank'>olive oil (US/Can) Amazon</a>",
+      "1 teaspoon <a href='https://amzn.to/3Nold4X' target='_blank'>dried basil (EU/UK)</a>, <a href='https://amzn.to/3AbwQZM' target='_blank'> dried basil (US/Can)</a>",
+      "1 teaspoon <a href='https://amzn.to/4f11ALW' target='_blank'>dried marjoram (EU/UK)</a>, <a href='https://amzn.to/3BOyAcc' target='_blank'>dried marjoram (US/Can)</a>",
       "Salt and pepper, to taste",
     ],
     method: [
@@ -658,9 +658,9 @@ const recipes = {
       "1 tsp <a href='https://amzn.to/3ZVTQql' target='_blank'> smoked paprika (EU/UK)</a> or <a href='https://amzn.to/480hOCV' target='_blank'> smoked paprika (US/Can)</a>",
       "½ tsp <a href='https://amzn.to/4eXnEHl' target='_blank'>ground coriander (EU/UK)</a> or <a href='https://amzn.to/3Ymp60z' target='_blank'>ground coriander (US/Can)</a>",
       "¼ tsp <a href='https://amzn.to/483pOD8' target='_blank'>ground cinnamon (EU/UK)</a> or <a href='https://amzn.to/4f1zyQi' target='_blank'>ground cinnamon (US/Can)</a>",
-      "¼ tsp marjoram",
-      "½ tsp (<a href='https://amzn.to/400SACg' target='_blank'>Garlic Powder (EU/UK)</a>, <a href='https://amzn.to/4dFMYAE' target='_blank'>Garlic Powder (US/Can)</a>)",
-      "1 tsp dried basil",
+      "¼ tsp <a href='https://amzn.to/4f11ALW' target='_blank'>dried marjoram (EU/UK)</a>, <a href='https://amzn.to/3BOyAcc' target='_blank'>dried marjoram (US/Can)</a>",
+      "½ tsp <a href='https://amzn.to/400SACg' target='_blank'>Garlic Powder (EU/UK)</a>, <a href='https://amzn.to/4dFMYAE' target='_blank'>Garlic Powder (US/Can)</a>",
+      "1 tsp <a href='https://amzn.to/3Nold4X' target='_blank'>dried basil (EU/UK)</a>, <a href='https://amzn.to/3AbwQZM' target='_blank'> dried basil (US/Can)</a>",
       "Salt and pepper, to taste",
       "Olive oil (for cooking)",
     ],
@@ -711,7 +711,7 @@ const recipes = {
       "240 g almond flour (<a href='https://amzn.to/3Bzos6Q' target='_blank'>(EU) Amazon</a> or <a href='https://amzn.to/4gUQZnx' target='_blank'>(US/Can) Amazon</a>)",
       "6 tablespoons (about 50 g) psyllium husks (not the powder) (<a href='https://amzn.to/3zYWqBb' target='_blank'>(EU) Amazon</a> or <a href='https://amzn.to/3NcDeDh' target='_blank'>(US/Can) Amazon</a>)",
       "1 teaspoon (5 g) salt",
-      "1 tablespoon (15 ml) olive oil (<a href='https://amzn.to/4gVpL0c' target='_blank'>(EU) Amazon</a> or <a href='https://amzn.to/47SOaPT' target='_blank'>(US/Can) Amazon</a>)",
+      "1 tablespoon (15 ml) <a href='https://amzn.to/4gVpL0c' target='_blank'>olive oil (EU/UK) Amazon</a> or <a href='https://amzn.to/47SOaPT' target='_blank'>olive oil (US/Can) Amazon</a>",
       "240 ml warm water (not boiling)",
       "½ teaspoon of baking powder",
     ],
@@ -872,7 +872,7 @@ const recipes = {
       "1 tsp <a href='https://amzn.to/480hOCV' target='_blank'> smoked paprika (US/Can)</a> or <a href='https://amzn.to/3ZVTQql' target='_blank'> smoked paprika (EU/UK)</a>",
       "1 tsp <a href='https://amzn.to/3Y1LQl4' target='_blank'> dried oregano (US/Can)</a> or <a href='https://amzn.to/3Ym0qp0' target='_blank'> dried oregano (EU/UK)</a>",
       "1 tsp dried thyme",
-      "1 tsp dried basil",
+      "1 tsp <a href='https://amzn.to/3Nold4X' target='_blank'>dried basil (EU/UK)</a>, <a href='https://amzn.to/3AbwQZM' target='_blank'> dried basil (US/Can)</a>",
       "150g dry black, green, or red lentils",
       "200g tin chopped tomatoes (or 200g fresh tomatoes, chopped)",
       "1 tbsp tomato purée",
@@ -884,7 +884,7 @@ const recipes = {
       "Broccoli florets",
       "½ tomatoes",
       "Fresh mozzarella for topping",
-      "1 tbsp olive oil",
+      "1 tbsp <a href='https://amzn.to/4gVpL0c' target='_blank'>olive oil (EU/UK) Amazon</a> or <a href='https://amzn.to/47SOaPT' target='_blank'>olive oil (US/Can) Amazon</a>",
       "Salt and pepper to taste",
     ],
     method: [
@@ -1073,7 +1073,7 @@ const recipes = {
     servings: "4 cups",
     ingredients: [
       "200–400 g fresh or frozen snap peas (approximately up to 4 cups)",
-      "1.25 g sea salt (¼ teaspoon)",
+      "1.25 g sea salt (¼ teaspoon) (<a href='https://amzn.to/3Nrp0hK' target='_blank'>Sea Salt (EU/UK)</a>, <a href='https://amzn.to/3U9016P' target='_blank'>Sea Salt (US/Can)</a>)",
       "1.25 g onion or garlic powder (<a href='https://amzn.to/400SACg' target='_blank'>Garlic powder (EU/UK)</a>, <a href='https://amzn.to/4dFMYAE' target='_blank'>Garlic powder (US/Can)</a> or <a href='https://amzn.to/48d3S8I' target='_blank'>Onion powder (EU/UK)</a>, <a href='https://amzn.to/484xQLS' target='_blank'>Onion powder (US/Can)</a>)",
       "Optional: 10–12 g nutritional yeast (<a href='https://amzn.to/4dQydLk' target='_blank'>EU/UK</a>, <a href='https://amzn.to/3U7fGn6' target='_blank'>US/Can</a>)",
       "10–15 ml oil (2–3 teaspoons)",
@@ -1100,7 +1100,7 @@ const recipes = {
   // Raspberry Cream Cheesecake
   raspberry_cream_cheesecake: {
     title: "Raspberry Cream Cheesecake",
-    category: ["dessert", "gluten_free", "low_carb", "keto_and_low_carb"],
+    category: ["dessert", "gluten_free", "keto_and_low_carb"],
     img_src:
       "/public/images/recipes/raspberry_cream_cheesecake/raspberry_cream_cheesecake.jpg",
     description:
@@ -1184,5 +1184,52 @@ const recipes = {
       net_carbs: "~4g",
     },
     date_added: "2024-10-14",
+  },
+
+  // Chutney-Scrambled Eggs with Pickled Onion
+  chutney_scrambled_eggs: {
+    title: "Chutney-Scrambled Eggs with Pickled Onion",
+    category: ["breakfast", "gluten_free", "keto_and_low_carb", "lunch"],
+    img_src:
+      "/public/images/recipes/chutney_scrambled_eggs/chutney_scrambled_eggs.jpg",
+    description:
+      "A savoury scrambled egg recipe with caramelised onion, tomato chutney, and pickled onion. Perfect for a low-carb and diabetic-friendly breakfast or lunch.",
+    prep_time: "10 mins",
+    cook_time: "15 mins",
+    total_time: "25 mins",
+    servings: "2",
+    ingredients: [
+      "1 medium red onion",
+      "1/2 leek, finely sliced",
+      "1 tablespoon apple cider vinegar (<a href='https://amzn.to/3NsCGJA' target='_blank'>EU/UK</a>, <a href='https://amzn.to/48688qe' target='_blank'>US/Can</a>)",
+      "1 tsp garam masala (<a href='https://amzn.to/3YlriFp' target='_blank'>EU/UK</a>, <a href='https://amzn.to/3zXQMQ0' target='_blank'>US/Can</a>)",
+      "A pinch of salt (<a href='https://amzn.to/3Nrp0hK' target='_blank'>EU/UK</a>, <a href='https://amzn.to/3U9016P' target='_blank'>US/Can</a>)",
+      "4 tomatoes or 1 can crushed tomatoes",
+      "4 large eggs",
+      "1 tsp dried basil (<a href='https://amzn.to/3Nold4X' target='_blank'>EU/UK</a>, <a href='https://amzn.to/3AbwQZM' target='_blank'>US/Can</a>)",
+      "1 tsp dried marjoram (<a href='https://amzn.to/4f11ALW' target='_blank'>EU/UK</a>, <a href='https://amzn.to/3BOyAcc' target='_blank'>US/Can</a>)",
+      "1 tablespoon olive oil (<a href='https://amzn.to/4gVpL0c' target='_blank'>EU/UK</a>, <a href='https://amzn.to/47SOaPT' target='_blank'>US/Can</a>)",
+      "2 slices of not-cornbread (<a href='/views/layouts/recipes/recipe_pages/not_cornbread.html'>recipe here</a>)",
+      "3 tablespoons of fresh coriander or parsley",
+    ],
+    method: [
+      "Pickled Onion: Grate 1/4 of the onion, mix with vinegar and salt, and set aside.",
+      "Caramelised Onion: Heat olive oil, sauté the rest of the grated onion and leek for 3-4 minutes, then add garam masala. Cook until golden brown.",
+      "Tomato Chutney: Add grated tomatoes to the caramelised onion. Cook until reduced, then set aside.",
+      "Crisp the Cornbread: Fry slices of not-cornbread in the remaining chutney bits until crispy.",
+      "Scrambled Eggs: Mix eggs with basil, marjoram, and salt. Scramble in the same pan as the chutney.",
+      "Assembly: Arrange the toasted cornbread slices on the plate, top with the tomato chutney and the pickled onion, sprinkle with fresh coriander or parsley.",
+    ],
+    tips: [
+      "Pickling the onion ahead of time enhances the flavour.",
+      "The residual chutney flavours in the pan add depth to the scrambled eggs.",
+    ],
+    nutrition: {
+      calories: "300 kcal",
+      protein: "14g",
+      carbs: "8g",
+      fat: "22g",
+    },
+    date_added: "2024-10-15",
   },
 };
