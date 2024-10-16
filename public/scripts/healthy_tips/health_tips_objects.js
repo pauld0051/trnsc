@@ -23,4 +23,12 @@ const articles = [
     image: "/public/images/healthy_tips/toasted_nuts/toasted_nuts.jpg",
     dateAdded: "2024-10-14",
   },
+  {
+    title: "The Comprehensive Guide to Psyllium Husk",
+    description:
+      "Learn about psyllium husk, its origins, health benefits, and how it can help with digestion, heart health, and type 2 diabetes management.",
+    link: "/views/layouts/healthy_tips/psyllium.html",
+    image: "/public/images/healthy_tips/psyllium/psyllium.webp",
+    dateAdded: "2024-10-16",
+  },
 ];
