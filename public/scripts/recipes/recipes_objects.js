@@ -1029,14 +1029,14 @@ const recipes = {
     servings: "1 pie crust",
     ingredients: [
       "2 cups almond flour <a href='https://amzn.to/3U7dqfp' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3U6eekP' target='_blank'>(Amazon US/Can)</a>",
-      "1/4 cup quinoa flour <a href='https://amzn.to/3NpULaW' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3ZXlvap' target='_blank'>(Amazon US/Can)</a>, or chickpea flour <a href='https://amzn.to/3zSUPwV' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4eZuIDm' target='_blank'>(Amazon US/Can)</a>",
+      "¼ cup quinoa flour <a href='https://amzn.to/3NpULaW' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3ZXlvap' target='_blank'>(Amazon US/Can)</a>, or chickpea flour <a href='https://amzn.to/3zSUPwV' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4eZuIDm' target='_blank'>(Amazon US/Can)</a>",
       "1 tablespoon psyllium husk <a href='https://amzn.to/3zYWqBb' target='_blank'>(Amazon EU)</a> or <a href='https://amzn.to/3NcDeDh' target='_blank'>(Amazon US/Can)</a>",
-      "1/2 teaspoon xanthan gum <a href='https://amzn.to/4eDPoBd' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3ZWOZFo' target='_blank'>(Amazon US/Can)</a>",
-      "1/2 teaspoon salt",
-      "1/2 cup (100g) cold butter, cubed",
+      "½ teaspoon xanthan gum <a href='https://amzn.to/4eDPoBd' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3ZWOZFo' target='_blank'>(Amazon US/Can)</a>",
+      "½ teaspoon salt",
+      "½ cup (100g) cold butter, cubed",
       "1 large egg",
       "1 tablespoon cold water (if needed)",
-      "Optional: 1/4 tsp garlic powder <a href='https://amzn.to/400SACg' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4dFMYAE' target='_blank'>(Amazon US/Can)</a>, or onion powder <a href='https://amzn.to/48d3S8I' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/484xQLS' target='_blank'>(Amazon US/Can)</a>",
+      "Optional: ¼ tsp garlic powder <a href='https://amzn.to/400SACg' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4dFMYAE' target='_blank'>(Amazon US/Can)</a>, or onion powder <a href='https://amzn.to/48d3S8I' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/484xQLS' target='_blank'>(Amazon US/Can)</a>",
     ],
     method: [
       "Combine dry ingredients: Mix almond flour, quinoa flour (or chickpea flour), psyllium husk, xanthan gum, and salt.",
@@ -1176,8 +1176,8 @@ const recipes = {
       "Bake for 20-25 minutes until the top is golden and springs back when touched.",
     ],
     tips: [
-      "For a cheesy version, add 1/2 cup shredded cheese to the batter.",
-      "For a spicy kick, mix in 1/2 diced jalapeño before baking.",
+      "For a cheesy version, add ½ cup shredded cheese to the batter.",
+      "For a spicy kick, mix in a handful of diced jalapeño before baking.",
     ],
     nutrition: {
       calories: "~190 kcal",
@@ -1202,7 +1202,7 @@ const recipes = {
     servings: "2",
     ingredients: [
       "1 medium red onion",
-      "1/2 leek, finely sliced",
+      "½ leek, finely sliced",
       "1 tablespoon apple cider vinegar <a href='https://amzn.to/3NsCGJA' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/48688qe' target='_blank'>(Amazon US/Can)</a>",
       "1 tsp garam masala <a href='https://amzn.to/3YlriFp' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3zXQMQ0' target='_blank'>(Amazon US/Can)</a>",
       "A pinch of salt <a href='https://amzn.to/3Nrp0hK' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3U9016P' target='_blank'>(Amazon US/Can)</a>",
@@ -1215,7 +1215,7 @@ const recipes = {
       "3 tablespoons of fresh coriander or parsley",
     ],
     method: [
-      "Pickled Onion: Grate 1/4 of the onion, mix with vinegar and salt, and set aside.",
+      "Pickled Onion: Grate ¼ of the onion, mix with vinegar and salt, and set aside.",
       "Caramelised Onion: Heat olive oil, sauté the rest of the grated onion and leek for 3-4 minutes, then add garam masala. Cook until golden and caramelised.",
       "Tomato Chutney: Move the onions to one side of the pan and then add grated tomatoes. Cook until reduced, then mix the caramelised onion and set aside.",
       "Crisp the Cornbread: Fry slices of not-cornbread in the remaining chutney bits until crispy.",
