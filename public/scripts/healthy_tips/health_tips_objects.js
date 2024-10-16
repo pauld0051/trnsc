@@ -28,7 +28,7 @@ const articles = [
     description:
       "Learn about psyllium husk, its origins, health benefits, and how it can help with digestion, heart health, and type 2 diabetes management.",
     link: "/views/layouts/healthy_tips/psyllium.html",
-    image: "/public/images/healthy_tips/psyllium/psyllium.webp",
+    image: "/public/images/healthy_tips/psyllium/psyllium.jpg",
     dateAdded: "2024-10-16",
   },
 ];
