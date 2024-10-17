@@ -322,7 +322,7 @@ const recipes = {
       "3 tablespoons tamari <a href='https://amzn.to/3TQEsYf' target='_blank'>(Amazon EU)</a> or <a href='https://amzn.to/4dyPFnp' target='_blank'>(Amazon US/Can)</a> (or low-sodium soy sauce)",
       "2 tablespoons fish sauce",
       "2 tablespoons lime juice",
-      "1 tablespoon peanut butter (natural, unsweetened)",
+      "1 tablespoon peanut butter (natural, unsweetened) <a href='https://amzn.to/3NmnhKD' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4eW0kd1' target='_blank'>(Amazon US/Can)</a>",
       "1 tablespoon tamarind paste <a href='https://amzn.to/4eU5NRL' target='_blank'>(Amazon EU)</a> or <a href='https://amzn.to/3XW18aK' target='_blank'>(Amazon US/Can)</a>",
       "1-2 tablespoons Sriracha or chilli paste, to taste (add more for extra heat)",
       "<strong>Main Dish Preparation:</strong>",
@@ -517,7 +517,7 @@ const recipes = {
     ingredients: [
       "110g cocoa butter (available here on <a href='https://amzn.to/47T15Be' target='_blank'>(US/Can) Amazon</a> or for <a href='https://amzn.to/47Vn9LF' target='_blank'> (EU) Amazon</a>)",
       "60g high-quality cocoa powder (e.g., <a href='https://amzn.to/47YzIWr' target='_blank'>(EU) Valrhona</a> or <a href='https://amzn.to/3TVDuKu' target='_blank'>(US/Can) Valrhona</a>",
-      "30g peanut butter (add more for a stronger peanut flavour)",
+      "30g peanut butter <a href='https://amzn.to/3NmnhKD' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4eW0kd1' target='_blank'>(Amazon US/Can)</a> (add more for a stronger peanut flavour)",
     ],
     method: [
       "Set up a double boiler: Fill the bottom pot with water and place the cocoa butter in the top pot. Heat gently until fully melted.",
@@ -1020,7 +1020,7 @@ const recipes = {
   savoury_pie_crust: {
     title: "Savoury Pie Crust",
     category: ["gluten_free", "keto_and_low_carb", "dinner", "side_dishes"],
-    img_src: "/public/images/recipes/meat_pie/meat_pie.jpg", // Temporary image
+    img_src: "/public/images/recipes/meat_pie/meat_pie.jpg",
     description:
       "A keto-friendly, gluten-free savoury pie crust made with almond flour, perfect for holding your favourite fillings. Crispy, buttery, and low-carb, this crust is ideal for pies like the <a href='/views/layouts/recipes/recipe_pages/meat_pie.html' target='_blank'>Keto Meat Pie</a>.",
     prep_time: "15 mins",
@@ -1288,5 +1288,50 @@ const recipes = {
       fat: "18g",
     },
     date_added: "2024-10-16",
+  },
+
+  // Peanut Butter Delight
+  peanut_butter_delight: {
+    title: "Crunchy Peanut Butter & Raspberry Delight",
+    category: [
+      "breakfast",
+      "snack",
+      "gluten_free",
+      "keto_and_low_carb",
+      "quick_and_easy",
+    ],
+    img_src:
+      "/public/images/recipes/peanut_butter_delight/peanut_butter_delight.jpg",
+    description:
+      "A low-carb, diabetes-friendly twist on the classic PB&J sandwich, using not-cornbread and fresh raspberries. Lightly toasted in butter for an extra crispy crunch.",
+    prep_time: "5 mins",
+    cook_time: "5 mins",
+    total_time: "10 mins",
+    servings: "1",
+    ingredients: [
+      "2 slices of not-cornbread (<a href='/views/layouts/recipes/recipe_pages/not_cornbread.html' target='_blank'>recipe here</a>)",
+      "2 tablespoons of natural peanut butter <a href='https://amzn.to/3NmnhKD' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4eW0kd1' target='_blank'>(Amazon US/Can)</a>",
+      "¼ cup of fresh raspberries, lightly smashed",
+      "1 tablespoon of butter or olive oil <a href='https://amzn.to/4gVpL0c' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/47SOaPT' target='_blank'>(Amazon US/Can)</a> (for frying)",
+    ],
+    method: [
+      "Prepare the sandwich: Spread peanut butter on one side of both slices of not-cornbread.",
+      "Add the smashed raspberries on top of the peanut butter on one slice, spreading them evenly.",
+      "Place the second peanut butter-covered slice on top, with the peanut butter side facing inward, to create a sandwich.",
+      "Fry the sandwich: Heat the butter in a frying pan over medium heat.",
+      "Add the sandwich to the pan and fry for 2-3 minutes on each side, until both sides are golden brown and crispy.",
+      "Serve and enjoy: Remove from the pan, slice in half if desired, and enjoy warm for a delightful, crunchy treat.",
+    ],
+    tips: [
+      "You can substitute the butter with olive oil for a healthier fat option.",
+      "Try adding a sprinkle of cinnamon <a href='https://amzn.to/483pOD8' target='_blank'>(Amazon EU/UK</a> or <a href='https://amzn.to/4f1zyQi' target='_blank'>Amazon US/Can)</a> to the peanut butter for an extra flavour kick!",
+    ],
+    nutrition: {
+      calories: "300 kcal",
+      protein: "12g",
+      carbs: "15g",
+      fat: "22g",
+    },
+    date_added: "2024-10-17",
   },
 };
