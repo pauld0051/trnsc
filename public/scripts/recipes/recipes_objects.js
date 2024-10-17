@@ -1295,7 +1295,7 @@ const recipes = {
     title: "Crunchy Peanut Butter & Raspberry Delight",
     category: [
       "breakfast",
-      "snack",
+      "snacks",
       "gluten_free",
       "keto_and_low_carb",
       "quick_and_easy",
