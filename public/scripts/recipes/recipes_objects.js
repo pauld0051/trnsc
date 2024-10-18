@@ -8,7 +8,6 @@ const recipes = {
       "appetizers",
       "vegetarian",
       "vegan",
-      ,
       "gluten_free",
     ],
     img_src: "/public/images/recipes/beetroot_chips/beetroot_chips.jpg",
@@ -711,7 +710,7 @@ const recipes = {
     ingredients: [
       "240 g almond flour <a href='https://amzn.to/3U7dqfp' target='_blank'>(Amazon EU/UK)</a>, <a href='https://amzn.to/3U6eekP' target='_blank'>(Amazon US/Can)</a>",
       "6 tablespoons (about 50 g) psyllium husks (not the powder) <a href='https://amzn.to/3zYWqBb' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3NcDeDh' target='_blank'>(Amazon US/Can)</a>",
-      "1 teaspoon (5 g) salt",
+      "1 teaspoon (5 g) salt <a href='https://amzn.to/3Nrp0hK' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3U9016P' target='_blank'>(Amazon US/Can)</a>",
       "1 tablespoon (15 ml) olive oil <a href='https://amzn.to/4gVpL0c' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/47SOaPT' target='_blank'>(Amazon US/Can)</a>",
       "240 ml warm water (not boiling)",
       "½ teaspoon of baking powder",
@@ -938,7 +937,7 @@ const recipes = {
       "¼ cup almond flour <a href='https://amzn.to/3U7dqfp' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3U6eekP' target='_blank'>(Amazon US/Can)</a>",
       "½ tsp vanilla extract <a href='https://amzn.to/3Yhyoeb' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4dH7OzB' target='_blank'>(Amazon US/Can)</a>",
       "½ tsp baking soda",
-      "A pinch of salt (optional)",
+      "A pinch of salt (optional) <a href='https://amzn.to/3Nrp0hK' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3U9016P' target='_blank'>(Amazon US/Can)</a>",
       "Optional: Dark unsweetened chocolate (see <a href='/views/layouts/recipes/recipe_pages/chocolate_raw.html'>this recipe</a>)",
     ],
     method: [
@@ -1032,7 +1031,7 @@ const recipes = {
       "¼ cup quinoa flour <a href='https://amzn.to/3NpULaW' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3ZXlvap' target='_blank'>(Amazon US/Can)</a>, or chickpea flour <a href='https://amzn.to/3zSUPwV' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4eZuIDm' target='_blank'>(Amazon US/Can)</a>",
       "1 tablespoon psyllium husk <a href='https://amzn.to/3zYWqBb' target='_blank'>(Amazon EU)</a> or <a href='https://amzn.to/3NcDeDh' target='_blank'>(Amazon US/Can)</a>",
       "½ teaspoon xanthan gum <a href='https://amzn.to/4eDPoBd' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3ZWOZFo' target='_blank'>(Amazon US/Can)</a>",
-      "½ teaspoon salt",
+      "½ teaspoon salt <a href='https://amzn.to/3Nrp0hK' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3U9016P' target='_blank'>(Amazon US/Can)</a>",
       "½ cup (100g) cold butter, cubed",
       "1 large egg",
       "1 tablespoon cold water (if needed)",
@@ -1380,5 +1379,94 @@ const recipes = {
       fat: "15g",
     },
     date_added: "2024-10-17",
+  },
+
+  // Sweet Potato Crisps
+  sweet_potato_crisps: {
+    title: "Crispy Sweet Potato Crisps",
+    category: [
+      "snacks",
+      "side_dishes",
+      "appetizers",
+      "vegetarian",
+      "vegan",
+      "gluten_free",
+    ],
+    img_src:
+      "/public/images/recipes/sweet_potato_crisps/sweet_potato_crisps.jpg",
+    description:
+      "A simple and healthy snack of crispy sweet potato crisps, perfect for a type 2 diabetes-friendly diet. Lightly seasoned and oven-baked for a crunchy treat.",
+    prep_time: "15 mins",
+    cook_time: "1 hour 45 mins",
+    total_time: "2 hours",
+    servings: "2-3",
+    ingredients: [
+      "2 sweet potatoes (~150 g each)",
+      "30 ml olive oil <a href='https://amzn.to/4gVpL0c' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/47SOaPT' target='_blank'>(Amazon US/Can)</a>",
+      "1.25 g sea salt (optional) <a href='https://amzn.to/3Nrp0hK' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3U9016P' target='_blank'>(Amazon US/Can)</a>",
+    ],
+    method: [
+      "Preheat oven: Preheat your oven to 120°C and position the oven rack in the centre.",
+      "Slice the sweet potatoes: Rinse and dry the sweet potatoes thoroughly. Slice them into thin, uniform slices, about 3-4 mm thick. Use a mandolin for even slices if possible. Thicker slices may not crisp as much but will still taste great. <a href='/views/layouts/kitchen_tips/mandolin.html' target='_blank'>Mandolin guide</a>",
+      "Prepare for baking: Toss the slices in olive oil and sprinkle with sea salt (if using). Arrange them in a single layer on a parchment-lined baking sheet.",
+      "Bake the crisps: Bake for 1 hour 30 minutes to 1 hour 45 minutes, flipping halfway through for even cooking. Rotate the tray if necessary to ensure even crisping. Start checking after the first hour, and check every 10 minutes to prevent burning.",
+      "Cool and serve: Once crispy and golden brown, remove from the oven. Let them rest for 10 minutes to finish crisping up. Enjoy immediately.",
+    ],
+    tips: [
+      "For extra flavour, experiment with adding spices like paprika <a href='https://amzn.to/480hOCV' target='_blank'>(Amazon US/Can,</a> <a href='https://amzn.to/3ZVTQql' target='_blank'>Amazon EU/UK)</a> or garlic powder <a href='https://amzn.to/400SACg' target='_blank'>(Amazon EU/UK,</a> <a href='https://amzn.to/4dFMYAE' target='_blank'>Amazon US/Can)</a> before baking.",
+      "Make sure the slices are evenly thick for consistent crisping.",
+      "Store leftovers in an airtight container for up to 2 days, though they are best enjoyed fresh.",
+    ],
+    nutrition: {
+      calories: "180 kcal",
+      protein: "2g",
+      carbs: "30g",
+      fibre: "5g",
+      fat: "5g",
+    },
+    date_added: "2024-10-18",
+  },
+
+  // Chilli Garlic Dip
+  chilli_garlic_dip: {
+    title: "Chilli & Garlic Sour Cream Dip",
+    category: [
+      "snacks",
+      "side_dishes",
+      "appetizers",
+      "gluten_free",
+    ],
+    img_src: "/public/images/recipes/chilli_garlic_dip/chilli_garlic_dip.jpg",
+    description:
+      "A creamy, spicy dip perfect for pairing with sweet potato crisps or other diabetic-friendly snacks. Full of flavour and free from added sugars, this dip provides a light kick with chilli and garlic.",
+    prep_time: "5 mins",
+    cook_time: "0 mins",
+    total_time: "5 mins",
+    servings: "4",
+    ingredients: [
+      "100 g sour cream (full-fat for better blood sugar control)",
+      "1 small red chilli, finely chopped (or use chilli flakes for heat control)",
+      "1 clove garlic, minced",
+      "1 tbsp fresh coriander, chopped (optional)",
+      "Salt and pepper to taste",
+    ],
+    method: [
+      "Combine ingredients: In a bowl, mix together the sour cream, chopped chilli, and minced garlic.",
+      "Season: Stir in the coriander (if using), and season the dip with salt and pepper to taste.",
+      "Let it rest: Mix until well combined and let it sit for 10-15 minutes to allow the flavours to meld.",
+      "Garnish: Garnish with extra coriander if desired, and serve alongside your crispy sweet potato crisps.",
+    ],
+    tips: [
+      "For a zesty option, add 1 tsp of lime zest and 1 tbsp of lime juice to the dip for a fresh, tangy flavour.",
+      "This dip pairs perfectly with <a href='/views/layouts/recipes/recipe_pages/sweet_potato_crisps.html'>Crispy Sweet Potato Crisps</a>.",
+    ],
+    nutrition: {
+      calories: "120 kcal",
+      protein: "2g",
+      carbs: "3g",
+      fibre: "0g",
+      fat: "12g",
+    },
+    date_added: "2024-10-18",
   },
 };
