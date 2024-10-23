@@ -1,6 +1,6 @@
-// ------------------------- //
+// --------------------------------- //
 // SECTION: PATH AND INDEX DETECTION //
-// ------------------------- //
+// --------------------------------- //
 
 // Get the current path
 const currentPath = window.location.pathname;
@@ -16,9 +16,9 @@ const isAllRecipesPage = currentPath.includes("index_all_recipes.html");
 // Detect if we are on a specific recipe page (i.e., it doesn't start with "index_")
 const isRecipePage = !isIndexPage && !isAllRecipesPage;
 
-// ------------------------- //
+// ----------------------------------------- //
 // SECTION: INDEX PAGE RECIPE CARD INJECTION //
-// ------------------------- //
+// ----------------------------------------- //
 if (isIndexPage || isAllRecipesPage) {
   const recipeList = document.getElementById("recipe-list");
 
@@ -30,9 +30,9 @@ if (isIndexPage || isAllRecipesPage) {
   }
 }
 
-// ------------------------- //
+// ------------------------------ //
 // SECTION: RECIPE PAGE INJECTION //
-// ------------------------- //
+// ------------------------------ //
 if (isRecipePage) {
   // Extract the recipeId from the URL dynamically
   const recipeId = currentPath.split("/").pop().replace(".html", "");
@@ -46,7 +46,6 @@ if (isRecipePage) {
     console.error("Recipe not found.");
   }
 }
-
 
 // ------------------------- //
 // FUNCTION: Inject Recipe Cards on Index Pages by Category //
@@ -85,13 +84,17 @@ function injectRecipeCards() {
             data-fat="${parseFloat(recipe.nutrition.fat)}">
             
               <!-- Recipe image -->
-              <img src="${recipe.img_src}" class="card-img-top" alt="${recipe.title}">
+              <img src="${recipe.img_src}" class="card-img-top" alt="${
+        recipe.title
+      }">
               
               <!-- Card body with recipe title and description -->
               <div class="card-body">
                 <h5 class="card-title">${recipe.title}</h5>
                 <p class="card-text">${recipe.description}</p>
-                <p class="card-text"><small class="text-muted">Added on ${recipe.date_added}</small></p>
+                <p class="card-text"><small class="text-muted">Added on ${
+                  recipe.date_added
+                }</small></p>
               </div>
             </div>
           </a>
@@ -122,13 +125,17 @@ function injectRecipeCards() {
               data-fat="${parseFloat(recipe.nutrition.fat)}">
               
                 <!-- Recipe image -->
-                <img src="${recipe.img_src}" class="card-img-top" alt="${recipe.title}">
+                <img src="${recipe.img_src}" class="card-img-top" alt="${
+          recipe.title
+        }">
                 
                 <!-- Card body with recipe title and description -->
                 <div class="card-body">
                   <h5 class="card-title">${recipe.title}</h5>
                   <p class="card-text">${recipe.description}</p>
-                  <p class="card-text"><small class="text-muted">Added on ${recipe.date_added}</small></p>
+                  <p class="card-text"><small class="text-muted">Added on ${
+                    recipe.date_added
+                  }</small></p>
                 </div>
               </div>
             </a>
@@ -223,6 +230,3 @@ function injectRecipeContent(recipe) {
   activeLi.innerText = recipe.title;
   breadcrumb.appendChild(activeLi);
 }
-
-
-

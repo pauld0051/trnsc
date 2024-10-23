@@ -1,4 +1,22 @@
 const recipes = {
+  // Possible Categories:
+  // snacks
+  // breakfast
+  // lunch
+  // dinner
+  // dessert
+  // appetizers
+  // drinks
+  // salads
+  // soups
+  // vegan
+  // vegetarian
+  // keto_and_low_carb
+  // side_dishes
+  // gluten_free
+  // quick_and_easy
+  // holidays_and_special_occasions
+
   // 1 BEETROOT CHIPS
   beetroot_chips: {
     title: "Beetroot Chips",
@@ -1430,12 +1448,7 @@ const recipes = {
   // Chilli Garlic Dip
   chilli_garlic_dip: {
     title: "Chilli & Garlic Sour Cream Dip",
-    category: [
-      "snacks",
-      "side_dishes",
-      "appetizers",
-      "gluten_free",
-    ],
+    category: ["snacks", "side_dishes", "appetizers", "gluten_free"],
     img_src: "/public/images/recipes/chilli_garlic_dip/chilli_garlic_dip.jpg",
     description:
       "A creamy, spicy dip perfect for pairing with sweet potato crisps or other diabetic-friendly snacks. Full of flavour and free from added sugars, this dip provides a light kick with chilli and garlic.",
@@ -1468,5 +1481,57 @@ const recipes = {
       fat: "12g",
     },
     date_added: "2024-10-18",
+  },
+
+  // Lamb Curry Recipe
+  lamb_curry: {
+    title: "Lamb Curry with Fresh Herbs and Spices",
+    category: ["lunch", "dinner", "gluten_free"],
+    img_src: "/public/images/recipes/lamb_curry/lamb_curry.jpg",
+    description:
+      "A hearty lamb curry made with fresh spices, perfect for a warming lunch or dinner. Low-salt and full of flavour, this recipe is suitable for those looking to balance flavour with a healthy meal option.",
+    prep_time: "10 mins",
+    cook_time: "2.5 hours",
+    total_time: "2 hours 40 mins",
+    servings: "4",
+    ingredients: [
+      "2 tsp olive or sunflower oil <a href='https://amzn.to/4gVpL0c' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/47SOaPT' target='_blank'>(Amazon US/Can)</a>",
+      "400 g diced lean lamb",
+      "3 onions, chopped",
+      "4 carrots, chopped",
+      "2 x 400 g tins chopped tomatoes",
+      "1 tbsp tomato purée",
+      "2-3 tsp curry powder <a href='https://amzn.to/3AcAtPk' target='_blank'>(Amazon US/Can)</a> or <a href='https://amzn.to/3A7liqE' target='_blank'>(Amazon EU/UK)</a>",
+      "1-3 Scotch bonnet chillies, finely chopped (depending on heat preference)",
+      "6 cm fresh ginger, grated",
+      "1/4 tsp ground cinnamon <a href='https://amzn.to/483pOD8' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4f1zyQi' target='_blank'>(Amazon US/Can)</a>",
+      "1/4 tsp ground nutmeg <a href='https://amzn.to/40gIxt8' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4eZKK0n' target='_blank'>(Amazon US/Can)</a>",
+      "1/4 tsp ground cloves <a href='https://amzn.to/3NI9qON' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4hjQdk7' target='_blank'>(Amazon US/Can)</a>",
+      "1 tbsp chopped parsley",
+      "1 low-salt vegetable stock cube <a href='https://amzn.to/4dVB5Xl' target='_blank'>(Amazon US/Can)</a> or chicken stock cube <a href='https://amzn.to/3Uipn25' target='_blank'>(Amazon US/Can)</a>",
+      "1 litre water",
+      "1 tbsp chopped coriander",
+      "Microwaved poppadums (<a href='https://amzn.to/3Y0tn8p' target='_blank'>Shop here</a>) (optional)",
+    ],
+    method: [
+      "Heat the oil in a pan and add the lamb and onions. Cook for 5 minutes, stirring regularly, until starting to brown.",
+      "Add all the other ingredients, except the coriander, stir and bring to the boil. Put the lid on, reduce the heat, and simmer gently for 2–2.5 hours, stirring regularly, until the lamb is tender. Add a little more water if needed.",
+      "Serve with a sprinkle of coriander.",
+    ],
+    tips: [
+      "For a lower-fat version, use chicken thighs – they will cook more quickly, so reduce the cooking time by an hour.",
+      "Be careful with the Scotch bonnet chillies as they can be very hot!",
+      "Freezing instructions: Suitable for freezing once cooked. Defrost in the fridge or microwave and reheat until piping hot throughout.",
+      "Microwave the poppadums for about 45-60 seconds each until crunchy.",
+      "Serve: Garnish with boiled sweet potatoes and serve with microwaved poppadums and a side of lentils.",
+    ],
+    nutrition: {
+      calories: "350 kcal",
+      protein: "30g",
+      carbs: "18g",
+      fibre: "8g",
+      fat: "15g",
+    },
+    date_added: "2024-10-23",
   },
 };
