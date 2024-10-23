@@ -1501,7 +1501,7 @@ const recipes = {
       "4 carrots, chopped",
       "2 x 400 g tins chopped tomatoes",
       "1 tbsp tomato purée",
-      "2-3 tsp curry powder <a href='https://amzn.to/3AcAtPk' target='_blank'>(Amazon US/Can)</a> or <a href='https://amzn.to/3A7liqE' target='_blank'>(Amazon EU/UK)</a>",
+      "2-3 tsp curry powder <a href='https://amzn.to/3A7liqE' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3AcAtPk' target='_blank'>(Amazon US/Can)</a>",
       "1-3 Scotch bonnet chillies, finely chopped (depending on heat preference)",
       "6 cm fresh ginger, grated",
       "1/4 tsp ground cinnamon <a href='https://amzn.to/483pOD8' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4f1zyQi' target='_blank'>(Amazon US/Can)</a>",
