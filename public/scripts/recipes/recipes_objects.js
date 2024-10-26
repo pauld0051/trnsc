@@ -1587,4 +1587,53 @@ const recipes = {
     },
     date_added: "2024-10-26",
   },
+
+  // Pork Loin with Apple Cider Gravy Recipe
+  pork_apple_cider_gravy: {
+    title: "Pork Loin with Apple Cider Gravy",
+    category: ["dinner", "gluten_free"],
+    img_src:
+      "/public/images/recipes/pork_apple_cider_gravy/pork_apple_cider_gravy.jpg",
+    description:
+      "A hearty Pork Loin with Apple Cider Gravy, thickened with psyllium husk and complemented by the natural sweetness of apples. Perfect for a balanced and flavourful dinner.",
+    prep_time: "15 mins",
+    cook_time: "1 hr 20 mins",
+    total_time: "1 hr 35 mins",
+    servings: "4",
+    ingredients: [
+      "1 kg pork loin roast",
+      "1 tbsp mustard powder (or adjust to taste)",
+      "Sea salt <a href='https://amzn.to/3Nrp0hK' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3U9016P' target='_blank'>(Amazon US/Can)</a> and freshly ground black pepper to taste",
+      "2 tbsp olive oil",
+      "3 apples, peeled, cored, and sliced",
+      "1 onion, diced",
+      "300 ml apple cider (choose a low-sugar or no-added-sugar version, if possible)",
+      "1-2 tsp psyllium husk for thickening <a href='https://amzn.to/3zYWqBb' target='_blank'>(Amazon EU)</a> or <a href='https://amzn.to/3NcDeDh' target='_blank'>(Amazon US/Can)</a>",
+    ],
+    method: [
+      "Preheat the oven to 190°C.",
+      "Rub the pork with mustard powder, sea salt, and pepper.",
+      "Heat the olive oil in a roasting pan over medium heat. Sear the pork on all sides until browned.",
+      "Place the apples and onion around the pork. Pour in the apple cider.",
+      "Roast in the oven for about 1 hour 20 minutes, or until the pork is cooked through and tender.",
+      "Transfer the roasting pan to the stove. Remove the pork and let it rest.",
+      "Stir in the psyllium husk gradually to thicken the gravy. Adjust based on the consistency preferred. Let it cook for 2-3 minutes until thickened.",
+      "Slice the pork and serve with the apple cider gravy.",
+    ],
+    tips: [
+      "Choose a low-sugar apple cider to minimise additional sugar.",
+      "For a balanced meal, serve with a side of steamed non-starchy vegetables like broccoli or asparagus.",
+      "Psyllium husk is a great low-carb option for thickening, suitable for those watching their blood sugar.",
+    ],
+    nutrition: {
+      calories: "530 kcal",
+      carbs: "13g",
+      fibre: "2g",
+      sugar: "10g",
+      protein: "54g",
+      fat: "29g",
+      sodium: "580mg",
+    },
+    date_added: "2024-10-26",
+  },
 };
