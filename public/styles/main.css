@@ -293,3 +293,20 @@ p {
     font-size: 24px;
     vertical-align: middle;
 }
+
+/* Index Article Links */
+#latest-items {
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+#latest-items-list .list-group-item img {
+    width: 20px;
+    height: 20px;
+}
+
+#latest-articles-list .list-group-item img {
+    width: 24px;
+    /* Adjust the size to what works best */
+    height: auto;
+}

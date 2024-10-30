@@ -1,4 +1,4 @@
-const articles = [
+const kitchen_articles = [
   {
     title:
       "Rediscovering Crispy Chips with a Mandolin Slicer: A Kitchen Essential",

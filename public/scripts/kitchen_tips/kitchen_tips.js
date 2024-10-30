@@ -1,9 +1,9 @@
 // Function to inject articles into the page
-function injectArticles(articles) {
+function injectArticles(articleData) {
   const articleList = document.getElementById("article-list");
   articleList.innerHTML = "";
 
-  articles.forEach((article) => {
+  articleData.forEach((article) => {
     const articleHTML = `
       <div class="col-md-12 mb-4">
         <div class="card">
@@ -27,27 +27,29 @@ function injectArticles(articles) {
   });
 }
 
-// Initial injection of articles
-injectArticles(articles);
+// Initial injection of kitchen articles
+injectArticles(kitchen_articles);
 
 // Sorting function
 document.getElementById("sort-options").addEventListener("change", function () {
   const sortBy = this.value;
 
   if (sortBy === "date") {
-    articles.sort((a, b) => new Date(b.dateAdded) - new Date(a.dateAdded)); // Newest to Oldest
+    kitchen_articles.sort(
+      (a, b) => new Date(b.dateAdded) - new Date(a.dateAdded)
+    ); // Newest to Oldest
   } else if (sortBy === "alphabetical") {
-    articles.sort((a, b) => a.title.localeCompare(b.title)); // Alphabetical order
+    kitchen_articles.sort((a, b) => a.title.localeCompare(b.title)); // Alphabetical order
   }
 
-  injectArticles(articles);
+  injectArticles(kitchen_articles);
 });
 
 // Search function
 document.getElementById("search-input").addEventListener("input", function () {
   const query = this.value.toLowerCase();
 
-  const filteredArticles = articles.filter(
+  const filteredArticles = kitchen_articles.filter(
     (article) =>
       article.title.toLowerCase().includes(query) ||
       article.description.toLowerCase().includes(query)

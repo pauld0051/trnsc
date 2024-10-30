@@ -1,9 +1,9 @@
 // Function to inject articles into the page
-function injectArticles(articles) {
+function injectArticles(articleData) {
   const articleList = document.getElementById("article-list");
   articleList.innerHTML = "";
 
-  articles.forEach((article) => {
+  articleData.forEach((article) => {
     const articleHTML = `
       <div class="col-md-12 mb-4">
         <div class="card">
@@ -27,28 +27,32 @@ function injectArticles(articles) {
   });
 }
 
-// Initial injection of articles
-injectArticles(articles);
+// Initial injection of health articles
+injectArticles(health_articles);
 
 // Sorting function
-document.getElementById('sort-options').addEventListener('change', function() {
+document.getElementById("sort-options").addEventListener("change", function () {
   const sortBy = this.value;
 
-  if (sortBy === 'date') {
-    articles.sort((a, b) => new Date(b.dateAdded) - new Date(a.dateAdded)); // Newest to Oldest
-  } else if (sortBy === 'alphabetical') {
-    articles.sort((a, b) => a.title.localeCompare(b.title)); // Alphabetical order
+  if (sortBy === "date") {
+    health_articles.sort(
+      (a, b) => new Date(b.dateAdded) - new Date(a.dateAdded)
+    ); // Newest to Oldest
+  } else if (sortBy === "alphabetical") {
+    health_articles.sort((a, b) => a.title.localeCompare(b.title)); // Alphabetical order
   }
 
-  injectArticles(articles);
+  injectArticles(health_articles);
 });
 
 // Search function
-document.getElementById('search-input').addEventListener('input', function() {
+document.getElementById("search-input").addEventListener("input", function () {
   const query = this.value.toLowerCase();
 
-  const filteredArticles = articles.filter(article => 
-    article.title.toLowerCase().includes(query) || article.description.toLowerCase().includes(query)
+  const filteredArticles = health_articles.filter(
+    (article) =>
+      article.title.toLowerCase().includes(query) ||
+      article.description.toLowerCase().includes(query)
   );
 
   injectArticles(filteredArticles);

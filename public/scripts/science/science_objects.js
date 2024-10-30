@@ -1,4 +1,4 @@
-const articles = [
+const science_articles = [
   {
     title: "I Made My Own Chocolate and It's Bitter!",
     description:
