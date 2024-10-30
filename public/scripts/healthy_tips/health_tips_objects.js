@@ -31,4 +31,12 @@ const articles = [
     image: "/public/images/healthy_tips/psyllium/psyllium.jpg",
     dateAdded: "2024-10-16",
   },
+  {
+    title: "Potato vs Sweet Potato vs Celeriac: A Guide for Type 2 Diabetes",
+    description:
+      "Explore the nutritional profiles of potato, sweet potato, and celeriac, and learn which is best for type 2 diabetes management. This guide covers their impact on blood sugar, nutritional benefits, and serving suggestions.",
+    link: "/views/layouts/healthy_tips/potatoes.html",
+    image: "/public/images/healthy_tips/potatoes/celeriac_1.jpeg",
+    dateAdded: "2024-10-30",
+  },
 ];

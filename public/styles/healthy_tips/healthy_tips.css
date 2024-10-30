@@ -78,3 +78,69 @@
     .half-size {
         max-width: 80%;
     }
+}
+
+.nutritional-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.nutritional-table th,
+.nutritional-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+    word-wrap: break-word;
+}
+
+/* Table Header Styling */
+.nutritional-table thead th {
+    background-color: #b3d1ff;
+    /* Softer, complementary light blue */
+    color: #333;
+    /* Dark text for contrast */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Mobile Responsive Styling */
+@media (max-width: 768px) {
+
+    .nutritional-table,
+    .nutritional-table thead,
+    .nutritional-table tbody,
+    .nutritional-table th,
+    .nutritional-table td,
+    .nutritional-table tr {
+        display: block;
+    }
+
+    .nutritional-table thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .nutritional-table tr {
+        margin: 0 0 1rem 0;
+    }
+
+    .nutritional-table td {
+        border: none;
+        position: relative;
+        padding-left: 50%;
+        text-align: left;
+    }
+
+    .nutritional-table td:before {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        font-weight: bold;
+        content: attr(data-label);
+    }
+}
