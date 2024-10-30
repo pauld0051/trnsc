@@ -1745,4 +1745,58 @@ const recipes = {
     },
     date_added: "2024-10-28",
   },
+
+  // Herb-Crusted Entrecôte with Celeriac Chips
+  herb_crusted_entrecote: {
+    title:
+      "Herb-Crusted Entrecôte with Celeriac Chips, Roasted Asparagus, and Brussels Sprouts",
+    category: ["dinner", "keto_and_low_carb", "lunch"],
+    img_src: "/public/images/recipes/steak_and_chips/steak_and_chips.jpg",
+    description:
+      "A balanced, diabetes-friendly meal with herb-crusted entrecôte, crispy celeriac chips, and roasted vegetables, paired with a creamy lime and herb sauce.",
+    prep_time: "15 mins",
+    cook_time: "25 mins",
+    total_time: "40 mins",
+    servings: "2",
+    ingredients: [
+      "Entrecôte steak (room temperature)",
+      "Salt <a href='https://amzn.to/3Nrp0hK' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3U9016P' target='_blank'>(Amazon US/Can)</a> and freshly ground black pepper",
+      "1-2 cloves garlic, minced",
+      "Fresh rosemary <a href='https://amzn.to/3YnjqDm' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3BFrC9l' target='_blank'>(Amazon US/Can)</a>",
+      "1 medium celeriac, peeled and cut into 1 cm batons",
+      "1 tbsp olive oil <a href='https://amzn.to/4gVpL0c' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/47SOaPT' target='_blank'>(Amazon US/Can)</a>",
+      "Smoked paprika <a href='https://amzn.to/480hOCV' target='_blank'>(Amazon US/Can)</a> or <a href='https://amzn.to/3ZVTQql' target='_blank'>(Amazon EU/UK)</a> (optional for flavour)",
+      "Asparagus, trimmed",
+      "Brussels sprouts, halved",
+      "Balsamic vinegar <a href='https://amzn.to/3zWcBiN' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3U8Ol3I' target='_blank'>(Amazon US/Can)</a> (optional)",
+      "3 tbsp crème fraîche",
+      "Zest and juice from a small lime (or substitute with lemon if needed)",
+      "Cayenne pepper <a href='https://amzn.to/4eY6qto' target='_blank'>(Amazon US/Can)</a> or <a href='https://amzn.to/4054wmv' target='_blank'>(Amazon EU/UK)</a> (optional)",
+      "Dried herbs: thyme, parsley, or chives <a href='https://amzn.to/3NKnUOh' target='_blank'>Amazon EU/UK</a>, <a href='https://amzn.to/4e5U5CK' target='_blank'>Amazon US/Can</a>",
+    ],
+    method: [
+      "Preheat the Oven: Set your oven to 200°C. Line a baking tray with baking paper.",
+      "Prepare Celeriac Chips: Toss the celeriac batons in olive oil and smoked paprika (optional), then spread on the prepared tray. Bake for 15 minutes, flip, and bake another 10 minutes until blistered. Sprinkle with salt when done.",
+      "Roast Vegetables: In another tray, toss Brussels sprouts with olive oil, salt, and pepper. Roast for 10 minutes, then add asparagus, toss with a bit of oil, and roast both for an additional 10-12 minutes. Add balsamic vinegar or lemon zest for extra flavour, if desired.",
+      "Prepare Entrecôte: Rub the steak with a bit of olive oil, then season with salt, pepper, minced garlic, and rosemary. Heat a heavy pan until very hot and place the steak in the pan.",
+      "Cook Steak: For medium-rare (57-60°C), sear each side for 2-3 minutes. For medium (63-68°C), sear for 4 minutes per side. Let rest for 5-10 minutes.",
+      "Make Sauce: In a small bowl, combine crème fraîche, lime zest, lime juice, and a pinch of cayenne pepper. Season with salt, pepper, and add dried herbs if desired.",
+      "Serve: Arrange the steak, celeriac chips, roasted asparagus, and Brussels sprouts on a plate. Drizzle sauce over vegetables or serve on the side.",
+    ],
+    tips: [
+      "For Perfect Chips: Ensure celeriac pieces are evenly sized for even cooking. Adjust seasoning as needed.",
+      "Resting the Steak: Allowing the steak to rest keeps it juicy. Cover loosely with foil while resting.",
+      "Sauce Variations: Try adding a bit of smoked paprika to the sauce for a warm, smoky flavour.",
+    ],
+    nutrition: {
+      calories: "350 kcal (approx.)",
+      carbs: "10g",
+      fibre: "4g",
+      sugar: "2g",
+      protein: "20g",
+      fat: "25g",
+      sodium: "100mg",
+    },
+    date_added: "2024-10-30",
+  },
 };
