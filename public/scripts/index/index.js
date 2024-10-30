@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Add "New" icon to each article
     const newIcon = document.createElement("img");
-    newIcon.src = "/public/images/icons/new-1.svg"; // Path to "New" icon
+    newIcon.src = "/public/images/icons/new.png"; // Path to "New" icon
     newIcon.alt = "New Icon";
     newIcon.classList.add("me-2"); // Adds margin for spacing
 
