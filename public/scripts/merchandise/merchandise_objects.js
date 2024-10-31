@@ -66,7 +66,11 @@ const products = [
     { name: 'inulin powder', linkEU: 'https://amzn.to/3UqTLap', linkUS: 'https://amzn.to/3YJnJt6' },
     { name: 'parsley (dried)', linkEU: 'https://amzn.to/3YsRzkb', linkUS: 'https://amzn.to/4f8fOv8' },
     { name: 'chives (dried)', linkEU: 'https://amzn.to/3CafjCc', linkUS: 'https://amzn.to/3NMCOUo' },
-    { name: 'avocado oil', linkEU: 'https://amzn.to/4f5o5Qr', linkUS: 'https://amzn.to/48vlnBc' }
+    { name: 'avocado oil', linkEU: 'https://amzn.to/4f5o5Qr', linkUS: 'https://amzn.to/48vlnBc' },
+    { name: 'Metamucil', linkEU: 'https://amzn.to/4dNv66W', linkUS: 'https://amzn.to/4h4meN5' },
+    { name: 'Fybrogel', linkEU: 'https://amzn.to/4eOfUIa', linkUS: 'https://amzn.to/4eOfUIa' },
+    { name: 'chicken stock', linkEU: 'https://amzn.to/3YrMQz2', linkUS: 'https://amzn.to/3NPtOxy' },
+    { name: 'saffron threads', linkEU: 'https://amzn.to/3YIWmPM', linkUS: 'https://amzn.to/3C8Zmft' },
 ];
 
 
