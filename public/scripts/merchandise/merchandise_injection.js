@@ -1,8 +1,14 @@
+// Check if we're on localhost
+// Check if we're on localhost or 127.0.0.1
+const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+
 // Initialise product list on load
 document.addEventListener("DOMContentLoaded", () => {
-  const sortedProducts = [...products].sort((a, b) => a.name.localeCompare(b.name));
+  const sortedProducts = [...products].sort((a, b) =>
+    a.name.localeCompare(b.name)
+  );
   displayProducts(sortedProducts);
-  enablePopovers(); // Enable popovers after loading products
+  if (isLocalhost) enablePopovers(); // Enable popovers only if local
 });
 
 // Display products as a table for consistent column widths
@@ -14,14 +20,14 @@ function displayProducts(items) {
   const table = document.createElement("table");
   table.classList.add("table", "table-bordered", "table-striped");
 
-  // Create table header
+  // Create table header, conditionally adding "Action" column
   const header = document.createElement("thead");
   header.innerHTML = `
     <tr>
       <th style="width: 50%;">Product Name</th>
       <th style="width: 25%;">Amazon EU/UK</th>
       <th style="width: 25%;">Amazon US/Can</th>
-      <th style="width: 10%;">Action</th>
+      ${isLocalhost ? '<th style="width: 10%;">Action</th>' : ""}
     </tr>
   `;
   table.appendChild(header);
@@ -31,18 +37,22 @@ function displayProducts(items) {
   items.forEach((product, index) => {
     const row = document.createElement("tr");
 
-    // Updated row definition within displayProducts
+    // Row content, conditionally adding "Action" button
     row.innerHTML = `
-    <td>${product.name}</td>
-    <td><a href="${product.linkEU}" target="_blank">(Amazon EU/UK)</a></td>
-    <td><a href="${product.linkUS}" target="_blank">(Amazon US/Can)</a></td>
-    <td>
-        <button type="button" class="btn btn-outline-primary btn-sm copy-btn" 
-                data-bs-toggle="popover" data-bs-trigger="manual" 
-                data-bs-content="Copied!" onclick="copyLink('${product.name}', this)">
-            Copy
-        </button>
-    </td>
+      <td>${product.name}</td>
+      <td><a href="${product.linkEU}" target="_blank">(Amazon EU/UK)</a></td>
+      <td><a href="${product.linkUS}" target="_blank">(Amazon US/Can)</a></td>
+      ${
+        isLocalhost
+          ? `<td>
+              <button type="button" class="btn btn-outline-primary btn-sm copy-btn" 
+                      data-bs-toggle="popover" data-bs-trigger="manual" 
+                      data-bs-content="Copied!" onclick="copyLink('${product.name}', this)">
+                  Copy
+              </button>
+            </td>`
+          : ""
+      }
     `;
     body.appendChild(row);
   });
@@ -50,7 +60,7 @@ function displayProducts(items) {
   table.appendChild(body);
   productList.appendChild(table);
 
-  enablePopovers(); // Re-enable popovers after rendering the table
+  if (isLocalhost) enablePopovers(); // Re-enable popovers only if local
 }
 
 // Sort products
@@ -99,4 +109,3 @@ function copyLink(name, button) {
     });
   }
 }
-
