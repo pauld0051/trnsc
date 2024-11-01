@@ -1926,7 +1926,7 @@ const recipes = {
     total_time: "20 mins",
     servings: "12 cookies",
     ingredients: [
-      "1 cup hazelnut flour (85g), spooned and levelled <a href='https://amzn.to/3U7dqfp' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3U6eekP' target='_blank'>(Amazon US/Can)</a>",
+      "1 cup hazelnut flour (≈85g), spooned and levelled (or use almond flour if you can not get hazelnut flour <a href='https://amzn.to/3U7dqfp' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3U6eekP' target='_blank'>(Amazon US/Can)</a>) ",
       "¼ cup monk fruit sweetener <a href='https://amzn.to/3Yia381' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3Yia381' target='_blank'>(Amazon US/Can)</a> (or substitute with 1/4 cup inulin <a href='https://amzn.to/3UqTLap' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3YJnJt6' target='_blank'>(Amazon US/Can)</a>)",
       "½ tsp baking soda <a href='https://amzn.to/3YMLikA' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4f6wIdl' target='_blank'>(Amazon US/Can)</a>",
       "¼ tsp salt",
