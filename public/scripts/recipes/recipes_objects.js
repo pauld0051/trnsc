@@ -1912,4 +1912,49 @@ const recipes = {
     },
     date_added: "2024-10-31",
   },
+
+  // hazelnut_choc_cookies
+  hazelnut_choc_cookies: {
+    title: "Hazelnut Chocolate Cookies",
+    category: ["snacks", "dessert", "gluten_free", "keto_and_low_carb"],
+    img_src:
+      "/public/images/recipes/hazelnut_choc_cookies/hazelnut_choc_cookies.jpg",
+    description:
+      "Deliciously nutty and keto-friendly thumbprint cookies with a rich dark chocolate centre, perfect for a low-carb treat.",
+    prep_time: "10 mins",
+    cook_time: "10 mins",
+    total_time: "20 mins",
+    servings: "12 cookies",
+    ingredients: [
+      "1 cup hazelnut flour (85g), spooned and levelled <a href='https://amzn.to/3U7dqfp' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3U6eekP' target='_blank'>(Amazon US/Can)</a>",
+      "¼ cup monk fruit sweetener <a href='https://amzn.to/3Yia381' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3Yia381' target='_blank'>(Amazon US/Can)</a> (or substitute with 1/4 cup inulin <a href='https://amzn.to/3UqTLap' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3YJnJt6' target='_blank'>(Amazon US/Can)</a>)",
+      "½ tsp baking soda <a href='https://amzn.to/3YMLikA' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4f6wIdl' target='_blank'>(Amazon US/Can)</a>",
+      "¼ tsp salt",
+      "⅓ cup almond butter (unsalted, unsweetened) <a href='https://amzn.to/3C843Gl' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4ea319V' target='_blank'>(Amazon US/Can)</a> or unsalted butter",
+      "1 large egg",
+      "1 tsp vanilla extract <a href='https://amzn.to/3C84dxr' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/48t1YAV' target='_blank'>(Amazon US/Can)</a>",
+      "¼ cup dark chocolate chips <a href='https://amzn.to/3YNowJi' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4hq3w2x' target='_blank'>(Amazon US/Can)</a>",
+      "hazelnuts <a href='https://amzn.to/4f60kaF' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4hq3w2x' target='_blank'>(Amazon US/Can)</a> for decoration",
+    ],
+    method: [
+      "Preheat the Oven: Set your oven to 180°C (350°F).",
+      "Prepare Dry Ingredients: In a medium-sized mixing bowl, combine the hazelnut flour, sweetener (either monk fruit or inulin), baking soda, and salt.",
+      "Add Wet Ingredients: Add the almond butter, egg, and vanilla extract to the bowl. Mix with a spatula until well combined.",
+      "Shape the Cookies with a Hollow Centre: When scooping the dough onto the parchment paper <a href='https://amzn.to/3ZRoO2D' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4h3rfWi' target='_blank'>(Amazon US/Can)</a>, use your thumb or the back of a teaspoon to press a small indent in the centre of each cookie. This will create a hollow for the chocolate filling.",
+      "Bake: Place the cookies in the oven and bake at 180°C (350°F) for 10 minutes. They should hold their shape well, but if the indent looks too shallow after baking, you can gently press it down again while the cookies are still warm and soft.",
+      "Add the Chocolate Filling: Once the cookies have cooled slightly, melt some dark chocolate (about 50g should be enough) in a microwave or using a double boiler. Spoon a small amount of the melted chocolate into each cookie's hollow. Place a whole hazelnut in the centre of the melted chocolate.",
+      "Cool and Enjoy: Let the cookies cool on the pan for a couple of minutes, then transfer them to a wire cooling rack to set fully.",
+    ],
+    tips: [
+      "For a completely sugar-free chocolate filling, try this <a href='/views/layouts/recipes/recipe_pages/cocoa_peanut_butter_chocolate.html' target='_blank'>homemade chocolate recipe</a> and omit the peanut butter for a pure chocolate taste.",
+    ],
+    nutrition: {
+      calories: "120 kcal",
+      carbs: "4g",
+      fibre: "2g",
+      protein: "3g",
+      fat: "10g",
+    },
+    date_added: "2024-11-01",
+  },
 };
