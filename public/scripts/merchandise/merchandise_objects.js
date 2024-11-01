@@ -385,6 +385,11 @@ const products = [
     linkEU: "https://amzn.to/3YLdmoh",
     linkUS: "https://amzn.to/4hy33eX",
   },
+  {
+    name: "mandolin slicer",
+    linkEU: "https://amzn.to/48xrZPu",
+    linkUS: "https://amzn.to/40nKML8",
+  },
 ];
 
 

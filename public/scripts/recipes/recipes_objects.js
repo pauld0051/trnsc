@@ -1968,6 +1968,7 @@ const recipes = {
     category: [
       "snacks",
       "dessert",
+      "vegetarian",
       "vegan",
       "keto_and_low_carb",
       "gluten_free",
@@ -1982,7 +1983,7 @@ const recipes = {
     ingredients: [
       "110g cocoa butter (available here on <a href='https://amzn.to/47Vn9LF' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/47T15Be' target='_blank'>(Amazon US/Can)</a>)",
       "60g high-quality cocoa powder (e.g., <a href='https://amzn.to/47YzIWr' target='_blank'>(EU) Valrhona</a> or <a href='https://amzn.to/3TVDuKu' target='_blank'>(US/Can) Valrhona</a>)",
-      "30g powdered inulin (<a href='https://amzn.to/3UqTLap' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3YJnJt6' target='_blank'>(Amazon US/Can)</a>)",
+      "30g powdered inulin <a href='https://amzn.to/3UqTLap' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3YJnJt6' target='_blank'>(Amazon US/Can)</a>",
     ],
     method: [
       "Set up a double boiler: Fill the bottom pot with water and place the cocoa butter in the top pot. Heat gently until fully melted.",
