@@ -230,3 +230,44 @@ function injectRecipeContent(recipe) {
   activeLi.innerText = recipe.title;
   breadcrumb.appendChild(activeLi);
 }
+
+// Keep Screen Awake
+let wakeLock = null;
+
+async function requestWakeLock() {
+  try {
+    wakeLock = await navigator.wakeLock.request("screen");
+    wakeLock.addEventListener("release", () => {
+      console.log("Wake Lock was released");
+    });
+    console.log("Wake Lock is active");
+  } catch (err) {
+    console.error(`${err.name}, ${err.message}`);
+  }
+}
+
+function releaseWakeLock() {
+  if (wakeLock !== null) {
+    wakeLock.release();
+    wakeLock = null;
+    console.log("Wake Lock released manually");
+  }
+}
+
+function toggleWakeLock() {
+  if (wakeLock === null) {
+    requestWakeLock();
+    document.getElementById("wake-lock-toggle").innerText =
+      "Turn Off Screen Awake";
+  } else {
+    releaseWakeLock();
+    document.getElementById("wake-lock-toggle").innerText = "Keep Screen Awake";
+  }
+}
+
+// Optional: Listen for visibility change to reapply wake lock if needed
+document.addEventListener("visibilitychange", () => {
+  if (wakeLock !== null && document.visibilityState === "visible") {
+    requestWakeLock();
+  }
+});
