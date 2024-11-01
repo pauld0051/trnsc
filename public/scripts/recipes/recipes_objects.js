@@ -1947,6 +1947,10 @@ const recipes = {
     ],
     tips: [
       "For a completely sugar-free chocolate filling, try this <a href='/views/layouts/recipes/recipe_pages/cocoa_peanut_butter_chocolate.html' target='_blank'>homemade chocolate recipe</a> and omit the peanut butter for a pure chocolate taste.",
+      "Room Temperature: Store the cookies in an airtight container to keep them fresh. Adding a piece of parchment paper between layers can help prevent them from sticking to each other.",
+      "Refrigeration: To extend freshness, refrigerate the cookies in an airtight container. This will help maintain their texture for a bit longer.",
+      "Freezing: Place cookies in a single layer on a baking sheet to freeze initially, then transfer to a freezer-safe bag or container. Thaw at room temperature before serving.",
+      "Nut flour: Almost any nut flour will work in this recipe, but if you can find hazelnut flour it makes these cookies something special.",
     ],
     nutrition: {
       calories: "120 kcal",
