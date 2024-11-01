@@ -235,14 +235,16 @@ function injectRecipeContent(recipe) {
 let wakeLock = null;
 
 async function requestWakeLock() {
-  try {
-    wakeLock = await navigator.wakeLock.request("screen");
-    wakeLock.addEventListener("release", () => {
-      console.log("Wake Lock was released");
-    });
-    console.log("Wake Lock is active");
-  } catch (err) {
-    console.error(`${err.name}, ${err.message}`);
+  if ("wakeLock" in navigator) {
+    // Check if the API is supported
+    try {
+      wakeLock = await navigator.wakeLock.request("screen");
+      wakeLock.addEventListener("release", () => {});
+    } catch (err) {
+      console.error(`${err.name}, ${err.message}`);
+    }
+  } else {
+    alert("Wake Lock API not supported in this browser.");
   }
 }
 
@@ -250,22 +252,25 @@ function releaseWakeLock() {
   if (wakeLock !== null) {
     wakeLock.release();
     wakeLock = null;
-    console.log("Wake Lock released manually");
   }
 }
 
 function toggleWakeLock() {
-  if (wakeLock === null) {
+  const switchLabel = document.getElementById("wake-lock-label");
+  const wakeLockToggle = document.getElementById("wake-lock-toggle");
+
+  if (wakeLockToggle.checked) {
     requestWakeLock();
-    document.getElementById("wake-lock-toggle").innerText =
-      "Turn Off Screen Awake";
+    switchLabel.innerText = "Turn Off Screen Awake"; // Change label text when enabled
+    switchLabel.classList.add("active");
   } else {
     releaseWakeLock();
-    document.getElementById("wake-lock-toggle").innerText = "Keep Screen Awake";
+    switchLabel.innerText = "Keep Screen Awake"; // Revert label text when disabled
+    switchLabel.classList.remove("active");
   }
 }
 
-// Optional: Listen for visibility change to reapply wake lock if needed
+// Listen for visibility change to reapply wake lock if needed
 document.addEventListener("visibilitychange", () => {
   if (wakeLock !== null && document.visibilityState === "visible") {
     requestWakeLock();

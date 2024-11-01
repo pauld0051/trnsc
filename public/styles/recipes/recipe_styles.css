@@ -16,3 +16,40 @@
     margin-bottom: 1rem;
 
 }
+
+/* Screenlock for Phones */
+
+/* Mobile Switch Styling */
+#wake-lock-toggle {
+    width: 40px;
+    /* Smaller width */
+    height: 20px;
+    /* Smaller height */
+    transform: scale(0.8);
+    /* Adjust scale for finer control over size */
+    cursor: pointer;
+}
+
+#wake-lock-toggle:checked {
+    background-color: #4a7b56;
+    /* Active background colour */
+    border-color: #4a7b56;
+}
+
+/* Adjust the switch label styling */
+#wake-lock-label {
+    font-size: 14px;
+    /* Smaller font size */
+    margin-left: 8px;
+    /* Adjust spacing for the smaller switch */
+    color: #6b4e3d;
+    /* Default colour */
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+/* Active label state */
+#wake-lock-label.active {
+    color: #4a7b56;
+    /* Colour for "active" state */
+}
