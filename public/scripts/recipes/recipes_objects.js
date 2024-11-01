@@ -1961,4 +1961,43 @@ const recipes = {
     },
     date_added: "2024-11-01",
   },
+
+  // CHOCOLATE
+  chocolate: {
+    title: "85% Dark Chocolate with Inulin",
+    category: [
+      "snacks",
+      "dessert",
+      "vegan",
+      "keto_and_low_carb",
+      "gluten_free",
+    ],
+    img_src: "/public/images/recipes/chocolate/chocolate.jpg",
+    description:
+      "A rich, 85% dark chocolate with a hint of natural sweetness from inulin. Perfect for dark chocolate lovers and those on sugar-conscious diets. Making your own chocolate has never been easier!",
+    prep_time: "10 mins",
+    cook_time: "10 mins",
+    total_time: "20 mins",
+    servings: "6",
+    ingredients: [
+      "110g cocoa butter (available here on <a href='https://amzn.to/47Vn9LF' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/47T15Be' target='_blank'>(Amazon US/Can)</a>)",
+      "60g high-quality cocoa powder (e.g., <a href='https://amzn.to/47YzIWr' target='_blank'>(EU) Valrhona</a> or <a href='https://amzn.to/3TVDuKu' target='_blank'>(US/Can) Valrhona</a>)",
+      "30g powdered inulin (<a href='https://amzn.to/3UqTLap' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3YJnJt6' target='_blank'>(Amazon US/Can)</a>)",
+    ],
+    method: [
+      "Set up a double boiler: Fill the bottom pot with water and place the cocoa butter in the top pot. Heat gently until fully melted.",
+      "Slowly whisk in the cocoa powder: Once the cocoa butter is melted, whisk in the cocoa powder until completely dissolved and smooth.",
+      "Add the inulin powder: Gradually whisk in the inulin powder until fully incorporated, ensuring the mixture is smooth and free of clumps.",
+      "Pour into a chocolate mold <a href='https://amzn.to/3YLdmoh' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4hy33eX' target='_blank'>(Amazon US/Can)</a> or tin: Pour the mixture into a 40cm cake tin (or smaller moulds) to set. The thin layer helps the chocolate achieve a shiny finish.",
+      "Let it set: Allow the chocolate to set at room temperature, then break into small pieces for serving. Store in an airtight container to keep it fresh.",
+    ],
+    nutrition: {
+      calories: "180 kcal",
+      carbs: "6g",
+      fibre: "4g",
+      protein: "2g",
+      fat: "16g",
+    },
+    date_added: "2024-11-02",
+  },
 };

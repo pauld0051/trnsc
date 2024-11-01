@@ -380,6 +380,11 @@ const products = [
     linkEU: "https://amzn.to/4f60kaF",
     linkUS: "https://amzn.to/4hq3w2x",
   },
+  {
+    name: "chocolate mold",
+    linkEU: "https://amzn.to/3YLdmoh",
+    linkUS: "https://amzn.to/4hy33eX",
+  },
 ];
 
 
