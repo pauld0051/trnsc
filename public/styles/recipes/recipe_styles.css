@@ -17,9 +17,9 @@
 
 }
 
-/* Screenlock for Phones */
+/* Screen lock for Phones */
 
-/* Mobile Switch Styling */
+/* Switch Styling */
 #wake-lock-toggle {
     width: 40px;
     /* Smaller width */
@@ -28,12 +28,45 @@
     transform: scale(0.8);
     /* Adjust scale for finer control over size */
     cursor: pointer;
+    appearance: none;
+    /* Remove default styles for customisation */
+    background-color: #e6e1dd;
+    /* Custom background for off state */
+    border: 2px solid #6b4e3d;
+    /* Base border colour for off state */
+    border-radius: 15px;
+    /* Rounded for switch look */
+    position: relative;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
+/* Circle inside the switch */
+#wake-lock-toggle::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    background-color: #6b4e3d;
+    /* Color of the circle */
+    border-radius: 50%;
+    transition: left 0.3s ease;
+}
+
+/* Checked (active) state */
 #wake-lock-toggle:checked {
     background-color: #4a7b56;
     /* Active background colour */
     border-color: #4a7b56;
+}
+
+#wake-lock-toggle:checked::before {
+    left: calc(100% - 14px);
+    /* Move circle to the right when active */
+    background-color: #ffffff;
+    /* White for better contrast in active state */
 }
 
 /* Adjust the switch label styling */
@@ -52,4 +85,11 @@
 #wake-lock-label.active {
     color: #4a7b56;
     /* Colour for "active" state */
+}
+
+/* Show only on mobile and tablet screens */
+@media (min-width: 1200px) {
+    .form-check {
+        display: none;
+    }
 }
