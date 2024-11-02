@@ -58,19 +58,21 @@ function injectRecipeCards() {
     return;
   }
 
-  // Extract the category from the URL dynamically (e.g., "snacks" from "index_snacks.html")
+  // Extract the category from the URL dynamically
   const categoryMatch = currentPath.match(/index_([a-zA-Z_]+)(\.html)?$/);
   const category = categoryMatch ? categoryMatch[1] : null;
 
   // Check if we are on the "all_recipes" page
   const isAllRecipesPage = currentPath.includes("index_all_recipes.html");
 
-  if (isAllRecipesPage) {
-    // Inject all recipes if we are on the "all_recipes" page
-    Object.keys(recipes).forEach((recipeId) => {
-      const recipe = recipes[recipeId];
+  // Sort recipes by date added in descending order (newest first) and include recipeId
+  const sortedRecipes = Object.keys(recipes)
+    .map((recipeId) => ({ recipeId, ...recipes[recipeId] })) // Include recipeId in each item
+    .sort((a, b) => new Date(b.date_added) - new Date(a.date_added));
 
-      // Dynamically create the recipe card with hidden data attributes for sorting
+  if (isAllRecipesPage) {
+    sortedRecipes.forEach(({ recipeId, ...recipe }) => {
+      // Destructure recipeId and recipe
       const cardHTML = `
         <div class="col-md-4">
           <a href="/views/layouts/recipes/recipe_pages/${recipeId}.html" class="card-link">
@@ -105,13 +107,12 @@ function injectRecipeCards() {
       recipeList.innerHTML += cardHTML;
     });
   } else if (category) {
-    // Inject only recipes belonging to the current category for other index pages
-    Object.keys(recipes).forEach((recipeId) => {
-      const recipe = recipes[recipeId];
-
-      // Check if the recipe's category array includes the extracted category
-      if (recipe.category.includes(category)) {
-        // Dynamically create the recipe card with hidden data attributes for sorting
+    sortedRecipes
+      .filter(({ category: recipeCategories }) =>
+        recipeCategories.includes(category)
+      )
+      .forEach(({ recipeId, ...recipe }) => {
+        // Destructure recipeId and recipe
         const cardHTML = `
           <div class="col-md-4">
             <a href="/views/layouts/recipes/recipe_pages/${recipeId}.html" class="card-link">
@@ -144,8 +145,7 @@ function injectRecipeCards() {
 
         // Inject the card into the recipe list
         recipeList.innerHTML += cardHTML;
-      }
-    });
+      });
   } else {
     console.error("No category found in the URL.");
   }
