@@ -390,6 +390,21 @@ const products = [
     linkEU: "https://amzn.to/48xrZPu",
     linkUS: "https://amzn.to/40nKML8",
   },
+  {
+    name: "rolled oats",
+    linkEU: "https://amzn.to/40teTka",
+    linkUS: "https://amzn.to/3NOzqIm",
+  },
+  {
+    name: "vanilla powder",
+    linkEU: "https://amzn.to/4fbxUfC",
+    linkUS: "https://amzn.to/4ebvhcr",
+  },
+  {
+    name: "almond milk",
+    linkEU: "https://amzn.to/3YxZrAF",
+    linkUS: "https://amzn.to/4eje80h",
+  },
 ];
 
 
