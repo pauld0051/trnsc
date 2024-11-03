@@ -2064,7 +2064,7 @@ const recipes = {
     ],
     img_src: "/public/images/recipes/chicken_burgers/chicken_burgers.jpg",
     description:
-      "Juicy and flavourful chicken burgers, perfect for a healthy low-carb or gluten-free meal. Pair with homemade almond flour buns for a complete meal.",
+      "Juicy and flavourful chicken burgers, perfect for a healthy low-carb or gluten-free meal. Pair with homemade <a href='/views/layouts/recipes/recipe_pages/almond_flour_buns.html' target='_blank'>Almond Flour Burger Buns</a> for a complete meal.",
     prep_time: "10 mins",
     cook_time: "15 mins",
     total_time: "25 mins",
@@ -2128,7 +2128,7 @@ const recipes = {
     ],
     img_src: "/public/images/recipes/beef_burger/beef_burger.jpg",
     description:
-      "Juicy and flavourful beef burgers, perfect for a healthy low-carb or gluten-free meal. Pair with homemade almond flour buns for a complete meal.",
+      "Juicy and flavourful beef burgers, perfect for a healthy low-carb or gluten-free meal. Pair with homemade <a href='/views/layouts/recipes/recipe_pages/almond_flour_buns.html' target='_blank'>Almond Flour Burger Buns</a> for a complete meal.",
     prep_time: "10 mins",
     cook_time: "15 mins",
     total_time: "25 mins",
