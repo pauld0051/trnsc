@@ -2180,4 +2180,55 @@ const recipes = {
     },
     date_added: "2024-11-03",
   },
+
+  // Nacho Chips
+  nacho_chips: {
+    title: "Chickpea & Quinoa Nacho Chips",
+    category: [
+      "snacks",
+      "appetizers",
+      "gluten_free",
+      "keto_and_low_carb",
+      "quick_and_easy",
+      "vegetarian",
+    ],
+    img_src: "/public/images/recipes/nacho_chips/nacho_chips.jpg",
+    description:
+      "Crunchy and flavourful Chickpea & Quinoa Nacho Chips, perfect for dipping in salsa, guacamole, or a Greek yoghurt dip. A unique and keto-friendly snack option!",
+    prep_time: "15 mins",
+    cook_time: "12 mins",
+    total_time: "27 mins",
+    servings: "4",
+    ingredients: [
+      "1/2 cup chickpea flour <a href='https://amzn.to/3zSUPwV' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4eZuIDm' target='_blank'>(Amazon US/Can)</a>",
+      "1/2 cup quinoa flour <a href='https://amzn.to/3NpULaW' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3ZXlvap' target='_blank'>(Amazon US/Can)</a>",
+      "1 cup shredded mozzarella cheese",
+      "1 tablespoon cream cheese",
+      "1/2 teaspoon salt",
+      "1/2 teaspoon garlic powder (optional) <a href='https://amzn.to/400SACg' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4dFMYAE' target='_blank'>(Amazon US/Can)</a>",
+      "1/2 teaspoon paprika (optional) <a href='https://amzn.to/40sKOBh' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/48AYTyw' target='_blank'>(Amazon US/Can)</a>",
+    ],
+    method: [
+      "Preheat your oven to 175°C (350°F) and line a baking sheet <a href='https://amzn.to/4hzmiVa' target='_blank'>(Amazon EU/UK</a> or <a href='https://amzn.to/4ejY3aF' target='_blank'>Amazon US/Can)</a> with parchment paper <a href='https://amzn.to/3ZRoO2D' target='_blank'>(Amazon EU/UK</a> or <a href='https://amzn.to/4h3rfWi' target='_blank'>Amazon US/Can)</a>.",
+      "In a microwave-safe bowl, combine the mozzarella cheese and cream cheese. Microwave for about 1 minute or until melted. Stir until smooth.",
+      "Add the chickpea flour, quinoa flour, salt, garlic powder, and paprika to the melted cheese mixture. Mix until a dough forms. If the dough is too sticky, add a little more chickpea flour until manageable.",
+      "Place the dough between two sheets of parchment paper and roll it out to about 1/8 inch thick.",
+      "Cut the dough into triangles or your preferred chip shape.",
+      "Transfer the chips to the prepared baking sheet lined with parchment paper.",
+      "Bake for 10-12 minutes or until golden brown and crispy. Keep an eye on them as they may brown quickly toward the end.",
+      "Allow the chips to cool completely before serving.",
+    ],
+    tips: [
+      "Serve these chips with salsa, guacamole, or a Greek yoghurt dip for a satisfying, low-carb snack.",
+      "For extra crunch, make sure to roll the dough thin and bake until just golden brown.",
+    ],
+    nutrition: {
+      calories: "150 kcal",
+      carbs: "10g",
+      fibre: "2g",
+      protein: "8g",
+      fat: "8g",
+    },
+    date_added: "2024-11-03",
+  },
 };

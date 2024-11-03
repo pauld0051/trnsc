@@ -405,6 +405,16 @@ const products = [
     linkEU: "https://amzn.to/3YxZrAF",
     linkUS: "https://amzn.to/4eje80h",
   },
+  {
+    name: "paprika",
+    linkEU: "https://amzn.to/40sKOBh",
+    linkUS: "https://amzn.to/48AYTyw",
+  },
+  {
+    name: "baking sheet paper",
+    linkEU: "https://amzn.to/4hzmiVa",
+    linkUS: "https://amzn.to/4ejY3aF",
+  },
 ];
 
 
