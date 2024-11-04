@@ -415,6 +415,16 @@ const products = [
     linkEU: "https://amzn.to/4hzmiVa",
     linkUS: "https://amzn.to/4ejY3aF",
   },
+  {
+    name: "desiccated coconut",
+    linkEU: "https://amzn.to/3YS35af",
+    linkUS: "https://amzn.to/40B8inV",
+  },
+  {
+    name: "cocoa powder",
+    linkEU: "https://amzn.to/4ehqwyb",
+    linkUS: "https://amzn.to/3CcrdLD",
+  },
 ];
 
 

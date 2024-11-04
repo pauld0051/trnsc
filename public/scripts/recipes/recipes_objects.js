@@ -2231,4 +2231,50 @@ const recipes = {
     },
     date_added: "2024-11-03",
   },
+
+  // chokladbollar
+  chokladbollar: {
+    title: "Sugar-Free Chocolate Balls",
+    category: [
+      "snacks",
+      "dessert",
+      "gluten_free",
+      "quick_and_easy",
+      "keto_and_low_carb",
+    ],
+    img_src: "/public/images/recipes/chokladbollar/chokladbollar.jpg",
+    description:
+      "Delicious Sugar-Free Chocolate Balls, also known as Chokladbollar in Sweden. A traditional treat with a low-carb twist, perfect for those craving a guilt-free sweet snack.",
+    prep_time: "10 mins",
+    cook_time: "0 mins",
+    total_time: "40 mins",
+    servings: "12",
+    ingredients: [
+      "80g butter (or lactose-free butter for dairy-free)",
+      "120g rolled oats (use certified gluten-free oats if needed) <a href='https://amzn.to/40teTka' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3NOzqIm' target='_blank'>(Amazon US/Can)</a>",
+      "2/3 cup sugar-free sweetener (e.g., <a href='https://amzn.to/3UqTLap' target='_blank'>inulin powder</a>, <a href='https://amzn.to/3A1oDr6' target='_blank'>stevia</a> or <a href='https://amzn.to/3Yia381' target='_blank'>monk fruit sweetener</a>)",
+      "4 tbsp cocoa powder <a href='https://amzn.to/4ehqwyb' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3CcrdLD' target='_blank'>(Amazon US/Can)</a>",
+      "3 tbsp brewed coffee (cooled)",
+      "2 tsp vanilla powder <a href='https://amzn.to/4fbxUfC' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4ebvhcr' target='_blank'>(Amazon US/Can)</a>",
+      "Desiccated coconut for rolling <a href='https://amzn.to/3YS35af' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/40B8inV' target='_blank'>(Amazon US/Can)</a>",
+    ],
+    method: [
+      "Place all the ingredients in a mixing bowl. Use an electric mixer to blend the mixture until smooth for a better texture.",
+      "Let the mixture sit for 20-30 minutes to allow the oats to absorb moisture, making it easier to shape.",
+      "Shape the dough into small balls of your desired size.",
+      "Roll each ball in desiccated coconut for a delicious coating.",
+      "Place in the refrigerator for 30 minutes to set. Enjoy!",
+    ],
+    tips: [
+      "While oats are slightly higher in carbohydrates, they can be part of a healthy diet for individuals with type 2 diabetes. Learn more about the benefits of oats <a href='https://www.healthline.com/health/diabetes/oatmeal' target='_blank'>here</a>.",
+    ],
+    nutrition: {
+      calories: "100 kcal",
+      carbs: "8g",
+      fibre: "3g",
+      protein: "2g",
+      fat: "7g",
+    },
+    date_added: "2024-11-04",
+  },
 };
