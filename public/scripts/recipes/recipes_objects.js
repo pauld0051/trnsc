@@ -2234,7 +2234,7 @@ const recipes = {
 
   // chokladbollar
   chokladbollar: {
-    title: "Sugar-Free Chocolate Balls",
+    title: "Chokladbollar - Sugar-Free Chocolate Balls",
     category: [
       "snacks",
       "dessert",
