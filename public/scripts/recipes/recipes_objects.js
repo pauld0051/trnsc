@@ -2341,12 +2341,7 @@ const recipes = {
   // Hibiscus Coconut Cake
   hibiscus_coconut_cake: {
     title: "Hibiscus Coconut Cake",
-    category: [
-      "dessert",
-      "gluten_free",
-      "keto_and_low_carb",
-      "vegetarian",
-    ],
+    category: ["dessert", "gluten_free", "keto_and_low_carb", "vegetarian"],
     img_src:
       "/public/images/recipes/hibiscus_coconut_cake/hibiscus_coconut_cake.jpg",
     description:
@@ -2375,7 +2370,7 @@ const recipes = {
       "1-2 tablespoons coconut cream or heavy cream (optional, to adjust consistency)",
     ],
     method: [
-      "Preheat your oven to 180°C (350°F) and line a small cake tin with <a href='https://amzn.to/4eek7ni' target='_blank'>parchment paper</a>.",
+      "Preheat your oven to 180°C (350°F) and line a small cake tin <a href='https://amzn.to/4eek7ni' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/40zX9DO' target='_blank'>(Amazon US/Can)</a> with parchment paper <a href='https://amzn.to/3ZRoO2D' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4h3rfWi' target='_blank'>(Amazon US/Can)</a>.",
       "Brew the hibiscus tea (using a tea strainer <a href='https://amzn.to/3UGt2ah' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3UGOiwu' target='_blank'>(Amazon US/Can)</a> for a stronger colour) and let it cool completely.",
       "In a medium bowl, whisk together the coconut flour, baking powder, inulin powder, psyllium husk, xanthan gum, salt, and any optional spices like cinnamon or cardamom. This ensures even distribution of the psyllium and xanthan gum, helping the cake bind well.",
       "In another bowl, whisk the eggs until frothy. Add the melted coconut oil, hibiscus tea, and vanilla essence, stirring until smooth.",
