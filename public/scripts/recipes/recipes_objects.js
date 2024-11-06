@@ -2279,7 +2279,7 @@ const recipes = {
   },
 
   // Chicken Nachos
-    chicken_nachos: {
+  chicken_nachos: {
     title: "Healthy Chicken Nachos",
     category: [
       "dinner",
@@ -2326,7 +2326,7 @@ const recipes = {
     tips: [
       "For a diabetes-friendly option, use low-carb Greek yoghurt and sugar-free hot chilli sauce for toppings.",
       "These quinoa & chickpea nacho chips offer a crunchy, low-carb base. Check out the recipe <a href='/views/layouts/recipes/recipe_pages/nacho_chips.html' target='_blank'>here</a>.",
-      "Corn is slightly higher in carbohydrates, so use sparingly, but can still be part of a healthy diet."
+      "Corn is slightly higher in carbohydrates, so use sparingly, but can still be part of a healthy diet.",
     ],
     nutrition: {
       calories: "300 kcal",
@@ -2336,5 +2336,72 @@ const recipes = {
       fat: "15g",
     },
     date_added: "2024-11-06",
+  },
+
+  // Hibiscus Coconut Cake
+  hibiscus_coconut_cake: {
+    title: "Hibiscus Coconut Cake",
+    category: [
+      "dessert",
+      "gluten_free",
+      "keto_and_low_carb",
+      "vegetarian",
+    ],
+    img_src:
+      "/public/images/recipes/hibiscus_coconut_cake/hibiscus_coconut_cake.jpg",
+    description:
+      "A soft, moist Hibiscus Coconut Cake with a subtle floral flavour from hibiscus tea and a hint of lemon. Naturally gluten-free and high in fibre, this cake is perfect for a guilt-free treat.",
+    prep_time: "20 mins",
+    cook_time: "30 mins",
+    total_time: "50 mins",
+    servings: "8",
+    ingredients: [
+      "240 ml (1 cup) hibiscus tea, brewed and cooled to room temperature <a href='https://amzn.to/4eA4SGm' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3zOdGsU' target='_blank'>(Amazon US/Can)</a>",
+      "70 g (approx. ½ cup) coconut flour <a href='https://amzn.to/3zXdLL0' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3UaxFZX' target='_blank'>(Amazon US/Can)</a>",
+      "4 large eggs",
+      "3-4 tablespoons inulin powder, to taste <a href='https://amzn.to/3UqTLap' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3YJnJt6' target='_blank'>(Amazon US/Can)</a>",
+      "60 ml (¼ cup) melted coconut oil <a href='https://amzn.to/3UvVPhk' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3NN7sg9' target='_blank'>(Amazon US/Can)</a> or avocado oil <a href='https://amzn.to/4f5o5Qr' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/48vlnBc' target='_blank'>(Amazon US/Can)</a>",
+      "1 teaspoon vanilla essence (optional) <a href='https://amzn.to/3Yhyoeb' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4dH7OzB' target='_blank'>(Amazon US/Can)</a>",
+      "1 teaspoon baking powder <a href='https://amzn.to/3NfIlCz' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3XN0WL6' target='_blank'>(Amazon US/Can)</a>",
+      "1 teaspoon psyllium husk powder <a href='https://amzn.to/3zYWqBb' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3NcDeDh' target='_blank'>(Amazon US/Can)</a>",
+      "½ teaspoon xanthan gum <a href='https://amzn.to/4eDPoBd' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3ZWOZFo' target='_blank'>(Amazon US/Can)</a>",
+      "Pinch of salt",
+      "Optional spices: A pinch of cinnamon <a href='https://amzn.to/483pOD8' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4f1zyQi' target='_blank'>(Amazon US/Can)</a> and/or cardamom <a href='https://amzn.to/4016RyI' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/483fyL0' target='_blank'>(Amazon US/Can)</a>",
+      "<strong>Lemon Inulin Icing</strong>",
+      "3-4 tablespoons inulin powder, adjusted to taste",
+      "120 g (about ½ cup) softened cream cheese or Greek yoghurt",
+      "1-2 tablespoons freshly squeezed lemon juice",
+      "½ teaspoon lemon zest (optional, for extra lemony flavour)",
+      "1-2 tablespoons coconut cream or heavy cream (optional, to adjust consistency)",
+    ],
+    method: [
+      "Preheat your oven to 180°C (350°F) and line a small cake tin with <a href='https://amzn.to/4eek7ni' target='_blank'>parchment paper</a>.",
+      "Brew the hibiscus tea (using a tea strainer <a href='https://amzn.to/3UGt2ah' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3UGOiwu' target='_blank'>(Amazon US/Can)</a> for a stronger colour) and let it cool completely.",
+      "In a medium bowl, whisk together the coconut flour, baking powder, inulin powder, psyllium husk, xanthan gum, salt, and any optional spices like cinnamon or cardamom. This ensures even distribution of the psyllium and xanthan gum, helping the cake bind well.",
+      "In another bowl, whisk the eggs until frothy. Add the melted coconut oil, hibiscus tea, and vanilla essence, stirring until smooth.",
+      "Gradually add the dry ingredients to the wet mixture, stirring until fully combined. Let the batter rest for 10 minutes to allow the coconut flour, psyllium husk, and xanthan gum to absorb moisture and thicken.",
+      "Pour the batter into the prepared cake tin, filling it about two-thirds full. Bake for 25-30 minutes, or until a toothpick inserted into the center comes out clean.",
+      "Allow the cake to cool in the tin for 10 minutes before transferring to a rack to cool completely.",
+      "<strong>Icing</strong>",
+      "In a medium bowl, beat the cream cheese or Greek yoghurt until smooth and creamy.",
+      "Add the lemon juice and lemon zest, mixing well to incorporate. Start with 1 tablespoon of lemon juice and taste; add more if you prefer a stronger lemon flavour.",
+      "Gradually add the inulin powder, whisking continuously until smooth. Adjust the sweetness to your liking.",
+      "If the icing is too thick, add a tablespoon of coconut cream or heavy cream to loosen it slightly.",
+      "Refrigerate the icing for about 10-15 minutes to help it firm up before spreading on the cake.",
+    ],
+    tips: [
+      "Store in an airtight container in the fridge for up to 3-4 days.",
+      "For extra flavour, serve with a dollop of unsweetened Greek yoghurt or dust with inulin powder for a pretty finish.",
+      "For more pronounced lemon flavour, use extra zest or a few drops of natural lemon essence.",
+      "This icing should be thick enough to spread but soft enough to easily swirl on top of the cake.",
+    ],
+    nutrition: {
+      calories: "180 kcal",
+      carbs: "6g",
+      fibre: "4g",
+      protein: "4g",
+      fat: "14g",
+    },
+    date_added: "2024-11-07",
   },
 };

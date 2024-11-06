@@ -425,6 +425,16 @@ const products = [
     linkEU: "https://amzn.to/4ehqwyb",
     linkUS: "https://amzn.to/3CcrdLD",
   },
+  {
+    name: "cake tin",
+    linkEU: "https://amzn.to/4eek7ni",
+    linkUS: "https://amzn.to/40zX9DO",
+  },
+  {
+    name: "tea strainer",
+    linkEU: "https://amzn.to/3UGt2ah",
+    linkUS: "https://amzn.to/3UGOiwu",
+  },
 ];
 
 
