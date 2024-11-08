@@ -2399,4 +2399,54 @@ const recipes = {
     },
     date_added: "2024-11-07",
   },
+
+  // Carrot Chips
+  carrot_chips: {
+    title: "Carrot Chips",
+    category: [
+      "snacks",
+      "side_dishes",
+      "appetizers",
+      "vegetarian",
+      "vegan",
+      "gluten_free",
+    ],
+    img_src: "/public/images/recipes/carrot_chips/carrot_chips.jpg",
+    description:
+      "Crispy and flavourful carrot chips, perfect for a healthy snack or side dish. These gluten-free, vegan chips are seasoned with a hint of cayenne, garlic, and onion powder for a tasty crunch.",
+    prep_time: "5 mins",
+    cook_time: "45 mins",
+    total_time: "50 mins",
+    servings: "4",
+    ingredients: [
+      "3 large carrots, sliced thinly (1-2 mm thick)",
+      "2 tablespoons olive oil <a href='https://amzn.to/4gVpL0c' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/47SOaPT' target='_blank'>(Amazon US/Can)</a>",
+      "Salt, to taste",
+      "1/2 teaspoon garlic powder <a href='https://amzn.to/400SACg' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4dFMYAE' target='_blank'>(Amazon US/Can)</a>",
+      "1/2 teaspoon onion powder <a href='https://amzn.to/48d3S8I' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/484xQLS' target='_blank'>(Amazon US/Can)</a>",
+      "1/4 teaspoon cayenne pepper (optional, for extra spice) <a href='https://amzn.to/4054wmv' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4eY6qto' target='_blank'>(Amazon US/Can)</a>",
+    ],
+    method: [
+      "Preheat your oven to 150°C (300°F) and line a baking tray with baking sheet paper <a href='https://amzn.to/4hzmiVa' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4ejY3aF' target='_blank'>(Amazon US/Can)</a>.",
+      "Slice the carrots thinly (1-2 mm) using a mandolin slicer <a href='https://amzn.to/48xrZPu' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/40nKML8' target='_blank'>(Amazon US/Can)</a> or sharp knife.",
+      "In a mixing bowl, toss the carrot slices with olive oil until evenly coated.",
+      "Season with salt, garlic powder, onion powder, and cayenne pepper (if using). Mix well to coat the carrots evenly.",
+      "Arrange the carrot slices in a single layer on the prepared baking tray.",
+      "Bake for 20 minutes, then flip the slices and bake for another 20 minutes, removing any slices that are already crispy.",
+      "Bake for an additional 5 minutes with the oven door slightly open, checking regularly to avoid burning.",
+      "Let the chips cool slightly and enjoy as a healthy, crunchy snack!",
+    ],
+    tips: [
+      "These carrot chips make a great alternative to traditional chips, packed with flavour and a satisfying crunch.",
+      "For best results, slice the carrots as evenly as possible to ensure they cook uniformly.",
+    ],
+    nutrition: {
+      calories: "80 kcal",
+      carbs: "12g",
+      fibre: "4g",
+      protein: "1g",
+      fat: "4g",
+    },
+    date_added: "2024-11-08",
+  },
 };

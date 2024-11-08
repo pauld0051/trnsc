@@ -310,3 +310,57 @@ p {
     /* Adjust the size to what works best */
     height: auto;
 }
+
+/* Social media icons and dropdown for medium screens (up to 1300px) */
+@media (max-width: 1300px) {
+    .social-icons {
+        display: none !important;
+        /* Ensure individual icons are hidden */
+    }
+
+    .social-dropdown {
+        display: block !important;
+        /* Show dropdown at 1300px and below */
+        position: relative;
+        margin-left: auto;
+    }
+
+    .social-dropdown .dropdown-menu {
+        position: absolute;
+        right: 0;
+        margin-top: 0.5rem;
+        min-width: 150px;
+    }
+
+    .social-dropdown .dropdown-item {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .social-dropdown .btn-secondary {
+        background-color: #6ba89e !important;
+        /* Soft teal */
+        color: white !important;
+        border: none;
+    }
+
+    .social-dropdown .btn-secondary:hover {
+        background-color: #4f8c7c !important;
+        /* Darker teal on hover */
+        color: white !important;
+    }
+}
+
+/* Ensure the dropdown is hidden above 1300px */
+@media (min-width: 1301px) {
+    .social-dropdown {
+        display: none !important;
+        /* Hide dropdown above 1300px */
+    }
+
+    .social-icons {
+        display: flex !important;
+        /* Show icons above 1300px */
+    }
+}
