@@ -39,4 +39,12 @@ const health_articles = [
     image: "/public/images/healthy_tips/potatoes/celeriac_1.jpeg",
     dateAdded: "2024-10-30",
   },
+  {
+    title: "Crispy Chip Olympics: In Search of the Perfect Crunch",
+    description:
+      "Join us as we test a variety of vegetable chips to find the healthiest, crunchiest alternative to store-bought potato chips. Discover the champions of the crunchy chip world in terms of health benefits, flavour, and texture!",
+    link: "/views/layouts/healthy_tips/chip_olympics.html",
+    image: "/public/images/healthy_tips/crunchy_olympics/crunchy_olympics.png",
+    dateAdded: "2024-11-08",
+  },
 ];

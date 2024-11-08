@@ -144,3 +144,8 @@
         content: attr(data-label);
     }
 }
+
+.olympics {
+    max-height: 150px;
+    object-fit: cover;
+}
