@@ -435,6 +435,21 @@ const products = [
     linkEU: "https://amzn.to/3UGt2ah",
     linkUS: "https://amzn.to/3UGOiwu",
   },
+  {
+    name: "sesame oil",
+    linkEU: "https://amzn.to/3YUYX9k",
+    linkUS: "https://amzn.to/4hIgxoa",
+  },
+  {
+    name: "white vinegar",
+    linkEU: "https://amzn.to/4elCeaX",
+    linkUS: "https://amzn.to/4fEZulf",
+  },
+  {
+    name: "chilli flakes",
+    linkEU: "https://amzn.to/40GBMAO",
+    linkUS: "https://amzn.to/4hFKW6z",
+  },
 ];
 
 

@@ -2250,7 +2250,7 @@ const recipes = {
     total_time: "40 mins",
     servings: "12",
     ingredients: [
-      "80g butter (or lactose-free butter for dairy-free)",
+      "80g butter (or lactose-free butter for dairy-free) or coconut oil <a href='https://amzn.to/3UvVPhk' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3NN7sg9' target='_blank'>(Amazon US/Can)</a>",
       "120g rolled oats (use certified gluten-free oats if needed) <a href='https://amzn.to/40teTka' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3NOzqIm' target='_blank'>(Amazon US/Can)</a>",
       "2/3 cup sugar-free sweetener (e.g., <a href='https://amzn.to/3UqTLap' target='_blank'>inulin powder</a>, <a href='https://amzn.to/3A1oDr6' target='_blank'>stevia</a> or <a href='https://amzn.to/3Yia381' target='_blank'>monk fruit sweetener</a>)",
       "4 tbsp cocoa powder <a href='https://amzn.to/4ehqwyb' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3CcrdLD' target='_blank'>(Amazon US/Can)</a>",
@@ -2260,7 +2260,7 @@ const recipes = {
     ],
     method: [
       "Place all the ingredients in a mixing bowl. Use an electric mixer to blend the mixture until smooth for a better texture.",
-      "Let the mixture sit for 20-30 minutes to allow the oats to absorb moisture, making it easier to shape.",
+      "Let the mixture sit for 20-30 minutes in the fridge to allow the oats to absorb moisture, making it easier to shape.",
       "Shape the dough into small balls of your desired size.",
       "Roll each ball in desiccated coconut for a delicious coating.",
       "Place in the refrigerator for 30 minutes to set. Enjoy!",
@@ -2448,5 +2448,59 @@ const recipes = {
       fat: "4g",
     },
     date_added: "2024-11-08",
+  },
+
+  // Chicken Noodle Stir Fry
+  chicken_noodle_stirfry: {
+    title: "Chicken Noodle Stir Fry",
+    category: ["lunch", "dinner", "keto_and_low_carb", "gluten_free"],
+    img_src:
+      "/public/images/recipes/chicken_noodle_stirfry/chicken_noodle_stirfry.jpg",
+    description:
+      "A healthy and flavourful Chicken Noodle Stir Fry with shiratake noodles, fresh vegetables, and a light soy and sesame sauce. Perfect for a low-carb, gluten-free meal packed with protein and veggies!",
+    prep_time: "15 mins",
+    cook_time: "25 mins",
+    total_time: "40 mins",
+    servings: "4",
+    ingredients: [
+      "1 packet shiratake noodles, rinsed and drained <a href='https://amzn.to/3Ybhlua' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4eMv5Rw' target='_blank'>(Amazon US/Can)</a>",
+      "500 mL low sodium chicken stock <a href='https://amzn.to/3YrMQz2' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3NPtOxy' target='_blank'>(Amazon US/Can)</a>",
+      "1 tsp psyllium husk <a href='https://amzn.to/3zYWqBb' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3NcDeDh' target='_blank'>(Amazon US/Can)</a>",
+      "4 tbsp reduced sodium soy sauce <a href='https://amzn.to/48cj31F' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/48cj31F' target='_blank'>(Amazon US/Can)</a>, divided",
+      "2 tbsp sesame oil, divided <a href='https://amzn.to/3YUYX9k' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4hIgxoa' target='_blank'>(Amazon US/Can)</a>",
+      "1 tbsp avocado oil <a href='https://amzn.to/4f5o5Qr' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/48vlnBc' target='_blank'>(Amazon US/Can)</a>",
+      "450 g boneless, skinless chicken breasts, cut into 5 cm pieces",
+      "30 ml white vinegar <a href='https://amzn.to/4elCeaX' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4fEZulf' target='_blank'>(Amazon US/Can)</a>",
+      "1 tbsp inulin powder <a href='https://amzn.to/3UqTLap' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3YJnJt6' target='_blank'>(Amazon US/Can)</a>",
+      "200 g fresh snow peas",
+      "1 head of broccoli, cut into florets",
+      "1 onion, cut into eighths",
+      "1 parsnip or carrot, sliced into small discs",
+      "A handful of brussels sprouts, quartered",
+      "1 red pepper, sliced",
+      "1 ½ tsp minced fresh ginger root (about 4 g)",
+      "½ tsp chilli flakes <a href='https://amzn.to/40GBMAO' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4hFKW6z' target='_blank'>(Amazon US/Can)</a>",
+    ],
+    method: [
+      "Rinse and drain the shiratake noodles thoroughly. Add the noodles and chicken stock to a bowl and set aside, allowing them to soak for as long as possible (up to an hour for best results).",
+      "In a small bowl, whisk the psyllium husk with 1 tablespoon soy sauce until smooth, then stir in 1 tablespoon sesame oil. Place the chicken in this mixture and coat thoroughly. Let it marinate for 10 minutes.",
+      "In another small bowl, combine the white vinegar, inulin powder (or erythritol), remaining 3 tablespoons soy sauce, and remaining 1 tablespoon sesame oil. Set aside.",
+      "In a large nonstick skillet or wok, heat the avocado oil over medium-high heat. Add the onion and cook until translucent, then add the marinated chicken and cook, stirring, until the chicken is no longer pink (about 5–7 minutes). Remove the chicken to a plate and keep warm.",
+      "In the same skillet, add the snow peas, broccoli, and parsnip or carrot. Cook and stir for about 5 minutes, adding more avocado oil if needed. For a stronger Asian flavour, add additional sesame oil if desired.",
+      "Add the brussels sprouts, red pepper, and chilli flakes. Continue to cook and stir until the vegetables are crisp-tender, about 2–3 minutes longer. Add the ginger and cook for an additional minute.",
+      "Return the chicken to the pan and add the soy sauce mixture. Drain the shiratake noodles from the chicken stock, reserving 2-3 tablespoons of the stock. Add the noodles to the pan, tossing everything together until well combined and heated through. Add the reserved stock if needed to prevent sticking.",
+    ],
+    tips: [
+      "Shiratake noodles are low-carb and a great substitute for traditional noodles. Make sure to rinse them well to remove any odour.",
+      "For a spicier dish, increase the chilli flakes to taste.",
+    ],
+    nutrition: {
+      calories: "320 kcal",
+      carbs: "8g",
+      fibre: "4g",
+      protein: "30g",
+      fat: "18g",
+    },
+    date_added: "2024-11-09",
   },
 };
