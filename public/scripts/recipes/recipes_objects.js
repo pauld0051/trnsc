@@ -2250,7 +2250,7 @@ const recipes = {
     total_time: "40 mins",
     servings: "12",
     ingredients: [
-      "80g butter (or lactose-free butter for dairy-free) or coconut oil <a href='https://amzn.to/3UvVPhk' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3NN7sg9' target='_blank'>(Amazon US/Can)</a>",
+      "80g butter (or lactose-free butter) or coconut oil <a href='https://amzn.to/3UvVPhk' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3NN7sg9' target='_blank'>(Amazon US/Can)</a> for dairy free",
       "120g rolled oats (use certified gluten-free oats if needed) <a href='https://amzn.to/40teTka' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3NOzqIm' target='_blank'>(Amazon US/Can)</a>",
       "2/3 cup sugar-free sweetener (e.g., <a href='https://amzn.to/3UqTLap' target='_blank'>inulin powder</a>, <a href='https://amzn.to/3A1oDr6' target='_blank'>stevia</a> or <a href='https://amzn.to/3Yia381' target='_blank'>monk fruit sweetener</a>)",
       "4 tbsp cocoa powder <a href='https://amzn.to/4ehqwyb' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3CcrdLD' target='_blank'>(Amazon US/Can)</a>",
