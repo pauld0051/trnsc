@@ -364,3 +364,36 @@ p {
         /* Show icons above 1300px */
     }
 }
+
+/* Social media icons for mobile screens (up to 768px) */
+@media (max-width: 768px) {
+    .social-icons {
+        display: flex !important;
+        /* Display icons in a row */
+        justify-content: center;
+        margin-top: 0.5rem;
+        gap: 0.5rem;
+    }
+
+    .social-dropdown {
+        display: none !important;
+        /* Hide dropdown on mobile */
+    }
+
+    .social-icon img {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* Adjust the search bar for mobile layout */
+    .search-width {
+        width: 100%;
+    }
+
+    /* Center align social media icons */
+    .social-icons-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
