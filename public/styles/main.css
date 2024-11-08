@@ -353,7 +353,7 @@ p {
 }
 
 /* Ensure the dropdown is hidden above 1300px */
-@media (min-width: 1301px) {
+@media (min-width: 1080px) {
     .social-dropdown {
         display: none !important;
         /* Hide dropdown above 1300px */
@@ -366,7 +366,7 @@ p {
 }
 
 /* Social media icons for mobile screens (up to 768px) */
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .social-icons {
         display: flex !important;
         /* Display icons in a row */
