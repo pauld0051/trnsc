@@ -450,6 +450,11 @@ const products = [
     linkEU: "https://amzn.to/40GBMAO",
     linkUS: "https://amzn.to/4hFKW6z",
   },
+  {
+    name: "coconut milk",
+    linkEU: "https://amzn.to/4flkk9v",
+    linkUS: "https://amzn.to/3Ci62rD",
+  },
 ];
 
 

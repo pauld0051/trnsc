@@ -2503,4 +2503,55 @@ const recipes = {
     },
     date_added: "2024-11-09",
   },
+
+  // Coconut Flour Pancakes
+  coconut_flour_pancakes: {
+    title: "Coconut Flour Pancakes",
+    category: [
+      "breakfast",
+      "gluten_free",
+      "keto_and_low_carb",
+      "high_fibre",
+      "quick_and_easy",
+    ],
+    img_src:
+      "/public/images/recipes/coconut_flour_pancakes/coconut_flour_pancakes.jpg",
+    description:
+      "Fluffy, low-carb Coconut Flour Pancakes that are high in fibre and protein, making them a perfect start to your day. These pancakes are gluten-free and keto-friendly, with options to suit different dietary preferences.",
+    prep_time: "5 mins",
+    cook_time: "15 mins",
+    total_time: "20 mins",
+    servings: "4",
+    ingredients: [
+      "¼ cup coconut flour <a href='https://amzn.to/3zXdLL0' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3UaxFZX' target='_blank'>(Amazon US/Can)</a>",
+      "3 large eggs",
+      "2 tablespoons melted butter or coconut oil <a href='https://amzn.to/3UvVPhk' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3NN7sg9' target='_blank'>(Amazon US/Can)</a>",
+      "6 tablespoons almond milk <a href='https://amzn.to/3YxZrAF' target='_blank'>(Amazon EU/UK</a> or <a href='https://amzn.to/4eje80h' target='_blank'>Amazon US/Can)</a> or coconut milk <a href='https://amzn.to/4flkk9v' target='_blank'>(Amazon EU/UK</a> or <a href='https://amzn.to/3Ci62rD' target='_blank'>Amazon US/Can)</a>",
+      "1 teaspoon baking powder <a href='https://amzn.to/3NfIlCz' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3XN0WL6' target='_blank'>(Amazon US/Can)</a>",
+      "1 teaspoon vanilla extract <a href='https://amzn.to/3C84dxr' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/48t1YAV' target='_blank'>(Amazon US/Can)</a>",
+      "1 tablespoon powdered inulin (optional) <a href='https://amzn.to/3UqTLap' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3YJnJt6' target='_blank'>(Amazon US/Can)</a>",
+      "Extra melted butter or coconut oil for frying",
+    ],
+    method: [
+      "In a medium bowl, beat the eggs with a balloon whisk or an electric mixer until frothy.",
+      "Add the coconut flour, melted butter or coconut oil, almond or coconut milk, baking powder, vanilla extract, and inulin powder (if using). Mix until the batter is smooth and let it sit for a few minutes to allow the coconut flour to absorb the liquids.",
+      "Heat a skillet or non-stick frying pan over low heat and melt a little butter or coconut oil.",
+      "Pour 2 tablespoons of batter for each pancake onto the skillet, spreading it with the back of a spoon to about 4 inches (10 cm) in diameter. Cook 2-3 pancakes at a time.",
+      "Cook on low heat until bubbles appear on the surface (about 4-7 minutes). Avoid moving the pancakes during this time.",
+      "Carefully flip each pancake and cook for another minute until fully set. Continue with the remaining batter.",
+    ],
+    tips: [
+      "These pancakes are high in fibre from the coconut flour, helping to keep you full for longer while supporting digestive health.",
+      "Inulin powder is optional but adds a prebiotic fibre boost that can aid in gut health.",
+      "For best results, keep the heat low to avoid burning, as coconut flour pancakes can brown quickly.",
+    ],
+    nutrition: {
+      calories: "146 kcal",
+      carbs: "6g",
+      fibre: "4g",
+      protein: "7g",
+      fat: "11g",
+    },
+    date_added: "2024-11-09",
+  },
 };
