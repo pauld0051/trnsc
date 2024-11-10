@@ -2554,4 +2554,53 @@ const recipes = {
     },
     date_added: "2024-11-09",
   },
+
+  // Raspberry and Walnut Chocolate
+  dark_chocolate_walnut_raspberry: {
+    title: "Dark Chocolate with Walnuts and Raspberries",
+    category: [
+      "dessert",
+      "snacks",
+      "gluten_free",
+      "keto_and_low_carb",
+      "vegan",
+      "holidays_and_special_occasions",
+    ],
+    img_src:
+      "/public/images/recipes/chocolate/dark_chocolate_walnut_raspberry.jpg",
+    description:
+      "Rich and indulgent homemade dark chocolate with a delightful crunch of walnuts and a hint of tangy raspberries. Perfect for those following a low-sugar or keto lifestyle.",
+    prep_time: "10 mins",
+    cook_time: "10 mins",
+    total_time: "20 mins + chilling",
+    servings: "4",
+    ingredients: [
+      "110 g cocoa butter <a href='https://amzn.to/47Vn9LF' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/47T15Be' target='_blank'>(Amazon US/Can)</a>",
+      "60 g Valrhona cocoa powder <a href='https://amzn.to/47YzIWr' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3TVDuKu' target='_blank'>(Amazon US/Can)</a>",
+      "7-8 dried raspberries, crushed <a href='https://amzn.to/4fH4S7y' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/40EArKK' target='_blank'>(Amazon US/Can)</a>",
+      "7-8 walnuts, chopped into small pieces <a href='https://amzn.to/40EAu9o' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3AntJyk' target='_blank'>(Amazon US/Can)</a>",
+      "Optional: erythritol <a href='https://amzn.to/3NHtIbz' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3Nl85NJ' target='_blank'>(Amazon US/Can)</a> or stevia <a href='https://amzn.to/3A1oDr6' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4dOHjIr' target='_blank'>(Amazon US/Can)</a>, to taste (use approximately 2-3 grams of erythritol or stevia to achieve an 85% cocoa level of sweetness)",
+      "Chocolate mold <a href='https://amzn.to/3YLdmoh' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4hy33eX' target='_blank'>(Amazon US/Can)</a> for shaping the chocolate",
+    ],
+    method: [
+      "Set up a double boiler by filling the bottom pot with water and placing the cocoa butter in the top pot. Heat gently until the cocoa butter is fully melted.",
+      "Once the cocoa butter is melted, slowly whisk in the Valrhona cocoa powder until the mixture is completely dissolved and smooth. Valrhona cocoa powder is recommended for its deep, rich flavour – essential when making low-sugar chocolate.",
+      "Add the chopped walnuts, stirring until they are evenly incorporated. Then, gently fold in the crushed dried raspberries.",
+      "Carefully pour the chocolate mixture into the molds, ensuring that each mold cavity is evenly filled. Place the molds on a stable, moveable surface so they can be transferred easily to the fridge if you prefer a faster setting time. A thin layer will help the chocolate achieve a shiny finish.",
+      "Allow the chocolate to set at room temperature or refrigerate until fully hardened. Once set, remove the chocolates from the molds and store them in an airtight container to maintain freshness.",
+    ],
+    tips: [
+      "Using a high-quality cocoa powder like Valrhona ensures a deep chocolate flavour, which is especially important when using minimal or no sweetener.",
+      "Cocoa butter can be sensitive to high heat, so use a double boiler to gently melt it, ensuring a smooth texture.",
+      "Experiment with optional sweeteners like erythritol or stevia if you want to adjust the sweetness level while keeping the chocolate low-carb.",
+    ],
+    nutrition: {
+      calories: "180 kcal per serving",
+      carbs: "5g",
+      fibre: "4g",
+      protein: "2g",
+      fat: "18g",
+    },
+    date_added: "2024-11-10",
+  },
 };

@@ -455,6 +455,16 @@ const products = [
     linkEU: "https://amzn.to/4flkk9v",
     linkUS: "https://amzn.to/3Ci62rD",
   },
+  {
+    name: "dried raspberries",
+    linkEU: "https://amzn.to/4fH4S7y",
+    linkUS: "https://amzn.to/40EArKK",
+  },
+  {
+    name: "walnuts",
+    linkEU: "https://amzn.to/40EAu9o",
+    linkUS: "https://amzn.to/3AntJyk",
+  },
 ];
 
 
