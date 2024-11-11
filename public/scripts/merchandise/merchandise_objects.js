@@ -465,6 +465,16 @@ const products = [
     linkEU: "https://amzn.to/40EAu9o",
     linkUS: "https://amzn.to/3AntJyk",
   },
+  {
+    name: "whey isolate",
+    linkEU: "https://amzn.to/3O2FJs4",
+    linkUS: "https://amzn.to/3AxQsrt",
+  },
+  {
+    name: "Italian seasoning",
+    linkEU: "https://amzn.to/40IuSuX",
+    linkUS: "https://amzn.to/4hKlZqU",
+  },
 ];
 
 

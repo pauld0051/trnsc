@@ -2603,4 +2603,72 @@ const recipes = {
     },
     date_added: "2024-11-10",
   },
+
+  // Beef Ravioli
+  beef_ravioli: {
+    title: "Beef Ravioli - Keto-Friendly",
+    category: ["dinner", "gluten_free", "lunch", "keto_and_low_carb", "quick_and_easy"],
+    img_src: "/public/images/recipes/beef_ravioli/beef_ravioli.jpg",
+    description:
+      "A keto-friendly beef ravioli crafted with almond flour dough and a savoury beef filling. Enjoy a comforting pasta dish without the carbs, perfect for a low-carb or gluten-free lifestyle.",
+    prep_time: "30 mins",
+    cook_time: "20 mins",
+    total_time: "50 mins",
+    servings: "4",
+    ingredients: [
+      "<strong>Dough Ingredients:</strong>",
+      "3/4 cup (75g) almond flour <a href='https://amzn.to/3U7dqfp' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3U6eekP' target='_blank'>(Amazon US/Can)</a>",
+      "1 scoop (30g) whey isolate <a href='https://amzn.to/3O2FJs4' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3AxQsrt' target='_blank'>(Amazon US/Can)</a>",
+      "2 tbsp (10g) psyllium husk <a href='https://amzn.to/3zYWqBb' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3NcDeDh' target='_blank'>(Amazon US/Can)</a>",
+      "1 tsp xanthan gum <a href='https://amzn.to/4eDPoBd' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3ZWOZFo' target='_blank'>(Amazon US/Can)</a>",
+      "1 tbsp olive oil <a href='https://amzn.to/4gVpL0c' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/47SOaPT' target='_blank'>(Amazon US/Can)</a>",
+      "1 medium egg",
+      "1 tsp water",
+      "Optional: 2 tbsp coconut flour for firmer dough <a href='https://amzn.to/3zXdLL0' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3UaxFZX' target='_blank'>(Amazon US/Can)</a>",
+
+      "<strong>Beef Filling Ingredients:</strong>",
+      "200g ground beef (lean, if possible)",
+      "1 tbsp olive oil",
+      "1/4 small onion, finely diced",
+      "1 clove garlic, minced",
+      "Salt and pepper to taste",
+      "1 tsp Italian seasoning (optional) <a href='https://amzn.to/40IuSuX' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4hKlZqU' target='_blank'>(Amazon US/Can)</a>",
+      "1/4 cup (25g) grated Parmesan cheese",
+    ],
+    method: [
+      "<strong>Step 1: Prepare the Dough</strong>",
+      "In a bowl, whisk together the almond flour, whey isolate, psyllium husk, xanthan gum, and optional coconut flour.",
+      "Pour in the olive oil, crack in the egg, and add water. Stir until a crumbly dough forms.",
+      "Use your hands to knead the dough until well combined. Let it sit for 20-30 minutes to allow the psyllium husk to absorb moisture.",
+      "Divide the dough in half. Roll each half between sheets of parchment paper to about 1/8 inch thick (3mm).",
+
+      "<strong>Step 2: Prepare the Beef Filling</strong>",
+      "In a frying pan, heat olive oil over medium heat. Add diced onion and cook until soft, about 3–4 minutes.",
+      "Add garlic and cook for 1 minute, then add ground beef, cooking until browned. Season with salt, pepper, and optional Italian seasoning, then stir in Parmesan. Let cool.",
+
+      "<strong>Step 3: Assemble the Ravioli</strong>",
+      "Cut each dough sheet into 5cm by 5cm squares. Place a small spoonful of beef filling in the centre of half of the squares. Cover with another square, pressing edges with water to seal.",
+      "Use a fork to crimp edges and seal each ravioli.",
+
+      "<strong>Step 4: Cooking the Ravioli</strong>",
+      "Bring a pot of water to a gentle boil. Add ravioli, reduce to a simmer to prevent breaking.",
+      "Cook for 4–5 minutes until ravioli float and are tender. Drain briefly on paper towel.",
+
+      "<strong>Step 5: Serve</strong>",
+      "Serve with your choice of sauce, such as marinara or garlic butter. Garnish with Parmesan and fresh herbs.",
+    ],
+    tips: [
+      "Rolling the Dough: If the dough tears, press it back together. Rolling between parchment prevents sticking.",
+      "Handling the Ravioli: Be gentle when sealing and boiling as keto dough is more delicate.",
+      "Serving Suggestion: Try a simple marinara sauce or a drizzle of olive oil with fresh herbs for a delicious finish.",
+    ],
+    nutrition: {
+      calories: "250 kcal",
+      carbs: "5g",
+      fibre: "3g",
+      protein: "18g",
+      fat: "18g",
+    },
+    date_added: "2024-11-11",
+  },
 };
