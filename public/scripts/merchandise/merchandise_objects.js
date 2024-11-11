@@ -475,6 +475,19 @@ const products = [
     linkEU: "https://amzn.to/40IuSuX",
     linkUS: "https://amzn.to/4hKlZqU",
   },
+  {
+    name: "ginger (ground)",
+    linkEU: "https://amzn.to/3Ap2bbS",
+    linkUS: "https://amzn.to/40BAGX8",
+  },
+  {
+    name: "fennel",
+    linkEU: "https://amzn.to/3CkHLkJ",
+    linkUS: "https://amzn.to/4hKB0sQ",
+  },
+  {
+    name: "poppadoms",
+    linkEU: "https://amzn.to/3O5H2X6",
+    linkUS: "https://amzn.to/4fsdlvx",
+  },
 ];
-
-
