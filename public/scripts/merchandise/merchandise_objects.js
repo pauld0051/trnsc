@@ -525,4 +525,9 @@ const products = [
     linkEU: "https://amzn.to/3ARfSAe",
     linkUS: "https://amzn.to/3AIER8X",
   },
+  {
+    name: "silicon muffin cups",
+    linkEU: "https://amzn.to/3Z27cAm",
+    linkUS: "https://amzn.to/4frlHDA",
+  },
 ];
