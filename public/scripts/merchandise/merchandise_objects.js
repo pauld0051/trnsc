@@ -490,4 +490,39 @@ const products = [
     linkEU: "https://amzn.to/3O5H2X6",
     linkUS: "https://amzn.to/4fsdlvx",
   },
+  {
+    name: "quinoa",
+    linkEU: "https://amzn.to/3AHLcl5",
+    linkUS: "https://amzn.to/40LXrHU",
+  },
+  {
+    name: "rice vinegar",
+    linkEU: "https://amzn.to/3AEO1mS",
+    linkUS: "https://amzn.to/48PUaco",
+  },
+  {
+    name: "nori (sushi sheets)",
+    linkEU: "https://amzn.to/3YEFkB2",
+    linkUS: "https://amzn.to/3YTHblM",
+  },
+  {
+    name: "Japanese soy sauce",
+    linkEU: "https://amzn.to/3Z3Cabh",
+    linkUS: "https://amzn.to/48OP7cr",
+  },
+  {
+    name: "wasabi",
+    linkEU: "https://amzn.to/3CAbV3n",
+    linkUS: "https://amzn.to/4eofWW9",
+  },
+  {
+    name: "sesame seeds",
+    linkEU: "https://amzn.to/3CnKfPb",
+    linkUS: "https://amzn.to/4fm2d3t",
+  },
+  {
+    name: "sushi set",
+    linkEU: "https://amzn.to/3ARfSAe",
+    linkUS: "https://amzn.to/3AIER8X",
+  },
 ];
