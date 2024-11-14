@@ -530,4 +530,9 @@ const products = [
     linkEU: "https://amzn.to/3Z27cAm",
     linkUS: "https://amzn.to/4frlHDA",
   },
+  {
+    name: "dill (dried)",
+    linkEU: "https://amzn.to/3Z4HhIs",
+    linkUS: "https://amzn.to/3Z7uvcj",
+  },
 ];
