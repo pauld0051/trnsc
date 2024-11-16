@@ -535,4 +535,24 @@ const products = [
     linkEU: "https://amzn.to/3Z4HhIs",
     linkUS: "https://amzn.to/3Z7uvcj",
   },
+  {
+    name: "cardamon pods",
+    linkEU: "https://amzn.to/3OdHWky",
+    linkUS: "https://amzn.to/4ftO7wV",
+  },
+  {
+    name: "peppercorns",
+    linkEU: "https://amzn.to/4eB5YAJ",
+    linkUS: "https://amzn.to/3Z9oUlK",
+  },
+  {
+    name: "black tea",
+    linkEU: "https://amzn.to/48TZ88f",
+    linkUS: "https://amzn.to/48WBcRM",
+  },
+  {
+    name: "yogi tea",
+    linkEU: "https://amzn.to/4fsJdQR",
+    linkUS: "https://amzn.to/4hOuZv3",
+  },
 ];

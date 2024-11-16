@@ -2914,4 +2914,54 @@ const recipes = {
     },
     date_added: "2024-11-14",
   },
+
+  // Yogi Tea
+  yogi_tea: {
+    title: "Homemade Yogi Tea",
+    category: [
+      "drinks",
+      "gluten_free",
+      "vegan",
+      "vegetarian",
+      "keto_and_low_carb",
+    ],
+    img_src: "/public/images/recipes/yogi_tea/yogi_tea.jpg",
+    description:
+      "Warm your soul with this comforting homemade yogi tea. Customise it to suit your taste with fragrant spices, optional black tea, and creamy milk. Perfect for a relaxing break.",
+    prep_time: "5 mins",
+    cook_time: "20 mins",
+    total_time: "25 mins",
+    servings: "4 cups",
+    ingredients: [
+      "2 cups of water",
+      "1 stick of cinnamon <a href='https://amzn.to/401RZAr' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3YjJGP8' target='_blank'>(Amazon US/Can)</a>",
+      "4–5 cardamom pods, lightly crushed <a href='https://amzn.to/3OdHWky' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4ftO7wV' target='_blank'>(Amazon US/Can)</a>",
+      "3–4 whole cloves <a href='https://amzn.to/3U6azna' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/48lokEx' target='_blank'>(Amazon US/Can)</a>",
+      "1 small piece (2 cm) of fresh ginger, sliced (or 1/2 teaspoon ground ginger) <a href='https://amzn.to/3Ap2bbS' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/40BAGX8' target='_blank'>(Amazon US/Can)</a>",
+      "4–6 black peppercorns <a href='https://amzn.to/4eB5YAJ' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3Z9oUlK' target='_blank'>(Amazon US/Can)</a>",
+      "1–2 black tea bags (optional) <a href='https://amzn.to/48TZ88f' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/48WBcRM' target='_blank'>(Amazon US/Can)</a>",
+      "½ cup of milk (optional) (dairy or plant-based, such as almond or oat milk)",
+      "Sweetener to taste (optional: erythritol <a href='https://amzn.to/3NHtIbz' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3Nl85NJ' target='_blank'>(Amazon US/Can)</a>, stevia <a href='https://amzn.to/3A1oDr6' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4dOHjIr' target='_blank'>(Amazon US/Can)</a>, or honey)",
+    ],
+    method: [
+      "Boil the Spices: Add the cinnamon, cardamom, cloves, ginger, and black peppercorns to a pot of water. Bring to a boil, then reduce the heat and let it simmer for 15–20 minutes to release the spices' full flavour.",
+      "Optional: Add Black Tea: If desired, add black tea bags or loose black tea during the last 3–5 minutes of simmering for a caffeine boost.",
+      "Optional: Add Milk: Stir in the milk and let it heat through (but don’t let it boil). The milk balances the spice and creates a creamy texture.",
+      "Strain and Serve: Strain the tea into cups to remove the spices. Sweeten to taste if desired. A teapot with a strainer works well for this.",
+    ],
+    tips: [
+      "Customise the spices to your preference for a more or less intense flavour.",
+      "Control sweetness by using your preferred sweetener or leaving it unsweetened for a completely natural taste.",
+      "Make it cost-effective by buying the spices in bulk and storing them for future batches.",
+      "Perhaps you'd prefer a pre-made variety of yogi tea <a href='https://amzn.to/4fsJdQR' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4hOuZv3' target='_blank'>(Amazon US/Can)</a> which can be both satisfying and tasty without the effort.",
+    ],
+    nutrition: {
+      calories: "60 kcal (with milk and sweetener)",
+      carbs: "5g",
+      protein: "2g",
+      fat: "2g",
+      fibre: "1g",
+    },
+    date_added: "2024-11-16",
+  },
 };
