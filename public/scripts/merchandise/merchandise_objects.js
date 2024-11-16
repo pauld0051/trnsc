@@ -560,4 +560,24 @@ const products = [
     linkEU: "https://amzn.to/3OdHFhm",
     linkUS: "https://amzn.to/490gbp9",
   },
+  {
+    name: "beef stock",
+    linkEU: "https://amzn.to/4fpqHbU",
+    linkUS: "https://amzn.to/48RvvV6",
+  },
+  {
+    name: "sunflower oil",
+    linkEU: "https://amzn.to/3UUKHe9",
+    linkUS: "https://amzn.to/40OZBq8",
+  },
+  {
+    name: "ovenproof soufflé molds",
+    linkEU: "https://amzn.to/3UUxbra",
+    linkUS: "https://amzn.to/3CxwyNM",
+  },
+  {
+    name: "muffin tins",
+    linkEU: "https://amzn.to/3YTV5nB",
+    linkUS: "https://amzn.to/3OabPC6",
+  },
 ];
