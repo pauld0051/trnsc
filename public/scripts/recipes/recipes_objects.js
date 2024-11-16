@@ -2947,7 +2947,7 @@ const recipes = {
       "Boil the Spices: Add the cinnamon, cardamom, cloves, ginger, and black peppercorns to a pot of water. Bring to a boil, then reduce the heat and let it simmer for 15–20 minutes to release the spices' full flavour.",
       "Optional: Add Black Tea: If desired, add black tea bags or loose black tea during the last 3–5 minutes of simmering for a caffeine boost.",
       "Optional: Add Milk: Stir in the milk and let it heat through (but don’t let it boil). The milk balances the spice and creates a creamy texture.",
-      "Strain and Serve: Strain the tea into cups to remove the spices. Sweeten to taste if desired. A teapot with a strainer works well for this.",
+      "Strain and Serve: Strain the tea into cups to remove the spices. Sweeten to taste if desired. A cast iron tea pot <a href='https://amzn.to/3OdHFhm' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/490gbp9' target='_blank'>(Amazon US/Can)</a> with a strainer works well for this.",
     ],
     tips: [
       "Customise the spices to your preference for a more or less intense flavour.",

@@ -555,4 +555,9 @@ const products = [
     linkEU: "https://amzn.to/4fsJdQR",
     linkUS: "https://amzn.to/4hOuZv3",
   },
+  {
+    name: "cast iron tea pot",
+    linkEU: "https://amzn.to/3OdHFhm",
+    linkUS: "https://amzn.to/490gbp9",
+  },
 ];
