@@ -655,4 +655,9 @@ const products = [
     linkEU: "https://amzn.to/3AB3Qet",
     linkUS: "https://amzn.to/3ZbqIe3",
   },
+  {
+    name: "active dry yeast",
+    linkEU: "https://amzn.to/3Z80WHk",
+    linkUS: "https://amzn.to/4fumgMR",
+  },
 ];

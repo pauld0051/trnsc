@@ -3023,7 +3023,7 @@ const recipes = {
     tips: [
       "Yorkshire puddings rely on very hot oil for puffiness—don’t skip this step!",
       "For vegetables, swap Brussels sprouts with broccoli or use parsnips for variety.",
-      "If you can't find celeriac, substitute parsnip or sweet potato for a healthy option."
+      "If you can't find celeriac, substitute parsnip or sweet potato for a healthy option.",
     ],
     nutrition: {
       calories: "420 kcal",
@@ -3074,5 +3074,63 @@ const recipes = {
       fat: "9g",
     },
     date_added: "2024-11-16",
+  },
+
+  // Pizza Dough
+
+  pizza_dough: {
+    title: "Keto-Friendly Pizza Dough",
+    category: [
+      "dinner",
+      "gluten_free",
+      "keto_and_low_carb",
+      "baking",
+      "quick_and_easy",
+    ],
+    img_src: "/public/images/recipes/pizza_dough/pizza_dough.jpg",
+    description:
+      "A low-carb, gluten-free pizza dough with a perfect chewy texture, made with almond and coconut flour. Ideal for keto diets and a healthier pizza experience.",
+    prep_time: "20 mins",
+    cook_time: "30 mins",
+    total_time: "50 mins",
+    servings: "4-6 slices",
+    ingredients: [
+      "1 tablespoon active dry yeast <a href='https://amzn.to/3Z80WHk' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4fumgMR' target='_blank'>(Amazon US/Can)</a>",
+      "2 teaspoons inulin powder or maple syrup (to feed the yeast) <a href='https://amzn.to/3UqTLap' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3YJnJt6' target='_blank'>(Amazon US/Can)</a>",
+      "½ cup (120 ml) lukewarm water (40-43°C)",
+      "1 cup (100 g) almond flour <a href='https://amzn.to/3U7dqfp' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3U6eekP' target='_blank'>(Amazon US/Can)</a>",
+      "¾ cup (70 g) coconut flour <a href='https://amzn.to/3zXdLL0' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3UaxFZX' target='_blank'>(Amazon US/Can)</a>",
+      "3 tablespoons (20 g) psyllium husk <a href='https://amzn.to/3zYWqBb' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3NcDeDh' target='_blank'>(Amazon US/Can)</a>",
+      "2 tablespoons (20 g) whey protein isolate (or replace with almond/coconut flour) <a href='https://amzn.to/3O2FJs4' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3AxQsrt' target='_blank'>(Amazon US/Can)</a>",
+      "2½ teaspoons xanthan gum (or 1½ tablespoons psyllium husk) <a href='https://amzn.to/3zYWqBb' target='_blank'>(Amazon EU/UK)</a>",
+      "2 teaspoons baking powder <a href='https://amzn.to/3NfIlCz' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3XN0WL6' target='_blank'>(Amazon US/Can)</a>",
+      "½–¾ teaspoon salt <a href='https://amzn.to/3Nrp0hK' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3U9016P' target='_blank'>(Amazon US/Can)</a>",
+      "1 egg (room temperature)",
+      "2 egg whites (room temperature)",
+      "1½ tablespoons (21 g) extra virgin olive oil <a href='https://amzn.to/4gVpL0c' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/47SOaPT' target='_blank'>(Amazon US/Can)</a>",
+      "1 tablespoon apple cider vinegar <a href='https://amzn.to/3NsCGJA' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/48688qe' target='_blank'>(Amazon US/Can)</a>",
+    ],
+    method: [
+      "Proof the Yeast: In a large bowl, combine lukewarm water, inulin (or sugar substitute), and yeast. Stir gently and cover with a towel. Let it rest for 7–10 minutes until bubbly. If no bubbles appear, start again with fresh yeast and water at the correct temperature.",
+      "Mix the Dry Ingredients: In a separate bowl, whisk together almond flour, coconut flour, psyllium husk, whey protein isolate, xanthan gum, baking powder, and salt. Set aside.",
+      "Combine Wet Ingredients: In another bowl, whisk the egg, egg whites, olive oil, and apple cider vinegar until frothy.",
+      "Form the Dough: Once the yeast is proofed, add the wet ingredients to the yeast mixture and stir. Gradually add the dry ingredients, mixing thoroughly. Knead the dough with your hands or a spatula until fully combined.",
+      "Proof the Dough: Transfer the dough to a lightly oiled bowl and cover it with oiled cling film. Let it proof in a warm, draft-free spot for 40–60 minutes until it noticeably increases in size.",
+      "Shape and Bake: Preheat the oven to 180°C (350°F). Line a baking tray or pizza stone with parchment paper and grease it lightly. Roll or press the dough into your desired shape and thickness using wet hands. Blind bake for 14–17 minutes, or until lightly golden. Add toppings and bake for an additional 14–18 minutes.",
+    ],
+    tips: [
+      "Texture: The psyllium husk ensures a chewy texture, while the mix of almond and coconut flours keeps it light and low-carb.",
+      "Storage: Freeze the pre-baked crust for later use. Just thaw, add toppings, and bake as usual.",
+      "Customisation: Adjust the salt or seasonings in the dough to suit your preferred pizza toppings.",
+      "This pizza had cheese, mushrooms, orange pepper, turkey, with a tomato and herb sauce."
+    ],
+    nutrition: {
+      calories: "150 kcal",
+      carbs: "6g",
+      fibre: "4g",
+      protein: "8g",
+      fat: "10g",
+    },
+    date_added: "2024-11-17",
   },
 };
