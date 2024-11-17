@@ -580,4 +580,79 @@ const products = [
     linkEU: "https://amzn.to/3YTV5nB",
     linkUS: "https://amzn.to/3OabPC6",
   },
+  {
+    name: "amaranth flour",
+    linkEU: "https://amzn.to/3ZbSMO4",
+    linkUS: "https://amzn.to/4fLl2gJ",
+  },
+  {
+    name: "arrowroot flour",
+    linkEU: "https://amzn.to/3UZw619",
+    linkUS: "https://amzn.to/3UVEz5n",
+  },
+  {
+    name: "green banana flour",
+    linkEU: "https://amzn.to/3UTMwbe",
+    linkUS: "https://amzn.to/3UTMwbe",
+  },
+  {
+    name: "buckwheat flour",
+    linkEU: "https://amzn.to/4fv92zH",
+    linkUS: "https://amzn.to/48Wommd",
+  },
+  {
+    name: "cassava flour",
+    linkEU: "https://amzn.to/3CxaFye",
+    linkUS: "https://amzn.to/3CyNFPp",
+  },
+  {
+    name: "chestnut flour",
+    linkEU: "https://amzn.to/4fvUfEG",
+    linkUS: "https://amzn.to/4fy9soU",
+  },
+  {
+    name: "flaxseed meal",
+    linkEU: "https://amzn.to/3OdOcsz",
+    linkUS: "https://amzn.to/3UYJnHs",
+  },
+  {
+    name: "hemp flour",
+    linkEU: "https://amzn.to/3Cy9ePZ",
+    linkUS: "https://amzn.to/3AB3lkB",
+  },
+  {
+    name: "millet flour",
+    linkEU: "https://amzn.to/40SH2Sc",
+    linkUS: "https://amzn.to/4ezxwGJ",
+  },
+  {
+    name: "oat flour",
+    linkEU: "https://amzn.to/48SWcso",
+    linkUS: "https://amzn.to/3Cu6aVd",
+  },
+  {
+    name: "pea flour",
+    linkEU: "https://amzn.to/4hQQAmE",
+    linkUS: "https://amzn.to/4hQQAmE",
+  },
+  {
+    name: "rye flour",
+    linkEU: "https://amzn.to/4hULLIQ",
+    linkUS: "https://amzn.to/4fHVb8S",
+  },
+  {
+    name: "sorghum flour",
+    linkEU: "https://amzn.to/4fuVBj5",
+    linkUS: "https://amzn.to/4fuVBj5",
+  },
+  {
+    name: "teff flour",
+    linkEU: "https://amzn.to/4fvUEXZ",
+    linkUS: "https://amzn.to/4fxiQcg",
+  },
+  {
+    name: "tapioca flour",
+    linkEU: "https://amzn.to/3AB3Qet",
+    linkUS: "https://amzn.to/3ZbqIe3",
+  },
 ];

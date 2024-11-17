@@ -47,4 +47,11 @@ const health_articles = [
     image: "/public/images/healthy_tips/crunchy_olympics/crunchy_olympics.png",
     dateAdded: "2024-11-08",
   },
+  {
+    title: "The Best Flours for Type 2 Diabetes: A Scientific Analysis",
+    description: "Explore the nutritional profiles of popular and alternative flours to find the best options for managing type 2 diabetes. Learn about their carbohydrate, protein, fibre, and calorie content, along with their suitability for different recipes. This evidence-based guide helps you make informed choices for a healthier kitchen.",
+    link: "/views/layouts/healthy_tips/flours.html",
+    image: "/public/images/healthy_tips/flours_analysis/flours_main.png",
+    dateAdded: "2024-11-17",
+},
 ];
