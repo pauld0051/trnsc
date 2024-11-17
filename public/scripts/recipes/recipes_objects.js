@@ -3079,12 +3079,11 @@ const recipes = {
   // Pizza Dough
 
   pizza_dough: {
-    title: "Keto-Friendly Pizza Dough",
+    title: "Pizza Dough",
     category: [
       "dinner",
       "gluten_free",
       "keto_and_low_carb",
-      "baking",
       "quick_and_easy",
     ],
     img_src: "/public/images/recipes/pizza_dough/pizza_dough.jpg",
@@ -3092,7 +3091,7 @@ const recipes = {
       "A low-carb, gluten-free pizza dough with a perfect chewy texture, made with almond and coconut flour. Ideal for keto diets and a healthier pizza experience.",
     prep_time: "20 mins",
     cook_time: "30 mins",
-    total_time: "50 mins",
+    total_time: "50 mins plus resting time",
     servings: "4-6 slices",
     ingredients: [
       "1 tablespoon active dry yeast <a href='https://amzn.to/3Z80WHk' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4fumgMR' target='_blank'>(Amazon US/Can)</a>",
@@ -3136,12 +3135,14 @@ const recipes = {
 
   // Farmhouse loaf
   farmhouse_loaf: {
-    title: "Keto-Friendly Farmhouse Loaf",
+    title: "Farmhouse Loaf",
     category: [
-      "bread",
+      "snacks",
+      "breakfast",
+      "lunch",
+      "side_dishes",
       "gluten_free",
       "keto_and_low_carb",
-      "baking",
       "quick_and_easy",
     ],
     img_src: "/public/images/recipes/farmhouse_loaf/farmhouse_loaf.jpg",
@@ -3149,7 +3150,7 @@ const recipes = {
       "A soft, keto-friendly loaf with a fluffy texture, made with almond and coconut flour. Perfect for sandwiches, toasting, or enjoying on its own!",
     prep_time: "20 mins",
     cook_time: "25 mins",
-    total_time: "45 mins",
+    total_time: "45 mins plus resting time",
     servings: "8-10 slices",
     ingredients: [
       "1 tablespoon active dry yeast <a href='https://amzn.to/3Z80WHk' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4fumgMR' target='_blank'>(Amazon US/Can)</a>",
