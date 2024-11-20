@@ -3238,7 +3238,7 @@ const recipes = {
     category: [
       "breakfast",
       "lunch",
-      "appetisers",
+      "appetizers",
       "snacks",
       "gluten_free",
       "quick_and_easy",
