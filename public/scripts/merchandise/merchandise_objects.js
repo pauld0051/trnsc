@@ -660,4 +660,9 @@ const products = [
     linkEU: "https://amzn.to/3Z80WHk",
     linkUS: "https://amzn.to/4fumgMR",
   },
+  {
+    name: "high speed blender",
+    linkEU: "https://amzn.to/3V114pz",
+    linkUS: "https://amzn.to/3UXcgUn",
+  },
 ];

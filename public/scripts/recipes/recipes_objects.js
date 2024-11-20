@@ -3189,12 +3189,7 @@ const recipes = {
   // Spinach Soup
   spinach_soup: {
     title: "Creamy Spinach Soup",
-    category: [
-      "soups",
-      "gluten_free",
-      "vegetarian",
-      "quick_and_easy",
-    ],
+    category: ["soups", "gluten_free", "vegetarian", "quick_and_easy"],
     img_src: "/public/images/recipes/spinach_soup/spinach_soup.jpg",
     description:
       "A comforting and creamy spinach soup with broccoli and Greek yoghurt. Packed with nutrients, it's a perfect light and healthy meal or starter.",
@@ -3233,6 +3228,55 @@ const recipes = {
       fibre: "4g",
       protein: "8g",
       fat: "7g",
+    },
+    date_added: "2024-11-20",
+  },
+
+  // Spinach Oat Tortilla
+  spinach_oat_tortilla_wrap: {
+    title: "Spinach Oat Tortilla Wrap",
+    category: [
+      "breakfast",
+      "lunch",
+      "appetisers",
+      "snacks",
+      "gluten_free",
+      "quick_and_easy",
+    ],
+    img_src:
+      "/public/images/recipes/spinach_oat_tortilla_wrap/spinach_oat_tortilla_wrap.jpg",
+    description:
+      "Soft, moist, and nutritious spinach oat tortilla wraps. Perfect for breakfast, lunch, or snacks. Made with oats, spinach, and eggs, it's a delicious gluten-free option!",
+    prep_time: "10 mins",
+    cook_time: "15 mins",
+    total_time: "25 mins",
+    servings: "4 wraps",
+    ingredients: [
+      "1 cup rolled oats <a href='https://amzn.to/40teTka' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3NOzqIm' target='_blank'>(Amazon US/Can)</a>",
+      "1 cup water",
+      "60-100 g baby spinach leaves",
+      "1 large egg",
+      "Salt to taste",
+      "Avocado oil <a href='https://amzn.to/4f5o5Qr' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/48vlnBc' target='_blank'>(Amazon US/Can)</a>",
+      "Toppings: 1 teaspoon mayonnaise, sliced tomato, grated cheese, oregano <a href='https://amzn.to/3Ym0qp0' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3Y1LQl4' target='_blank'>(Amazon US/Can)</a>",
+    ],
+    method: [
+      "Blend Ingredients: In a high-speed blender <a href='https://amzn.to/3V114pz' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3UXcgUn' target='_blank'>(Amazon US/Can)</a>, blend the oats, water, and spinach until smooth. Add the egg and blend again until a batter forms. Add salt to taste and pulse blend until mixed. Let the mixture settle for 5–10 minutes.",
+      "Cook the Tortilla: Heat a teaspoon of avocado oil in a frying pan over medium heat. Pour enough batter to form a 12–15 cm pancake. Cook until bubbles form on the top side, then flip and cook for another 2–3 minutes until done.",
+      "Assemble and Melt: On one half of the tortilla, spread 1 teaspoon of mayonnaise, arrange sliced tomato, grated cheese, and sprinkle oregano. Fold the tortilla over, pressing lightly, and cook on the pan until the cheese melts.",
+      "Serve: Serve hot and enjoy your soft and nutritious spinach oat tortilla wrap!",
+    ],
+    tips: [
+      "Make It Your Own: Swap the toppings for your favourites, such as avocado slices, shredded chicken, or sautéed mushrooms.",
+      "Meal Prep: Cook several tortillas in advance and store them in the fridge for quick meals throughout the week.",
+      "Worried About Oats? Read <a href='https://www.healthline.com/health/diabetes/oatmeal' target='_blank'>this article</a> to learn why oats can be a healthy part of a diabetes-friendly diet.",
+    ],
+    nutrition: {
+      calories: "150 kcal",
+      carbs: "10g",
+      fibre: "2g",
+      protein: "7g",
+      fat: "8g",
     },
     date_added: "2024-11-20",
   },
