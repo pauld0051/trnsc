@@ -3080,12 +3080,7 @@ const recipes = {
 
   pizza_dough: {
     title: "Pizza Dough",
-    category: [
-      "dinner",
-      "gluten_free",
-      "keto_and_low_carb",
-      "quick_and_easy",
-    ],
+    category: ["dinner", "gluten_free", "keto_and_low_carb", "quick_and_easy"],
     img_src: "/public/images/recipes/pizza_dough/pizza_dough.jpg",
     description:
       "A low-carb, gluten-free pizza dough with a perfect chewy texture, made with almond and coconut flour. Ideal for keto diets and a healthier pizza experience.",
@@ -3189,5 +3184,56 @@ const recipes = {
       fat: "11g",
     },
     date_added: "2024-11-17",
+  },
+
+  // Spinach Soup
+  spinach_soup: {
+    title: "Creamy Spinach Soup",
+    category: [
+      "soups",
+      "gluten_free",
+      "vegetarian",
+      "quick_and_easy",
+    ],
+    img_src: "/public/images/recipes/spinach_soup/spinach_soup.jpg",
+    description:
+      "A comforting and creamy spinach soup with broccoli and Greek yoghurt. Packed with nutrients, it's a perfect light and healthy meal or starter.",
+    prep_time: "10 mins",
+    cook_time: "25 mins",
+    total_time: "35 mins",
+    servings: "2–3",
+    ingredients: [
+      "1 teaspoon avocado oil <a href='https://amzn.to/4f5o5Qr' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/48vlnBc' target='_blank'>(Amazon US/Can)</a>",
+      "1 small onion, chopped",
+      "1 garlic clove, minced",
+      "1 carrot, finely chopped",
+      "150 g frozen spinach",
+      "150 g broccoli florets",
+      "900 ml low-salt vegetable stock <a href='https://amzn.to/3NO05Fg' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4dVB5Xl' target='_blank'>(Amazon US/Can)</a>",
+      "1 teaspoon dried thyme <a href='https://amzn.to/4eDqCRz' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3BPCtO0' target='_blank'>(Amazon US/Can)</a>",
+      "150 g full-fat Greek yoghurt or cream",
+      "Freshly ground black pepper, to taste",
+    ],
+    method: [
+      "Sauté Vegetables: Heat the oil in a medium soup pot. Add the onion, garlic, and carrot, and fry for 3–4 minutes until they begin to soften.",
+      "Add Spinach and Broccoli: Stir in the frozen spinach and broccoli florets. Cook for 2–3 minutes, allowing the broccoli to soften slightly.",
+      "Simmer the Soup: Pour in the vegetable stock and add the thyme. Bring to a boil, then reduce the heat and simmer gently for 20–25 minutes until all the vegetables are tender.",
+      "Blend: Use an immersion blender (or transfer to a blender) to purée the soup until smooth. For a chunkier texture, blend only partially.",
+      "Incorporate Greek Yoghurt or Cream: Remove the soup from the heat. Stir in the Greek yoghurt or cream until fully incorporated. Season with freshly ground black pepper to taste.",
+      "Serve: Ladle the soup into bowls and enjoy. Garnish with a drizzle of yoghurt or fresh herbs, if desired.",
+    ],
+    tips: [
+      "For a vegan option, use plant-based yoghurt or cream.",
+      "Add a handful of fresh spinach at the end for a bright green colour and additional nutrients.",
+      "Pair this soup with crusty bread or a side salad for a complete meal.",
+    ],
+    nutrition: {
+      calories: "140 kcal",
+      carbs: "12g",
+      fibre: "4g",
+      protein: "8g",
+      fat: "7g",
+    },
+    date_added: "2024-11-20",
   },
 };
