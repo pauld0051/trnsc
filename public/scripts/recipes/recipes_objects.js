@@ -3280,4 +3280,60 @@ const recipes = {
     },
     date_added: "2024-11-20",
   },
+
+  // Raw Chocolate Cookies
+  raw_chocolate_cookies: {
+    title: "Soft and Chewy Raw Chocolate Cookies",
+    category: [
+      "dessert",
+      "snacks",
+      "gluten_free",
+      "keto_and_low_carb",
+      "quick_and_easy",
+      "vegetarian",
+    ],
+    img_src:
+      "/public/images/recipes/raw_chocolate_cookies/raw_chocolate_cookies.jpg",
+    description:
+      "Rich, soft, and chewy chocolate cookies made with raw cocoa nibs, oats, coconut flour, and natural sweeteners. A healthy and delicious dessert or snack!",
+    prep_time: "15 mins",
+    cook_time: "12 mins",
+    total_time: "27 mins",
+    servings: "12 cookies",
+    ingredients: [
+      "½ cup (100 g) raw cocoa nibs <a href='https://amzn.to/3ZLUJ4J' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3ZSnxbN' target='_blank'>(Amazon US/Can)</a>",
+      "½ cup (50 g) rolled oats <a href='https://amzn.to/40teTka' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3NOzqIm' target='_blank'>(Amazon US/Can)</a>",
+      "50 g coconut flour <a href='https://amzn.to/3zXdLL0' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3UaxFZX' target='_blank'>(Amazon US/Can)</a>",
+      "2 tablespoons (15 g) inulin powder <a href='https://amzn.to/3UqTLap' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3YJnJt6' target='_blank'>(Amazon US/Can)</a> or erythritol <a href='https://amzn.to/3NHtIbz' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3Nl85NJ' target='_blank'>(Amazon US/Can)</a>",
+      "1 teaspoon baking powder <a href='https://amzn.to/3NfIlCz' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3XN0WL6' target='_blank'>(Amazon US/Can)</a>",
+      "½ teaspoon vanilla extract <a href='https://amzn.to/3C84dxr' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/48t1YAV' target='_blank'>(Amazon US/Can)</a>",
+      "1 large egg",
+      "2 tablespoons (30 g) Greek yoghurt",
+      "2 tablespoons milk or almond milk <a href='https://amzn.to/3YxZrAF' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4eje80h' target='_blank'>(Amazon US/Can)</a>",
+      "¼ cup chopped walnuts <a href='https://amzn.to/40EAu9o' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3AntJyk' target='_blank'>(Amazon US/Can)</a> (optional, for topping)",
+    ],
+    method: [
+      "Blend the Cocoa Nibs: Add the cocoa nibs to a high-speed blender <a href='https://amzn.to/3V114pz' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3UXcgUn' target='_blank'>(Amazon US/Can)</a> and blend on medium speed for 3–5 minutes, scraping down the sides until smooth and forming a paste (cocoa nib butter).",
+      "Add Oats: Add the rolled oats to the blender and process for another 30–60 seconds until finely combined.",
+      "Add Wet Ingredients: To the blender, add the eggs, Greek yoghurt, vanilla extract, and almond milk. Blend on medium speed until smooth and creamy.",
+      "Incorporate Dry Ingredients: Add the coconut flour, sweetener, baking powder, and a pinch of salt to the blender. Blend on low to medium speed until a thick, sticky dough forms. Let the dough rest for 5 minutes to allow the coconut flour to absorb moisture. If the dough feels too dry, add 1 tablespoon more almond milk.",
+      "Scoop and Shape: Using a cookie scoop or tablespoon, drop dough onto a parchment-lined baking sheet. Flatten each cookie slightly with the back of a spoon or your fingers.",
+      "Top with Walnuts: Optionally, press a few chopped walnuts on top of each cookie for extra crunch.",
+      "Bake: Preheat the oven to 180°C (350°F). Bake the cookies for 10–12 minutes, or until the edges are set but the centres remain soft.",
+      "Cool Completely: Allow the cookies to cool on the baking sheet for 5 minutes before transferring to a wire rack. They will firm up as they cool.",
+    ],
+    tips: [
+      "Use a High-Speed Blender: Blending cocoa nibs into butter requires a high-speed blender for smooth results.",
+      "Customise: Swap walnuts for almonds or add sugar-free chocolate chips for extra indulgence.",
+      "Storage: Store cookies in an airtight container at room temperature for 3–4 days or in the fridge for up to a week.",
+    ],
+    nutrition: {
+      calories: "90 kcal",
+      carbs: "7g",
+      fibre: "3g",
+      protein: "3g",
+      fat: "6g",
+    },
+    date_added: "2024-11-21",
+  },
 };
