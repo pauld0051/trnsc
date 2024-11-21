@@ -665,4 +665,14 @@ const products = [
     linkEU: "https://amzn.to/3V114pz",
     linkUS: "https://amzn.to/3UXcgUn",
   },
+  {
+    name: "olive oil spray",
+    linkEU: "https://amzn.to/4fxWzeu",
+    linkUS: "https://amzn.to/3V2BQHq",
+  },
+  {
+    name: "red wine vinegar",
+    linkEU: "https://amzn.to/4eXEMwp",
+    linkUS: "https://amzn.to/4fFLLLq",
+  },
 ];
