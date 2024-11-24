@@ -680,4 +680,59 @@ const products = [
     linkEU: "https://amzn.to/3OnebxH",
     linkUS: "https://amzn.to/3OoscLF",
   },
+  {
+    name: "HbA1C test kit",
+    linkEU: "https://amzn.to/4fFSjK4",
+    linkUS: "https://amzn.to/4fGmbGa",
+  },
+  {
+    name: "blood glucose test kit",
+    linkEU: "https://amzn.to/491XEsF",
+    linkUS: "https://amzn.to/4975VLH",
+  },
+  {
+    name: "Omron Blood Pressure Monitor",
+    linkEU: "https://amzn.to/4eFCcec",
+    linkUS: "https://amzn.to/3CJB103",
+  },
+  {
+    name: "ketone monitor",
+    linkEU: "https://amzn.to/4i0l6up",
+    linkUS: "https://amzn.to/4hWmuhH",
+  },
+  {
+    name: "smart scale",
+    linkEU: "https://amzn.to/3CHfu8d",
+    linkUS: "https://amzn.to/3AWmP36",
+  },
+  {
+    name: "alarmed pill dispenser",
+    linkEU: "https://amzn.to/3ZmINWg",
+    linkUS: "https://amzn.to/3Z2bZRa",
+  },
+  {
+    name: "Fitbit",
+    linkEU: "https://amzn.to/4eNj6CV",
+    linkUS: "https://amzn.to/3CRfWAC",
+  },
+  {
+    name: "Apple Watch",
+    linkEU: "https://amzn.to/3ZiI2O2",
+    linkUS: "https://amzn.to/4eQ8WRY",
+  },
+  {
+    name: "Garmin SmartWatch",
+    linkEU: "https://amzn.to/4fZ51TU",
+    linkUS: "https://amzn.to/491jbBH",
+  },
+  {
+    name: "Samsung Galaxy SmartWatch",
+    linkEU: "https://amzn.to/3Z2c87a",
+    linkUS: "https://amzn.to/3Z0Ywch",
+  },
+  {
+    name: "Accu-Chek",
+    linkEU: "https://amzn.to/4ieBXtE",
+    linkUS: "https://amzn.to/3OlhfdI",
+  },
 ];

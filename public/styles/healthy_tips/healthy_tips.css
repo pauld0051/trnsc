@@ -149,3 +149,7 @@
     max-height: 150px;
     object-fit: cover;
 }
+
+.essentials-size {
+    max-height: 200px;
+}

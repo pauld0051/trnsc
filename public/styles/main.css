@@ -397,3 +397,10 @@ p {
         align-items: center;
     }
 }
+
+.header-icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
