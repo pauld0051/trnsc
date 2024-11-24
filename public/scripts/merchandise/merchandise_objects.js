@@ -675,4 +675,9 @@ const products = [
     linkEU: "https://amzn.to/4eXEMwp",
     linkUS: "https://amzn.to/4fFLLLq",
   },
+  {
+    name: "chia seeds",
+    linkEU: "https://amzn.to/3OnebxH",
+    linkUS: "https://amzn.to/3OoscLF",
+  },
 ];

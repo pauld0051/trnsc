@@ -3340,12 +3340,7 @@ const recipes = {
   // Meatballs with Celeriac Mash
   meatballs_with_chimichurri: {
     title: "Meatballs with Chimichurri Sauce and Celeriac Mash",
-    category: [
-      "dinner",
-      "gluten_free",
-      "keto_and_low_carb",
-      "quick_and_easy",
-    ],
+    category: ["dinner", "gluten_free", "keto_and_low_carb", "quick_and_easy"],
     img_src:
       "/public/images/recipes/meatballs_with_chimichurri/meatballs_with_chimichurri.jpg",
     description:
@@ -3374,8 +3369,8 @@ const recipes = {
       "1 garlic clove, minced",
       "<strong>Vegetables</strong>",
       "200 g green beans (or another vegetable of choice)",
-      "<strong>Chimichurri</strong>",
       "1 teaspoon olive oil",
+      "<strong>Chimichurri</strong>",
       "1 cup parsley, finely chopped",
       "2 tablespoons fresh oregano, finely chopped",
       "2 garlic cloves, minced",
@@ -3410,5 +3405,58 @@ const recipes = {
       fat: "20g",
     },
     date_added: "2024-11-21",
+  },
+
+  // Blueberry and Raspberry Crumble
+  blueberry_crumble: {
+    title: "Blueberry and Raspberry Crumble",
+    category: [
+      "dessert",
+      "gluten_free",
+      "keto_and_low_carb",
+      "vegetarian",
+      "quick_and_easy",
+    ],
+    img_src: "/public/images/recipes/blueberry_crumble/blueberry_crumble.jpg",
+    description:
+      "A delightful low-carb dessert featuring a warm and juicy blueberry and raspberry filling with a golden, gluten-free crumble topping. Perfect with a dollop of yoghurt or cream!",
+    prep_time: "10 mins",
+    cook_time: "25 mins",
+    total_time: "35 mins",
+    servings: "4 servings",
+    ingredients: [
+      "400 g blueberries",
+      "100 g raspberries",
+      "4 tsp inulin <a href='https://amzn.to/3UqTLap' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3YJnJt6' target='_blank'>(Amazon US/Can)</a>",
+      "½ tsp xanthan gum <a href='https://amzn.to/4eDPoBd' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3ZWOZFo' target='_blank'>(Amazon US/Can)</a>",
+      "4 tsp chia seeds <a href='https://amzn.to/3OnebxH' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3OoscLF' target='_blank'>(Amazon US/Can)</a>",
+      "2 tsp lemon juice",
+      "3 tbsp butter, melted",
+      "½ cup almond flour <a href='https://amzn.to/3U7dqfp' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3U6eekP' target='_blank'>(Amazon US/Can)</a>",
+      "¼ cup coconut flour <a href='https://amzn.to/3zXdLL0' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3UaxFZX' target='_blank'>(Amazon US/Can)</a>",
+      "1 tsp psyllium husk <a href='https://amzn.to/3zYWqBb' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3NcDeDh' target='_blank'>(Amazon US/Can)</a>",
+      "1 tsp inulin (for light sweetness and fibre)",
+      "¼ tsp cinnamon (optional, for added warmth)",
+    ],
+    method: [
+      "Preheat Oven: Preheat your oven to 190°C.",
+      "Prepare the Berry Filling: In a mixing bowl, gently toss the blueberries and raspberries with the inulin, xanthan gum, and lemon juice until evenly coated. Transfer the mixture to an ovenproof dish, filling it about ¾ full. Sprinkle the chia seeds evenly over the top of the berries to form a layer.",
+      "Make the Crumble Topping: In a separate bowl, mix together the almond flour, coconut flour, psyllium husk, and inulin. Add the cinnamon if using. Pour in the melted butter and mix until the mixture becomes crumbly but holds together when pressed slightly.",
+      "Assemble the Crumble Pie: Evenly sprinkle the crumble mixture over the top of the berries, covering the chia seed layer completely. Lightly press the crumble topping down to ensure it adheres.",
+      "Bake: Place the dish in the oven and bake for 20–25 minutes, or until the crumble is golden brown and the berry filling is bubbling around the edges.",
+      "Cool and Serve: Remove from the oven and allow to cool for at least 5 minutes. Serve warm or at room temperature.",
+    ],
+    tips: [
+      "Serving Suggestions: Pair with a dollop of unsweetened Greek yoghurt or a drizzle of double cream for added richness and blood sugar control.",
+      "Storage: Store leftovers in an airtight container in the refrigerator for up to 3 days. Reheat gently in the oven to crisp up the crumble.",
+    ],
+    nutrition: {
+      calories: "220 kcal",
+      carbs: "15g",
+      fibre: "7g",
+      protein: "4g",
+      fat: "15g",
+    },
+    date_added: "2024-11-24",
   },
 };
