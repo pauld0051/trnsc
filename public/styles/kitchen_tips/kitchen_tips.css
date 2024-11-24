@@ -65,3 +65,15 @@
     display: block;
     /* Ensures the button stays block level to center properly */
 }
+
+/* CSS for styling h4 elements */
+h4 {
+    color: #2A7662;
+    font-weight: bold;
+}
+
+/* CSS for styling h3 elements */
+h3 {
+    color: #dc3545;
+    font-weight: bold;
+}
