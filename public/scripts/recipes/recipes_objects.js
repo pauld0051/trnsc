@@ -3459,4 +3459,56 @@ const recipes = {
     },
     date_added: "2024-11-24",
   },
+
+  // Avocado Chocolate Mousse
+  avocado_chocolate_mousse: {
+    title: "Chocolate Avocado Mousse",
+    category: [
+      "dessert",
+      "gluten_free",
+      "keto_and_low_carb",
+      "vegetarian",
+      "quick_and_easy",
+    ],
+    img_src:
+      "/public/images/recipes/avocado_chocolate_mousse/avocado_chocolate_mousse.jpg",
+    description:
+      "A rich and creamy chocolate mousse made with healthy avocados and a hint of coconut. A decadent dessert that’s guilt-free and full of flavour.",
+    prep_time: "10 mins",
+    cook_time: "None",
+    total_time: "10 mins",
+    servings: "6 servings",
+    ingredients: [
+      "2 large ripe avocados (about 350 g avocado flesh), slightly under-ripe",
+      "½ cup (50 g) unsweetened cocoa powder <a href='https://amzn.to/47YzIWr' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3TVDuKu' target='_blank'>(Amazon US/Can)</a>",
+      "½ cup (120 g) coconut cream <a href='https://amzn.to/3CMhnAz' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4ihllBw' target='_blank'>(Amazon US/Can)</a>",
+      "3 teaspoons erythritol or sweetener of choice <a href='https://amzn.to/3NHtIbz' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3Nl85NJ' target='_blank'>(Amazon US/Can)</a>",
+      "½ teaspoon vanilla extract <a href='https://amzn.to/3C84dxr' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/48t1YAV' target='_blank'>(Amazon US/Can)</a>",
+      "1 teaspoon cinnamon (optional) <a href='https://amzn.to/483pOD8' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4f1zyQi' target='_blank'>(Amazon US/Can)</a>",
+      "Pinch of nutmeg (optional) <a href='https://amzn.to/40gIxt8' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4eZKK0n' target='_blank'>(Amazon US/Can)</a>",
+      "Pinch of sea salt",
+      "Optional: 50 g raspberries for blending and additional garnish",
+    ],
+    method: [
+      "Prepare the Ingredients: Cut the avocados into smaller chunks to make blending easier.",
+      "Blend the Base: Add the avocados, cocoa powder, coconut cream, erythritol, vanilla extract, cinnamon, nutmeg, and sea salt into a high-speed blender. Blend until smooth and creamy. Add the raspberries if using and blend until fully incorporated.",
+      "Chill: Divide the mousse between 6 serving bowls or glasses and refrigerate until ready to serve.",
+      "Serve: Garnish with additional raspberries, grated dark chocolate, or whipped coconut cream for an elegant presentation.",
+    ],
+    tips: [
+      "Use Quality Cocoa: High-quality cocoa powder like Valrhona enhances the mousse's flavour.",
+      "Coconut Cream Tip: If you can’t find coconut cream, refrigerate a can of coconut milk overnight. Scoop out the solidified cream and use it as a substitute.",
+      "Sweetness Adjustment: Adjust the sweetness according to your taste, especially if adding raspberries.",
+      "Serving Suggestion: Add a splash of brandy for a boozy twist, or pair with fresh berries for added brightness.",
+      "Blend Smoothly: Ensure the avocados are slightly under-ripe and cut into smaller chunks for smoother blending.",
+    ],
+    nutrition: {
+      calories: "157 kcal",
+      carbs: "10.5g",
+      fibre: "6.7g",
+      protein: "2.8g",
+      fat: "14g",
+    },
+    date_added: "2024-11-26",
+  },
 };

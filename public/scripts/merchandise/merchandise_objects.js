@@ -735,4 +735,9 @@ const products = [
     linkEU: "https://amzn.to/4ieBXtE",
     linkUS: "https://amzn.to/3OlhfdI",
   },
+  {
+    name: "coconut cream",
+    linkEU: "https://amzn.to/3CMhnAz",
+    linkUS: "https://amzn.to/4ihllBw",
+  },
 ];
