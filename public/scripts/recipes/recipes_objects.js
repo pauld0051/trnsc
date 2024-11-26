@@ -3517,7 +3517,6 @@ const recipes = {
     title: "Marmite/Vegemite Cheese Scrolls",
     category: [
       "snacks",
-      "baking",
       "vegetarian",
       "quick_and_easy",
       "gluten_free",
