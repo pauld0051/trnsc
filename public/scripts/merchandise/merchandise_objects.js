@@ -750,4 +750,14 @@ const products = [
     linkEU: "https://amzn.to/3CWOJMU",
     linkUS: "https://amzn.to/3Otzgqp",
   },
+  {
+    name: "Marmite",
+    linkEU: "https://amzn.to/3CK3O4t",
+    linkUS: "https://amzn.to/4fPrEuj",
+  },
+  {
+    name: "Vegemite",
+    linkEU: "https://amzn.to/3B07oHe",
+    linkUS: "https://amzn.to/3VbboeZ",
+  },
 ];
