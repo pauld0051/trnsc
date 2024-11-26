@@ -3496,7 +3496,7 @@ const recipes = {
       "Serve: Garnish with additional raspberries, grated dark chocolate, or whipped coconut cream for an elegant presentation.",
     ],
     tips: [
-      "Use Quality Cocoa: High-quality cocoa powder like Valrhona enhances the mousse's flavour.",
+      "Use Quality Cocoa: High-quality cocoa powder like Valrhona cocoa powder <a href='https://amzn.to/47YzIWr' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3TVDuKu' target='_blank'>(Amazon US/Can)</a> enhances the mousse's flavour.",
       "Coconut Cream Tip: If you can’t find coconut cream, refrigerate a can of coconut milk overnight. Scoop out the solidified cream and use it as a substitute.",
       "Sweetness Adjustment: Adjust the sweetness according to your taste, especially if adding raspberries.",
       "Serving Suggestion: Add a splash of brandy for a boozy twist, or pair with fresh berries for added brightness.",

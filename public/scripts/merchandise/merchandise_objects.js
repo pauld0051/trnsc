@@ -740,4 +740,14 @@ const products = [
     linkEU: "https://amzn.to/3CMhnAz",
     linkUS: "https://amzn.to/4ihllBw",
   },
+  {
+    name: "lupin flour",
+    linkEU: "https://amzn.to/4fKLIhk",
+    linkUS: "https://amzn.to/4fKLIhk",
+  },
+  {
+    name: "einkorn flour",
+    linkEU: "https://amzn.to/3CWOJMU",
+    linkUS: "https://amzn.to/3Otzgqp",
+  },
 ];
