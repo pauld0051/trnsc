@@ -3636,4 +3636,49 @@ const recipes = {
     },
     date_added: "2024-11-26",
   },
+
+  // Yoghurt Berry Ice Cream
+  yoghurt_berry_icecream: {
+    title: "Yoghurt Berry Ice Cream",
+    category: ["dessert", "gluten_free", "keto_and_low_carb", "quick_and_easy"],
+    img_src:
+      "/public/images/recipes/yoghurt_berry_icecream/yoghurt_berry_icecream.jpg",
+    description:
+      "A creamy, refreshing yoghurt-based berry ice cream, perfect for a low-carb, gluten-free dessert. Quick to make and easy to customise for individual servings.",
+    prep_time: "10 mins",
+    cook_time: "No cooking - 2-3 hours freezing",
+    total_time: "3 hrs 10 mins",
+    servings: "4 servings",
+    ingredients: [
+      "400 g full-fat Greek yoghurt (unsweetened)",
+      "200 g mixed berries (frozen or fresh)",
+      "3 tablespoons erythritol <a href='https://amzn.to/3NHtIbz' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3Nl85NJ' target='_blank'>(Amazon US/Can)</a>, or monk fruit sweetener <a href='https://amzn.to/3Yia381' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3Yia381' target='_blank'>(Amazon US/Can)</a> (adjust to taste)",
+      "1 teaspoon vanilla extract <a href='https://amzn.to/3C84dxr' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/48t1YAV' target='_blank'>(Amazon US/Can)</a>",
+      "2 tablespoons cream or coconut milk",
+      "½ teaspoon inulin powder <a href='https://amzn.to/3UqTLap' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3YJnJt6' target='_blank'>(Amazon US/Can)</a> (optional, for smoother texture)",
+      "Pinch of xanthan gum <a href='https://amzn.to/4eDPoBd' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3ZWOZFo' target='_blank'>(Amazon US/Can)</a> (optional, reduces iciness)",
+    ],
+    method: [
+      "<strong>Blend Smoothly:</strong> Add all ingredients to your high-speed blender <a href='https://amzn.to/3V114pz' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3UXcgUn' target='_blank'>(Amazon US/Can)</a>. Start on a low setting to combine, then increase to high speed for about 30-60 seconds. This ensures a silky, smooth texture without overworking the mixture.",
+      "<strong>Taste Test:</strong> Adjust the sweetness if needed by blending in more erythritol or monk fruit sweetener.",
+      "<strong>Freeze:</strong> Choose your preferred freezing method: <ul><li>Option 1 - Bulk Freezing: Pour the mixture into a shallow, freezer-safe container with a lid.</li><li>Option 2 - Ramekins: Divide into individual ramekins or silicone moulds for easy single servings.</li></ul>",
+      "<strong>Texture Control:</strong> Stir the mixture every 30 minutes during the first 2-3 hours to prevent ice crystals from forming. If freezing in bulk, scrape and blend again after 2 hours for a smoother finish.",
+      "<strong>Serve:</strong> Allow the ice cream to sit at room temperature for 5-10 minutes before scooping or serving directly from the ramekins.",
+    ],
+    tips: [
+      "Use inulin or xanthan gum for an ultra-smooth texture, but they are optional.",
+      "Coconut milk adds a unique flavour; use it as a cream substitute for a dairy-free version.",
+      "For additional flavour, try adding a pinch of cinnamon or nutmeg.",
+      "Store leftovers in an airtight container in the freezer for up to 1 week.",
+      "Serve with fresh berries, chopped nuts, or sugar-free chocolate drizzle for added flair.",
+    ],
+    nutrition: {
+      calories: "120 kcal",
+      carbs: "6g",
+      fibre: "3g",
+      protein: "6g",
+      fat: "6g",
+    },
+    date_added: "2024-12-01",
+  },
 };
