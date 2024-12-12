@@ -3681,4 +3681,41 @@ const recipes = {
     },
     date_added: "2024-12-01",
   },
+
+  // Hot Chocolate
+  hot_chocolate: {
+    title: "Classic Hot Chocolate",
+    category: ["drinks", "dessert", "gluten_free", "quick_and_easy"],
+    img_src: "/public/images/recipes/hot_chocolate/hot_chocolate.jpg",
+    description:
+      "This extremely low-sugar classic hot chocolate is a comforting and indulgent treat. Made with full cream milk or almond milk, premium cocoa, and rich dark chocolate, it's perfect for any occasion.",
+    prep_time: "2 mins",
+    cook_time: "5 mins",
+    total_time: "7 mins",
+    servings: "1",
+    ingredients: [
+      "1 cup (240 ml) full cream milk or almond milk <a href='https://amzn.to/3YxZrAF' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4eje80h' target='_blank'>(Amazon US/Can)</a>",
+      "2 tablespoons premium cocoa powder (e.g., Valrhona) <a href='https://amzn.to/47YzIWr' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3TVDuKu' target='_blank'>(Amazon US/Can)</a>",
+      "2 pieces (about 20 g) 85% cocoa dark chocolate <a href='https://amzn.to/3OR8PuV' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/4gaAUcL' target='_blank'>(Amazon US/Can)</a>",
+    ],
+    method: [
+      "Blend: In a high-speed blender <a href='https://amzn.to/3V114pz' target='_blank'>(Amazon EU/UK)</a> or <a href='https://amzn.to/3UXcgUn' target='_blank'>(Amazon US/Can)</a>, combine the milk, cocoa powder, and dark chocolate pieces. Blend on high until fully mixed and frothy.",
+      "Heat: Transfer the mixture to a saucepan and heat over medium heat. Stir frequently until hot, but do not let it boil.",
+      "Serve: Pour the hot chocolate back into your mug and enjoy the creamy, frothy indulgence!",
+    ],
+    tips: [
+      "For a creamier texture, use full-fat milk or add a splash of cream.",
+      "Experiment with toppings like whipped cream, cinnamon, or sugar-free marshmallows for a festive touch.",
+      "The high-speed blender ensures the cocoa and chocolate are fully emulsified, resulting in a silky texture without clumps.",
+      "This recipe is perfect for those on low-carb or keto diets when using almond milk and unsweetened cocoa powder.",
+    ],
+    nutrition: {
+      calories: "150 kcal",
+      carbs: "8g",
+      fibre: "3g",
+      protein: "6g",
+      fat: "10g",
+    },
+    date_added: "2024-12-12",
+  },
 };

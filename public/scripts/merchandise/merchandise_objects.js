@@ -760,4 +760,9 @@ const products = [
     linkEU: "https://amzn.to/3B07oHe",
     linkUS: "https://amzn.to/3VbboeZ",
   },
+  {
+    name: "dark chocolate (85%)",
+    linkEU: "https://amzn.to/3OR8PuV",
+    linkUS: "https://amzn.to/4gaAUcL",
+  },
 ];
