@@ -236,11 +236,6 @@ const products = [
     linkUS: "https://amzn.to/3U7fGn6",
   },
   {
-    name: "dehydrator",
-    linkEU: "https://amzn.to/4eZEghG",
-    linkUS: "https://amzn.to/3BIPVmK",
-  },
-  {
     name: "gelatin powder",
     linkEU: "https://amzn.to/4eEySkc",
     linkUS: "https://amzn.to/4dNoHc3",
@@ -764,5 +759,10 @@ const products = [
     name: "dark chocolate (85%)",
     linkEU: "https://amzn.to/3OR8PuV",
     linkUS: "https://amzn.to/4gaAUcL",
+  },
+  {
+    name: "dehydrator",
+    linkEU: "https://amzn.to/41C2Txg",
+    linkUS: "https://amzn.to/4f8BZQU",
   },
 ];

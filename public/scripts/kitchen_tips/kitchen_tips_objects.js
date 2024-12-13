@@ -16,4 +16,12 @@ const kitchen_articles = [
     image: "/public/images/kitchen_tips/stories/story_time2.jpeg",
     dateAdded: "2024-10-13",
   },
+  {
+    title: "Dehydrator Benefits for Diabetes Management",
+    description:
+      "Explore how a dehydrator can help you create healthy, low-carb snacks, reduce food waste, and take control of your diet for better diabetes management.",
+    link: "/views/layouts/kitchen_tips/dehydrator.html",
+    image: "/public/images/kitchen_tips/dehydrator/dehydrator.jpg",
+    dateAdded: "2024-11-27",
+  },
 ];
