@@ -65,4 +65,13 @@ const health_articles = [
       "/public/images/healthy_tips/monitoring_essentials/health_monitoring_essentials.png",
     dateAdded: "2024-11-24",
   },
+  {
+    title: "Dining Out with Confidence: A Guide for Type 2 Diabetics",
+    description:
+      "Learn how to enjoy dining out while keeping your blood sugar stable with practical tips tailored to various cuisines. This guide empowers you to make diabetes-friendly choices without sacrificing flavour or variety.",
+    link: "/views/layouts/healthy_tips/safely_eating_out.html",
+    image:
+      "/public/images/healthy_tips/safely_eating_out/safely_eating_out.jpg",
+    dateAdded: "2024-12-14",
+  },
 ];
