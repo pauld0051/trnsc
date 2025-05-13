@@ -1,6 +1,11 @@
 // Product data
 const products = [
   {
+    name: "Book – The Seeker’s Wrath",
+    linkEU: "https://www.amazon.de/-/en/P-S-Davis/dp/9153141725?crid=K9LTFUBNBLDB&dib=eyJ2IjoiMSJ9.w1tMk66DLjFFWC8hdJaSfw.N5cuLFdDXWhcf_82K02SOpMs1efRuihmN6HGcoODYs8&dib_tag=se&keywords=davis+seekers+wrath&qid=1747127152&sprefix=%2Caps%2C81&sr=8-1",
+    linkUS: "https://www.amazon.com/Seekers-Wrath-Essence-Wars/dp/9153141725?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.nhK-vFIk189Z3zyMryGiiPaWy_7EIqThhxriHyK8wJPGjHj071QN20LucGBJIEps.8Rdhq071dIgxN0Ii3ehHAYoGo6KAp7qlnQ_kbQZlAWQ&qid=1747127197&sr=8-1"
+  },  
+  {
     name: "olive oil",
     linkEU: "https://amzn.to/4gVpL0c",
     linkUS: "https://amzn.to/47SOaPT",

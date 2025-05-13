@@ -74,4 +74,12 @@ const health_articles = [
       "/public/images/healthy_tips/safely_eating_out/safely_eating_out.jpg",
     dateAdded: "2024-12-14",
   },
+  {
+    title: "The Seeker’s Wrath – Epic Fantasy by P.S. Davis",
+    description:
+      "When I'm not helping you eat healthier, I'm writing brutal, beautiful fantasy. The Seeker’s Wrath is my debut novel—packed with pirates, politics, warhogs, and a world at war. Come see what happens when the North refuses to kneel.",
+    link: "https://psdavisbooks.com",
+    image: "/public/images/featured/the_seekers_wrath_cover.jpg", // Adjust path if needed
+    dateAdded: "2025-05-13",
+  },
 ];
